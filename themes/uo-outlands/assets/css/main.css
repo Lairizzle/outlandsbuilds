@@ -1422,8 +1422,7 @@ nav a:hover {
  */
 
 .prose .tc-aspect-name {
-  color:
-    var(--text-muted) !important;
+  color: var(--cyan) !important;
 
   font-weight: 700;
 
@@ -1432,10 +1431,8 @@ nav a:hover {
   cursor: pointer;
 }
 
-
 .prose .tc-aspect-name:hover {
-  color:
-    var(--text-muted) !important;
+  color: var(--accent) !important;
 
   text-decoration: none !important;
 }
