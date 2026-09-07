@@ -18,7 +18,7 @@
 				<link>//localhost:1313/news/welcome/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/news/welcome/</guid>
-				<description>&lt;p&gt;Welcome.&lt;/p&gt;&#xA;&lt;p&gt;This site is a place to collect builds, guides, farming ideas and&#xA;notes about Ultima Online Outlands.&lt;/p&gt;&#xA;&lt;p&gt;More content will be added as the site grows.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Welcome&lt;/p&gt;&#xA;&lt;p&gt;A place for everything Ultima Online Outlands.&lt;/p&gt;&#xA;&lt;p&gt;Find news, builds, guides, tips, tricks, and useful resources, along with content covering content creation and community events happening across Outlands.&lt;/p&gt;&#xA;&lt;p&gt;The goal is to keep useful information, ideas, and community content in one place for players and creators.&lt;/p&gt;&#xA;&lt;p&gt;More content will be added as the site grows.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

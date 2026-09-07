@@ -24,10 +24,15 @@
 
     <div class="article-meta">
 
-      {{ .Date.Format "January 2, 2006" }}
-
+      <span class="article-date">
+        Last Updated:
+        {{ .Date.Format "January 2, 2006" }}
+      </span>
+      <br>
       {{ with .Params.author }}
-        · {{ . }}
+        <span class="article-author">
+          Author: {{ . }}
+        </span>
       {{ end }}
 
     </div>

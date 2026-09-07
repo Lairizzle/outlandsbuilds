@@ -2,6 +2,7 @@
 title: "Lord Blacknail's Wrestler (Disarm)"
 description: "A PvM brawler with enough Magery and utility to fight back against PKs."
 date: 2026-09-07
+author: "Blacknail"
 
 categories:
   - PvE

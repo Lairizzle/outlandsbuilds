@@ -2,6 +2,7 @@
 title: "Wrestler - Anti-PK"
 description: "A flexible PvE build built around ranged damage and a reliable pet."
 date: 2026-09-07
+author: "Soren Longhorn"
 
 categories:
   - PvE
