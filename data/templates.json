@@ -57,10 +57,6 @@
       {
         "name": "Melee Special Chance/Special Damage",
         "total": 10
-      },
-      {
-        "name": "Bard Reset/Break Ignore Chance",
-        "total": 5
       }
     ],
     "codex_abilities": [
