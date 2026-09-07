@@ -44,6 +44,10 @@ Focus on mowing down foes with your fists.
 
 **Additional Codex info is in the build card**
 
+## Links
+
+You can run this build without max links. If you have links unlocked you can see priority links on the card below.
+
 ## Equipment
 
 Add the gear priorities and important modifiers for the build.
