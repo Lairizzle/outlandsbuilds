@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gohu+Font&display=swap');
+
 :root {
   color-scheme: dark;
 
@@ -224,6 +225,115 @@ nav a:hover {
 .theme-toggle:hover {
   border-color:
     var(--accent);
+}
+
+
+/* -------------------------------- */
+/* Navigation Dropdown              */
+/* -------------------------------- */
+
+.nav-dropdown {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.nav-dropdown-toggle {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 5px;
+}
+
+
+.nav-arrow {
+  font-size: 10px;
+
+  color:
+    var(--text-faint);
+
+  transition:
+    transform 0.15s ease;
+}
+
+
+.nav-dropdown-menu {
+  position: absolute;
+
+  top: calc(100% + 12px);
+  left: -10px;
+
+  min-width: 170px;
+
+  padding: 6px;
+
+  background:
+    var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius);
+
+  box-shadow:
+    var(--shadow);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform:
+    translateY(-5px);
+
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease,
+    visibility 0.15s ease;
+
+  z-index: 100;
+}
+
+
+.nav-dropdown-menu a {
+  display: block;
+
+  padding: 8px 10px;
+
+  border-radius: 5px;
+
+  color:
+    var(--text-muted);
+
+  font-size: 12px;
+}
+
+
+.nav-dropdown-menu a:hover {
+  background:
+    var(--surface-hover);
+
+  color:
+    var(--text);
+}
+
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+
+  visibility: visible;
+
+  transform:
+    translateY(0);
+}
+
+
+.nav-dropdown:hover .nav-arrow {
+  transform:
+    rotate(180deg);
 }
 
 
@@ -984,6 +1094,403 @@ nav a:hover {
 
 
 /* -------------------------------- */
+/* Template Cards                   */
+/* -------------------------------- */
+
+.template-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(340px, 1fr));
+
+  gap: 18px;
+
+  margin-block: 30px;
+}
+
+
+.template-card {
+  position: relative;
+
+  padding: 22px;
+
+  background:
+    var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+/* -------------------------------- */
+/* Template Card Header             */
+/* -------------------------------- */
+
+.tc-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-bottom: 24px;
+}
+
+
+.tc-icon {
+  width: 42px;
+  height: 42px;
+
+  flex: 0 0 42px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--accent) 35%,
+      var(--border)
+    );
+
+  border-radius: 7px;
+
+  background:
+    color-mix(
+      in srgb,
+      var(--accent) 8%,
+      var(--surface)
+    );
+
+  color:
+    var(--accent);
+
+  font-size: 19px;
+}
+
+
+.tc-heading {
+  min-width: 0;
+}
+
+
+.tc-title {
+  margin: 0;
+
+  color:
+    var(--text);
+
+  font-size: 20px;
+
+  line-height: 1.25;
+
+  letter-spacing: -0.025em;
+}
+
+
+.tc-meta {
+  display: flex;
+
+  gap: 7px;
+
+  margin-top: 5px;
+
+  color:
+    var(--text-faint);
+
+  font-size: 11px;
+}
+
+
+/* -------------------------------- */
+/* Template Card Sections           */
+/* -------------------------------- */
+
+.tc-section {
+  margin-top: 18px;
+}
+
+
+.tc-section-title {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+
+  color:
+    var(--text);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+}
+
+
+.tc-section-icon {
+  margin-right: 5px;
+
+  color:
+    var(--accent);
+}
+
+
+.tc-total {
+  color:
+    var(--text-faint);
+
+  font-size: 10px;
+
+  font-weight: 500;
+}
+
+
+/* -------------------------------- */
+/* Template Card Lists              */
+/* -------------------------------- */
+
+.tc-list {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+
+  border-top:
+    1px solid var(--border);
+}
+
+
+.tc-list li {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 31px;
+
+  gap: 15px;
+
+  padding: 5px 0;
+
+  border-bottom:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--border) 65%,
+      transparent
+    );
+
+  font-size: 12px;
+}
+
+
+/*
+ * Wiki links inside template cards.
+ *
+ * These are still clickable, but intentionally
+ * look exactly like normal text.
+ */
+
+.tc-wiki-link {
+  color: var(--text-muted);
+
+  text-decoration: none;
+}
+
+
+.tc-wiki-link:hover {
+  color: var(--text-muted);
+
+  text-decoration: none;
+}
+
+
+.tc-name {
+  min-width: 0;
+
+  color:
+    var(--text-muted);
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+
+/*
+ * Make the wiki-link version of .tc-name
+ * inherit the exact same appearance.
+ */
+
+.tc-name.tc-wiki-link {
+  color:
+    var(--text-muted);
+
+  text-decoration: none;
+}
+
+
+.tc-name.tc-wiki-link:hover {
+  color:
+    var(--text-muted);
+
+  text-decoration: none;
+}
+
+
+.tc-value {
+  flex: 0 0 auto;
+
+  color:
+    var(--accent);
+
+  font-weight: 700;
+
+  font-variant-numeric:
+    tabular-nums;
+}
+
+
+/* -------------------------------- */
+/* Template Card Dividers            */
+/* -------------------------------- */
+
+.tc-divider {
+  height: 1px;
+
+  margin: 22px 0;
+
+  border: 0;
+
+  background:
+    var(--border);
+}
+
+
+/* -------------------------------- */
+/* Template Card Aspects            */
+/* -------------------------------- */
+
+.tc-aspects {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 7px;
+}
+
+
+.tc-aspect {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  padding: 5px 8px;
+
+  border:
+    1px solid var(--border);
+
+  border-radius: 5px;
+
+  background:
+    var(--bg-raised);
+
+  font-size: 11px;
+}
+
+
+/*
+ * Aspect links are clickable but should
+ * look exactly like normal text.
+ *
+ * !important is required because the
+ * .prose a rule adds an underline.
+ */
+
+.prose .tc-aspect-name {
+  color:
+    var(--text-muted) !important;
+
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  cursor: pointer;
+}
+
+
+.prose .tc-aspect-name:hover {
+  color:
+    var(--text-muted) !important;
+
+  text-decoration: none !important;
+}
+
+
+
+/* -------------------------------- */
+/* Codex                             */
+/* -------------------------------- */
+
+.tc-codex-group + .tc-codex-group {
+  margin-top: 17px;
+}
+
+
+.tc-codex-title {
+  display: inline-block;
+
+  margin-bottom: 6px;
+
+  color:
+    var(--purple);
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.08em;
+}
+
+
+/*
+ * Codex names are searchable, but should
+ * retain their normal codex appearance.
+ */
+
+.tc-codex-title.tc-wiki-link {
+  color:
+    var(--purple);
+
+  text-decoration: none;
+}
+
+
+.tc-codex-title.tc-wiki-link:hover {
+  color:
+    var(--purple);
+
+  text-decoration: none;
+}
+
+
+/* -------------------------------- */
 /* Mobile                           */
 /* -------------------------------- */
 
@@ -1093,397 +1600,4 @@ nav a:hover {
     padding-block: 55px;
   }
 
-}
-
-/* -------------------------------- */
-/* Template Cards                   */
-/* -------------------------------- */
-
-.template-grid {
-  display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(340px, 1fr));
-
-  gap: 18px;
-
-  margin-block: 30px;
-}
-
-
-.template-card {
-  position: relative;
-
-  padding: 22px;
-
-  background:
-    var(--surface);
-
-  border:
-    1px solid var(--border);
-
-  border-radius:
-    var(--radius);
-
-  box-shadow:
-    var(--shadow);
-}
-
-
-/* Header */
-
-.tc-header {
-  display: flex;
-
-  align-items: center;
-
-  gap: 14px;
-
-  margin-bottom: 24px;
-}
-
-
-.tc-icon {
-  width: 42px;
-  height: 42px;
-
-  flex: 0 0 42px;
-
-  display: grid;
-  place-items: center;
-
-  border:
-    1px solid
-    color-mix(
-      in srgb,
-      var(--accent) 35%,
-      var(--border)
-    );
-
-  border-radius: 7px;
-
-  background:
-    color-mix(
-      in srgb,
-      var(--accent) 8%,
-      var(--surface)
-    );
-
-  color:
-    var(--accent);
-
-  font-size: 19px;
-}
-
-
-.tc-heading {
-  min-width: 0;
-}
-
-
-.tc-title {
-  margin: 0;
-
-  color:
-    var(--text);
-
-  font-size: 20px;
-
-  line-height: 1.25;
-
-  letter-spacing: -0.025em;
-}
-
-
-.tc-meta {
-  display: flex;
-
-  gap: 7px;
-
-  margin-top: 5px;
-
-  color:
-    var(--text-faint);
-
-  font-size: 11px;
-}
-
-
-/* Sections */
-
-.tc-section {
-  margin-top: 18px;
-}
-
-
-.tc-section-title {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-
-  margin-bottom: 8px;
-
-  color:
-    var(--text);
-
-  font-size: 12px;
-
-  font-weight: 700;
-
-  letter-spacing: 0.04em;
-}
-
-
-.tc-section-icon {
-  margin-right: 5px;
-
-  color:
-    var(--accent);
-}
-
-
-.tc-total {
-  color:
-    var(--text-faint);
-
-  font-size: 10px;
-
-  font-weight: 500;
-}
-
-
-/* Lists */
-
-.tc-list {
-  list-style: none;
-
-  margin: 0;
-  padding: 0;
-
-  border-top:
-    1px solid var(--border);
-}
-
-
-.tc-list li {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-
-  min-height: 31px;
-
-  gap: 15px;
-
-  padding: 5px 0;
-
-  border-bottom:
-    1px solid
-    color-mix(
-      in srgb,
-      var(--border) 65%,
-      transparent
-    );
-
-  font-size: 12px;
-}
-
-
-.tc-name {
-  min-width: 0;
-
-  color:
-    var(--text-muted);
-
-  overflow: hidden;
-
-  text-overflow: ellipsis;
-
-  white-space: nowrap;
-}
-
-
-.tc-value {
-  flex: 0 0 auto;
-
-  color:
-    var(--accent);
-
-  font-weight: 700;
-
-  font-variant-numeric:
-    tabular-nums;
-}
-
-
-/* Dividers */
-
-.tc-divider {
-  height: 1px;
-
-  margin: 22px 0;
-
-  border: 0;
-
-  background:
-    var(--border);
-}
-
-
-/* Aspects */
-
-.tc-aspects {
-  display: flex;
-
-  flex-wrap: wrap;
-
-  gap: 7px;
-}
-
-
-.tc-aspect {
-  display: inline-flex;
-
-  align-items: center;
-
-  gap: 6px;
-
-  padding: 5px 8px;
-
-  border:
-    1px solid var(--border);
-
-  border-radius: 5px;
-
-  background:
-    var(--bg-raised);
-
-  font-size: 11px;
-}
-
-
-.tc-aspect-name {
-  color:
-    var(--cyan);
-
-  font-weight: 700;
-}
-
-
-.tc-aspect-type {
-  color:
-    var(--text-faint);
-}
-
-
-.tc-aspect-level {
-  color:
-    var(--accent);
-
-  font-weight: 700;
-}
-
-
-/* Codex */
-
-.tc-codex-group + .tc-codex-group {
-  margin-top: 17px;
-}
-
-
-.tc-codex-title {
-  margin-bottom: 6px;
-
-  color:
-    var(--purple);
-
-  font-size: 11px;
-
-  font-weight: 800;
-
-  text-transform: uppercase;
-
-  letter-spacing: 0.08em;
-}
-
-/* -------------------------------- */
-/* Navigation Dropdown              */
-/* -------------------------------- */
-
-.nav-dropdown {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.nav-dropdown-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.nav-arrow {
-  font-size: 10px;
-  color: var(--text-faint);
-  transition: transform 0.15s ease;
-}
-
-.nav-dropdown-menu {
-  position: absolute;
-  top: calc(100% + 12px);
-  left: -10px;
-
-  min-width: 170px;
-  padding: 6px;
-
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-
-  box-shadow: var(--shadow);
-
-  opacity: 0;
-  visibility: hidden;
-
-  transform: translateY(-5px);
-
-  transition:
-    opacity 0.15s ease,
-    transform 0.15s ease,
-    visibility 0.15s ease;
-
-  z-index: 100;
-}
-
-
-.nav-dropdown-menu a {
-  display: block;
-
-  padding: 8px 10px;
-
-  border-radius: 5px;
-
-  color: var(--text-muted);
-
-  font-size: 12px;
-}
-
-
-.nav-dropdown-menu a:hover {
-  background: var(--surface-hover);
-  color: var(--text);
-}
-
-
-.nav-dropdown:hover .nav-dropdown-menu,
-.nav-dropdown:focus-within .nav-dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-
-.nav-dropdown:hover .nav-arrow {
-  transform: rotate(180deg);
 }

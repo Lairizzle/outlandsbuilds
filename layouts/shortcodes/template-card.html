@@ -45,7 +45,9 @@
         <div class="tc-icon">⚔</div>
 
         <div class="tc-heading">
-          <h3 class="tc-title">{{ $template.name }}</h3>
+          <h3 class="tc-title">
+            {{ $template.name }}
+          </h3>
 
           <div class="tc-meta">
             <span>{{ $template.skills_total }} skill points</span>
@@ -76,13 +78,20 @@
           {{ range $template.skills }}
 
             <li>
-              <span class="tc-name">
+
+              <a
+                class="tc-name tc-wiki-link"
+                href="https://wiki.uooutlands.com/index.php?search={{ urlquery .name }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {{ .name }}
-              </span>
+              </a>
 
               <span class="tc-value">
                 {{ .level }}
               </span>
+
             </li>
 
           {{ end }}
@@ -106,25 +115,76 @@
             </span>
           </div>
 
-          <div class="tc-aspects">
 
-            {{ range $template.aspects }}
+          <!-- Weapon -->
+          <div class="tc-aspect-group">
 
-              <div class="tc-aspect">
-                <span class="tc-aspect-name">
-                  {{ .name }}
-                </span>
+            <div class="tc-codex-title">
+              Weapon
+            </div>
 
-                <span class="tc-aspect-type">
-                  {{ .type }}
-                </span>
+            <div class="tc-aspects">
 
-                <span class="tc-aspect-level">
-                  {{ .level }}
-                </span>
-              </div>
+              {{ range $template.aspects }}
 
-            {{ end }}
+                {{ if or (eq .type "Weapon") (eq .type "Both") }}
+
+                  <div class="tc-aspect">
+
+                    <a
+                      class="tc-aspect-name"
+                      href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{ .name }}
+                    </a>
+
+                  </div>
+
+                {{ end }}
+
+              {{ end }}
+
+            </div>
+
+          </div>
+
+
+          <br>
+
+
+          <!-- Armor -->
+          <div class="tc-aspect-group">
+
+            <div class="tc-codex-title">
+              Armor
+            </div>
+
+            <div class="tc-aspects">
+
+              {{ range $template.aspects }}
+
+                {{ if or (eq .type "Armor") (eq .type "Both") }}
+
+                  <div class="tc-aspect">
+
+                    <a
+                      class="tc-aspect-name"
+                      href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{ .name }}
+                    </a>
+
+                  </div>
+
+                {{ end }}
+
+              {{ end }}
+
+            </div>
 
           </div>
 
@@ -141,6 +201,7 @@
         <div class="tc-section">
 
           <div class="tc-section-title">
+
             <span>
               <span class="tc-section-icon">↗</span>
               Chain
@@ -149,6 +210,7 @@
             <span class="tc-total">
               {{ len $template.chain_links }} links
             </span>
+
           </div>
 
           <ul class="tc-list">
@@ -156,13 +218,20 @@
             {{ range $template.chain_links }}
 
               <li>
-                <span class="tc-name">
+
+                <a
+                  class="tc-name tc-wiki-link"
+                  href="https://wiki.uooutlands.com/Mastery_Chain"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {{ .name }}
-                </span>
+                </a>
 
                 <span class="tc-value">
                   {{ .total }}×
                 </span>
+
               </li>
 
             {{ end }}
@@ -182,10 +251,12 @@
         <div class="tc-section">
 
           <div class="tc-section-title">
+
             <span>
               <span class="tc-section-icon">▣</span>
               Codex Abilities
             </span>
+
           </div>
 
 
@@ -206,9 +277,15 @@
 
             <div class="tc-codex-group">
 
-              <div class="tc-codex-title">
+              <!-- Codex name searches the wiki -->
+              <a
+                class="tc-codex-title tc-wiki-link"
+                href="https://wiki.uooutlands.com/index.php?search={{ urlquery (printf "%s Codex" $codex) }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {{ $codex }}
-              </div>
+              </a>
 
               <ul class="tc-list">
 
@@ -217,6 +294,8 @@
                   {{ if eq .codex $codex }}
 
                     <li>
+
+                      <!-- Codex abilities are NOT links -->
                       <span class="tc-name">
                         {{ .ability }}
                       </span>
@@ -224,6 +303,7 @@
                       <span class="tc-value">
                         {{ .level }}
                       </span>
+
                     </li>
 
                   {{ end }}
@@ -245,3 +325,4 @@
   {{ end }}
 
 </div>
+

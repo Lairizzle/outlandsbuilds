@@ -49,6 +49,10 @@
         "name": "Madness",
         "type": "Weapon",
         "level": 15
+      },
+      {
+        "name": "Earth",
+        "type": "Armor"
       }
     ],
     "chain_links": [

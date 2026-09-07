@@ -35,6 +35,10 @@ This can be used to farm PvM but also serves as a strong Anti-PK build. The 30 M
 
 Focus on mowing down foes with your fists. 
 
+## Aspects
+
+You have several options for aspects with this build.
+
 ## Codex
 
 - Wrestling 
