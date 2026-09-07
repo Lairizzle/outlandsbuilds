@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Wrestler Anti-PK",
+    "skills": [
+      {
+        "name": "Anatomy",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      },
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Resisting Spells",
+        "level": 80
+      },
+      {
+        "name": "Tracking",
+        "level": 70
+      },
+      {
+        "name": "Magery",
+        "level": 30
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Air",
+        "type": "Both",
+        "level": 15
+      },
+      {
+        "name": "Madness",
+        "type": "Weapon",
+        "level": 15
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage Dealt By Player",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 10,
+        "corrupted": 0,
+        "total": 10
+      },
+      {
+        "name": "Damage Resistance",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 10,
+        "corrupted": 0,
+        "total": 10
+      },
+      {
+        "name": "Melee Special Chance/Special Damage",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 10,
+        "corrupted": 0,
+        "total": 10
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Parrying",
+        "ability": "Bulwark",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Last Stand",
+        "level": 1
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Mirror",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Shield Bash",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Testudo",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Warding",
+        "level": 7
+      },
+      {
+        "codex": "Potion",
+        "ability": "Bandolier",
+        "level": 3
+      },
+      {
+        "codex": "Potion",
+        "ability": "Mixed Results",
+        "level": 3
+      },
+      {
+        "codex": "Potion",
+        "ability": "Panacea",
+        "level": 3
+      },
+      {
+        "codex": "Potion",
+        "ability": "Volatile",
+        "level": 3
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Brawl",
+        "level": 1
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Chi Thrust",
+        "level": 1
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Crab",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Crane",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Dragon",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Monkey",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Spider",
+        "level": 7
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Wrestler Anti-PK/Disarm",
+    "skills": [
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      },
+      {
+        "name": "Resisting Spells",
+        "level": 90
+      },
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Arms Lore",
+        "level": 80
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Magery",
+        "level": 30
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Air",
+        "type": "Both",
+        "level": 15
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage Dealt By Player",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 10,
+        "corrupted": 0,
+        "total": 10
+      },
+      {
+        "name": "Damage Resistance",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 10,
+        "corrupted": 0,
+        "total": 10
+      },
+      {
+        "name": "Melee Special Chance/Special Damage",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 10,
+        "corrupted": 0,
+        "total": 10
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Healers",
+        "ability": "Combat Medic",
+        "level": 3
+      },
+      {
+        "codex": "Healers",
+        "ability": "Pressure Points",
+        "level": 3
+      },
+      {
+        "codex": "Healers",
+        "ability": "Self Treatment",
+        "level": 3
+      },
+      {
+        "codex": "Healers",
+        "ability": "Triage",
+        "level": 3
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Bulwark",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Last Stand",
+        "level": 1
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Mirror",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Shield Bash",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Testudo",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "ability": "Warding",
+        "level": 7
+      },
+      {
+        "codex": "Potion",
+        "ability": "Bandolier",
+        "level": 3
+      },
+      {
+        "codex": "Potion",
+        "ability": "Mixed Results",
+        "level": 3
+      },
+      {
+        "codex": "Potion",
+        "ability": "Panacea",
+        "level": 3
+      },
+      {
+        "codex": "Potion",
+        "ability": "Volatile",
+        "level": 3
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Brawl",
+        "level": 1
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Chi Thrust",
+        "level": 1
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Crab",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Crane",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Dragon",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Monkey",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "ability": "Spider",
+        "level": 7
+      }
+    ],
+    "skills_total": 720
+  }
+]

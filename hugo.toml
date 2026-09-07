@@ -1,9 +1,7 @@
 baseURL = "/"
+languageCode = "en-us"
 title = "Outlands Builds"
 theme = "uo-outlands"
-
-[locale]
-  languageCode = "en-us"
 
 [params]
   description = "Builds, guides, farming ideas, and news for Ultima Online Outlands."

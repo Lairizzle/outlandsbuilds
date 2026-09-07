@@ -14,10 +14,10 @@
 		
 			<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Archer</title>
-				<link>//localhost:1313/tags/archer/</link>
+				<title>Dexxer</title>
+				<link>//localhost:1313/tags/dexxer/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/archer/</guid>
+				<guid>//localhost:1313/tags/dexxer/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -42,10 +42,24 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Tamer</title>
-				<link>//localhost:1313/tags/tamer/</link>
+				<title>PvM</title>
+				<link>//localhost:1313/tags/pvm/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/tamer/</guid>
+				<guid>//localhost:1313/tags/pvm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PvP</title>
+				<link>//localhost:1313/tags/pvp/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/pvp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Wrestling</title>
+				<link>//localhost:1313/tags/wrestling/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/wrestling/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -53,6 +67,27 @@
 				<link>//localhost:1313/tags/site/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/tags/site/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Anti-PK</title>
+				<link>//localhost:1313/tags/anti-pk/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/anti-pk/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Archer</title>
+				<link>//localhost:1313/tags/archer/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/archer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tamer</title>
+				<link>//localhost:1313/tags/tamer/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/tamer/</guid>
 				<description></description>
 			</item>
 	</channel>

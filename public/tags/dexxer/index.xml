@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Builds on Outlands Builds</title>
-		<link>//localhost:1313/builds/</link>
-		<description>Recent content in Builds on Outlands Builds</description>
+		<title>Dexxer on Outlands Builds</title>
+		<link>//localhost:1313/tags/dexxer/</link>
+		<description>Recent content in Dexxer on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/builds/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/dexxer/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Wrestler - Anti-PK</title>
-				<link>//localhost:1313/builds/wrestling-anti-pk/</link>
+				<link>//localhost:1313/builds/archer-tamer/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/wrestling-anti-pk/</guid>
+				<guid>//localhost:1313/builds/archer-tamer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM but also serves as a strong Anti-PK build. The 30 Magery enables you to use things like Teleport, Wall and Telekensis to stick explosion pots to PKs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Focus on mowing down foes with your fists.&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex&#34;&gt;Codex&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;</description>
 			</item>
 	</channel>

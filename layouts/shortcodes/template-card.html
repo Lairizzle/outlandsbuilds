@@ -1,0 +1,247 @@
+{{/*
+  Usage:
+
+    {{< template-card >}}
+
+    {{< template-card name="Wrestler Anti-PK" >}}
+
+    {{< template-card name="Wrestler Anti-PK, Wrestler Anti-PK/Disarm" >}}
+
+  Data source:
+    data/templates.json
+*/}}
+
+{{ $all := .Site.Data.templates }}
+{{ $nameParam := .Get "name" }}
+
+{{ $selected := $all }}
+
+{{ if $nameParam }}
+  {{ $wanted := split $nameParam "," }}
+  {{ $selected = slice }}
+
+  {{ range $wanted }}
+    {{ $target := trim . " " }}
+
+    {{ range $all }}
+      {{ if eq .name $target }}
+        {{ $selected = $selected | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="template-grid">
+
+  {{ range $selected }}
+
+    {{ $template := . }}
+
+    <article class="template-card">
+
+      <!-- Header -->
+      <div class="tc-header">
+
+        <div class="tc-icon">⚔</div>
+
+        <div class="tc-heading">
+          <h3 class="tc-title">{{ $template.name }}</h3>
+
+          <div class="tc-meta">
+            <span>{{ $template.skills_total }} skill points</span>
+            <span>•</span>
+            <span>{{ len $template.skills }} skills</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Skills -->
+      <div class="tc-section">
+
+        <div class="tc-section-title">
+          <span>
+            <span class="tc-section-icon">⚡</span>
+            Skills
+          </span>
+
+          <span class="tc-total">
+            {{ $template.skills_total }} total
+          </span>
+        </div>
+
+        <ul class="tc-list">
+
+          {{ range $template.skills }}
+
+            <li>
+              <span class="tc-name">
+                {{ .name }}
+              </span>
+
+              <span class="tc-value">
+                {{ .level }}
+              </span>
+            </li>
+
+          {{ end }}
+
+        </ul>
+
+      </div>
+
+
+      <!-- Aspects -->
+      {{ if $template.aspects }}
+
+        <div class="tc-divider"></div>
+
+        <div class="tc-section">
+
+          <div class="tc-section-title">
+            <span>
+              <span class="tc-section-icon">◇</span>
+              Aspects
+            </span>
+          </div>
+
+          <div class="tc-aspects">
+
+            {{ range $template.aspects }}
+
+              <div class="tc-aspect">
+                <span class="tc-aspect-name">
+                  {{ .name }}
+                </span>
+
+                <span class="tc-aspect-type">
+                  {{ .type }}
+                </span>
+
+                <span class="tc-aspect-level">
+                  {{ .level }}
+                </span>
+              </div>
+
+            {{ end }}
+
+          </div>
+
+        </div>
+
+      {{ end }}
+
+
+      <!-- Chain Links -->
+      {{ if $template.chain_links }}
+
+        <div class="tc-divider"></div>
+
+        <div class="tc-section">
+
+          <div class="tc-section-title">
+            <span>
+              <span class="tc-section-icon">↗</span>
+              Chain
+            </span>
+
+            <span class="tc-total">
+              {{ len $template.chain_links }} links
+            </span>
+          </div>
+
+          <ul class="tc-list">
+
+            {{ range $template.chain_links }}
+
+              <li>
+                <span class="tc-name">
+                  {{ .name }}
+                </span>
+
+                <span class="tc-value">
+                  {{ .total }}×
+                </span>
+              </li>
+
+            {{ end }}
+
+          </ul>
+
+        </div>
+
+      {{ end }}
+
+
+      <!-- Codex -->
+      {{ if $template.codex_abilities }}
+
+        <div class="tc-divider"></div>
+
+        <div class="tc-section">
+
+          <div class="tc-section-title">
+            <span>
+              <span class="tc-section-icon">▣</span>
+              Codex Abilities
+            </span>
+          </div>
+
+
+          {{ $codexTypes := slice }}
+
+          {{ range $template.codex_abilities }}
+
+            {{ if not (in $codexTypes .codex) }}
+              {{ $codexTypes = $codexTypes | append .codex }}
+            {{ end }}
+
+          {{ end }}
+
+
+          {{ range $codexTypes }}
+
+            {{ $codex := . }}
+
+            <div class="tc-codex-group">
+
+              <div class="tc-codex-title">
+                {{ $codex }}
+              </div>
+
+              <ul class="tc-list">
+
+                {{ range $template.codex_abilities }}
+
+                  {{ if eq .codex $codex }}
+
+                    <li>
+                      <span class="tc-name">
+                        {{ .ability }}
+                      </span>
+
+                      <span class="tc-value">
+                        {{ .level }}
+                      </span>
+                    </li>
+
+                  {{ end }}
+
+                {{ end }}
+
+              </ul>
+
+            </div>
+
+          {{ end }}
+
+        </div>
+
+      {{ end }}
+
+    </article>
+
+  {{ end }}
+
+</div>

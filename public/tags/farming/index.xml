@@ -27,5 +27,12 @@
 				<guid>//localhost:1313/news/farming-a-house/</guid>
 				<description>&lt;p&gt;Buying a house is expensive, so the plan is simple:&lt;/p&gt;&#xA;&lt;p&gt;farm gold, avoid wasting it, and keep pushing toward the target.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-goal&#34;&gt;The goal&lt;/h2&gt;&#xA;&lt;p&gt;Write about the house you&amp;rsquo;re working toward, how much it costs,&#xA;and how you&amp;rsquo;re tracking progress.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-farming-setup&#34;&gt;The farming setup&lt;/h2&gt;&#xA;&lt;p&gt;Document what you&amp;rsquo;re farming, why you chose it, and how much gold&#xA;you&amp;rsquo;re making.&lt;/p&gt;&#xA;&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;&#xA;&lt;p&gt;Keep this section updated as the project moves along.&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>Wrestler</title>
+				<link>//localhost:1313/builds/wrestler-anti-pk/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/wrestler-anti-pk/</guid>
+				<description>&lt;p&gt;This is a starting point for an Archer / Tamer build.&lt;/p&gt;&#xA;&lt;p&gt;Replace this text with your actual build notes, skill targets,&#xA;equipment and farming strategy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The idea is to keep distance while your pet handles pressure.&lt;/p&gt;&#xA;&lt;p&gt;It is a comfortable setup for farming and general PvE.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Document the skill targets, powers, weapon choices and any important&#xA;breakpoints here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;equipment&#34;&gt;Equipment&lt;/h2&gt;&#xA;&lt;p&gt;Add the gear priorities and important modifiers for the build.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

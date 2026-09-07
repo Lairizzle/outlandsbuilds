@@ -14,18 +14,25 @@
 		
 			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Archer / Tamer</title>
-				<link>//localhost:1313/builds/archer-tamer/</link>
-				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/archer-tamer/</guid>
-				<description>&lt;p&gt;This is a starting point for an Archer / Tamer build.&lt;/p&gt;&#xA;&lt;p&gt;Replace this text with your actual build notes, skill targets,&#xA;equipment and farming strategy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The idea is to keep distance while your pet handles pressure.&lt;/p&gt;&#xA;&lt;p&gt;It is a comfortable setup for farming and general PvE.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Document the skill targets, powers, weapon choices and any important&#xA;breakpoints here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;equipment&#34;&gt;Equipment&lt;/h2&gt;&#xA;&lt;p&gt;Add the gear priorities and important modifiers for the build.&lt;/p&gt;</description>
-			</item>
-			<item>
 				<title>Farming a House</title>
 				<link>//localhost:1313/news/farming-a-house/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/news/farming-a-house/</guid>
 				<description>&lt;p&gt;Buying a house is expensive, so the plan is simple:&lt;/p&gt;&#xA;&lt;p&gt;farm gold, avoid wasting it, and keep pushing toward the target.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-goal&#34;&gt;The goal&lt;/h2&gt;&#xA;&lt;p&gt;Write about the house you&amp;rsquo;re working toward, how much it costs,&#xA;and how you&amp;rsquo;re tracking progress.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-farming-setup&#34;&gt;The farming setup&lt;/h2&gt;&#xA;&lt;p&gt;Document what you&amp;rsquo;re farming, why you chose it, and how much gold&#xA;you&amp;rsquo;re making.&lt;/p&gt;&#xA;&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;&#xA;&lt;p&gt;Keep this section updated as the project moves along.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lord Blacknail&#39;s Wrestler (Disarm)</title>
+				<link>//localhost:1313/builds/blacknails-wrestling-anti-pk/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/blacknails-wrestling-anti-pk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM but also serves as a strong Anti-PK build. The 30 Magery enables you to use things like Teleport, Wall and Telekensis to stick explosion pots to PKs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Focus on mowing down foes with your fists.&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex&#34;&gt;Codex&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wrestler - Anti-PK</title>
+				<link>//localhost:1313/builds/wrestling-anti-pk/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/wrestling-anti-pk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM but also serves as a strong Anti-PK build. The 30 Magery enables you to use things like Teleport, Wall and Telekensis to stick explosion pots to PKs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Focus on mowing down foes with your fists.&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex&#34;&gt;Codex&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Welcome to Outlands Builds</title>
