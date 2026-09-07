@@ -1,0 +1,8 @@
+name = "uo-outlands"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A Midnight Crystal-inspired Hugo theme for Ultima Online Outlands."
+min_version = "0.146.0"
+
+[author]
+  name = "Outlands Builds"

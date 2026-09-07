@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Outlands Builds</title>
-		<link>//localhost:1313/</link>
-		<description>Recent content on Outlands Builds</description>
+		<title>News &amp; Guides on Outlands Builds</title>
+		<link>//localhost:1313/news/</link>
+		<description>Recent content in News &amp; Guides on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,14 +12,7 @@
 		
 			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Archer / Tamer</title>
-				<link>//localhost:1313/builds/archer-tamer/</link>
-				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/archer-tamer/</guid>
-				<description>&lt;p&gt;This is a starting point for an Archer / Tamer build.&lt;/p&gt;&#xA;&lt;p&gt;Replace this text with your actual build notes, skill targets,&#xA;equipment and farming strategy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The idea is to keep distance while your pet handles pressure.&lt;/p&gt;&#xA;&lt;p&gt;It is a comfortable setup for farming and general PvE.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Document the skill targets, powers, weapon choices and any important&#xA;breakpoints here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;equipment&#34;&gt;Equipment&lt;/h2&gt;&#xA;&lt;p&gt;Add the gear priorities and important modifiers for the build.&lt;/p&gt;</description>
-			</item>
+			<atom:link href="//localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Farming a House</title>
 				<link>//localhost:1313/news/farming-a-house/</link>

@@ -2,10 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/tags/archer/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/builds/archer-tamer/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/builds/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/farming/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/farming-a-house/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/gold/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/guide/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/housing/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/pve/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tamer/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/news/</loc>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/site/</loc>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/welcome/</loc>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>

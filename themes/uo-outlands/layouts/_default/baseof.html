@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}"
+  >
+
+  <title>
+    {{ if .IsHome }}
+      {{ .Site.Title }}
+    {{ else }}
+      {{ .Title }} · {{ .Site.Title }}
+    {{ end }}
+  </title>
+
+  {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+  <script>
+    (() => {
+      const saved = localStorage.getItem("theme");
+      const system = window.matchMedia("(prefers-color-scheme: light)").matches;
+
+      document.documentElement.dataset.theme =
+        saved || (system ? "light" : "dark");
+    })();
+  </script>
+</head>
+
+<body>
+
+  {{ partial "header.html" . }}
+
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  <script>
+    const button = document.querySelector("[data-theme-toggle]");
+
+    button?.addEventListener("click", () => {
+      const next =
+        document.documentElement.dataset.theme === "dark"
+          ? "light"
+          : "dark";
+
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+<section class="hero container">
+
+  <div class="hero-copy">
+
+    <p class="eyebrow">
+      ULTIMA ONLINE OUTLANDS
+    </p>
+
+    <h1>
+      Builds, guides &amp;<br>
+      <span>Outlands news.</span>
+    </h1>
+
+    <p class="hero-text">
+      A growing collection of builds, farming ideas, guides and useful
+      information for adventurers in Britannia.
+    </p>
+
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ "builds/" | relURL }}">
+        Explore builds
+      </a>
+
+      <a class="button button-secondary" href="{{ "news/" | relURL }}">
+        Latest news
+      </a>
+    </div>
+
+  </div>
+
+  <div class="hero-mark" aria-hidden="true">
+    <span>UO</span>
+  </div>
+
+</section>
+
+
+<section class="section container">
+
+  <div class="section-heading">
+
+    <div>
+      <p class="eyebrow">BUILDS</p>
+      <h2>Featured builds</h2>
+    </div>
+
+    <a class="text-link" href="{{ "builds/" | relURL }}">
+      View all →
+    </a>
+
+  </div>
+
+
+  <div class="card-grid">
+
+    {{ $builds := where .Site.RegularPages "Section" "builds" }}
+
+    {{ $featured := where $builds ".Params.featured" true }}
+
+    {{ range first 3 $featured }}
+      {{ partial "build-card.html" . }}
+    {{ else }}
+
+      {{ range first 3 $builds }}
+        {{ partial "build-card.html" . }}
+      {{ end }}
+
+    {{ end }}
+
+  </div>
+
+</section>
+
+
+<section class="section section-muted">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div>
+        <p class="eyebrow">NEWS &amp; GUIDES</p>
+        <h2>What's happening</h2>
+      </div>
+
+      <a class="text-link" href="{{ "news/" | relURL }}">
+        All news →
+      </a>
+
+    </div>
+
+
+    <div class="news-list">
+
+      {{ range first 5 (where .Site.RegularPages "Section" "news") }}
+
+        {{ partial "post-card.html" . }}
+
+      {{ end }}
+
+    </div>
+
+  </div>
+
+</section>
+
+{{ end }}

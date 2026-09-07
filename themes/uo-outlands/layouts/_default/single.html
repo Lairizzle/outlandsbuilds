@@ -1,0 +1,121 @@
+{{ define "main" }}
+
+<article class="article container">
+
+  <header class="article-header">
+
+    {{ with .Params.category }}
+      <span class="badge">
+        {{ . }}
+      </span>
+    {{ end }}
+
+    <h1>
+      {{ .Title }}
+    </h1>
+
+    {{ with .Description }}
+
+      <p class="article-lead">
+        {{ . }}
+      </p>
+
+    {{ end }}
+
+    <div class="article-meta">
+
+      {{ .Date.Format "January 2, 2006" }}
+
+      {{ with .Params.author }}
+        · {{ . }}
+      {{ end }}
+
+    </div>
+
+  </header>
+
+
+  {{ if eq .Section "builds" }}
+
+    <div class="build-stats">
+
+      {{ with .Params.difficulty }}
+
+      <div>
+        <span>Difficulty</span>
+        <strong>{{ . }}</strong>
+      </div>
+
+      {{ end }}
+
+
+      {{ with .Params.gold }}
+
+      <div>
+        <span>Gold potential</span>
+        <strong>{{ . }}</strong>
+      </div>
+
+      {{ end }}
+
+
+      {{ with .Params.playstyle }}
+
+      <div>
+        <span>Playstyle</span>
+        <strong>{{ . }}</strong>
+      </div>
+
+      {{ end }}
+
+    </div>
+
+
+    {{ with .Params.skills }}
+
+    <div class="skill-list">
+
+      {{ range . }}
+
+        <span class="tag">
+          {{ . }}
+        </span>
+
+      {{ end }}
+
+    </div>
+
+    {{ end }}
+
+  {{ end }}
+
+
+  <div class="prose">
+
+    {{ .Content }}
+
+  </div>
+
+
+  {{ with .Params.tags }}
+
+  <footer class="article-tags">
+
+    {{ range . }}
+
+      <a
+        class="tag"
+        href="{{ "tags/" | relURL }}{{ . | urlize }}/"
+      >
+        #{{ . }}
+      </a>
+
+    {{ end }}
+
+  </footer>
+
+  {{ end }}
+
+</article>
+
+{{ end }}

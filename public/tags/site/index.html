@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Builds, guides, farming ideas, and news for Ultima Online Outlands."
+  >
+
+  <title>
+    
+      Site · Outlands Builds
+    
+  </title>
+
+  
+  <link rel="stylesheet" href="/css/main.min.484eea9389947b70c007c5e0ef4a91acb3b3e3e4194a48aae5166678662471b9.css">
+
+  <script>
+    (() => {
+      const saved = localStorage.getItem("theme");
+      const system = window.matchMedia("(prefers-color-scheme: light)").matches;
+
+      document.documentElement.dataset.theme =
+        saved || (system ? "light" : "dark");
+    })();
+  </script>
+</head>
+
+<body>
+
+  <header class="site-header">
+
+  <div class="container nav-wrap">
+
+    <a class="brand" href="/">
+
+      <span class="brand-mark">
+        UO
+      </span>
+
+      <span>
+        OUTLANDS
+        <span class="brand-dim">
+          / BUILDS
+        </span>
+      </span>
+
+    </a>
+
+
+    <nav>
+
+      <a href="/builds/">
+        Builds
+      </a>
+
+      <a href="/news/">
+        News
+      </a>
+
+      <a href="/tags/">
+        Tags
+      </a>
+
+    </nav>
+
+
+    <button
+      class="theme-toggle"
+      data-theme-toggle
+      aria-label="Switch theme"
+      type="button"
+    >
+      ☾
+    </button>
+
+  </div>
+
+</header>
+
+
+  <main class="site-main">
+    
+
+<section class="page-header container">
+
+  <p class="eyebrow">
+    TAGS
+  </p>
+
+  <h1>
+    Site
+  </h1>
+
+  
+
+</section>
+
+
+<section class="section container">
+
+  
+
+    <div class="news-list">
+
+      
+
+        <a class="post-card" href="/news/welcome/">
+
+  <time>
+    Sep 01, 2026
+  </time>
+
+
+  <div>
+
+    <h3>
+      Welcome to Outlands Builds
+    </h3>
+
+    <p>
+      A small home for builds, farming experiments and Outlands notes.
+    </p>
+
+  </div>
+
+
+  <span class="card-arrow">
+    →
+  </span>
+
+</a>
+
+
+      
+
+    </div>
+
+  
+
+</section>
+
+
+  </main>
+
+  <footer class="site-footer">
+
+  <div class="container footer-wrap">
+
+    <div>
+
+      <strong>
+        OUTLANDS / BUILDS
+      </strong>
+
+      <p>
+        A community-focused collection of Ultima Online Outlands
+        builds and guides.
+      </p>
+
+    </div>
+
+    <span>
+      Built with Hugo.
+    </span>
+
+  </div>
+
+</footer>
+
+
+  <script>
+    const button = document.querySelector("[data-theme-toggle]");
+
+    button?.addEventListener("click", () => {
+      const next =
+        document.documentElement.dataset.theme === "dark"
+          ? "light"
+          : "dark";
+
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+    });
+  </script>
+
+</body>
+</html>
