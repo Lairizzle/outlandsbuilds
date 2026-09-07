@@ -1406,3 +1406,82 @@ nav a:hover {
 
   letter-spacing: 0.08em;
 }
+
+/* -------------------------------- */
+/* Navigation Dropdown              */
+/* -------------------------------- */
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-arrow {
+  font-size: 10px;
+  color: var(--text-faint);
+  transition: transform 0.15s ease;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: -10px;
+
+  min-width: 170px;
+  padding: 6px;
+
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+
+  box-shadow: var(--shadow);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(-5px);
+
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease,
+    visibility 0.15s ease;
+
+  z-index: 100;
+}
+
+
+.nav-dropdown-menu a {
+  display: block;
+
+  padding: 8px 10px;
+
+  border-radius: 5px;
+
+  color: var(--text-muted);
+
+  font-size: 12px;
+}
+
+
+.nav-dropdown-menu a:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+.nav-dropdown:hover .nav-arrow {
+  transform: rotate(180deg);
+}

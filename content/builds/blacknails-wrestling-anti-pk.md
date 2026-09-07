@@ -21,7 +21,6 @@ playstyle: "Melee PvM/PvP"
 skills:
   - Anti-PK
   - Wrestling
-  - Tracking
   - Alchemy
   - Parry
 
