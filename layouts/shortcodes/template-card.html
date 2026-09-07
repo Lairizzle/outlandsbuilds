@@ -45,153 +45,192 @@
         <div class="tc-icon">⚔</div>
 
         <div class="tc-heading">
+
           <h3 class="tc-title">
             {{ $template.name }}
           </h3>
 
           <div class="tc-meta">
-            <span>{{ $template.skills_total }} skill points</span>
+
+            <span>
+              {{ $template.skills_total }} skill points
+            </span>
+
             <span>•</span>
-            <span>{{ len $template.skills }} skills</span>
+
+            <span>
+              {{ len $template.skills }} skills
+            </span>
+
+            {{ if $template.aspects }}
+              <span>•</span>
+              <span>
+                {{ len $template.aspects }} aspects
+              </span>
+            {{ end }}
+
+            {{ if $template.chain_links }}
+              <span>•</span>
+              <span>
+                {{ len $template.chain_links }} chain links
+              </span>
+            {{ end }}
+
+            {{ if $template.codex_abilities }}
+              <span>•</span>
+              <span>
+                {{ len $template.codex_abilities }} codex abilities
+              </span>
+            {{ end }}
+
           </div>
+
         </div>
 
       </div>
 
 
       <!-- Skills -->
-      <div class="tc-section">
-
-        <div class="tc-section-title">
-          <span>
-            <span class="tc-section-icon">⚡</span>
-            Skills
-          </span>
-
-          <span class="tc-total">
-            {{ $template.skills_total }} total
-          </span>
-        </div>
-
-        <ul class="tc-list">
-
-          {{ range $template.skills }}
-
-            <li>
-
-              <a
-                class="tc-name tc-wiki-link"
-                href="https://wiki.uooutlands.com/index.php?search={{ urlquery .name }}"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {{ .name }}
-              </a>
-
-              <span class="tc-value">
-                {{ .level }}
-              </span>
-
-            </li>
-
-          {{ end }}
-
-        </ul>
-
-      </div>
-
-
-      <!-- Aspects -->
-      {{ if $template.aspects }}
-
-        <div class="tc-divider"></div>
+      {{ if $template.skills }}
 
         <div class="tc-section">
 
           <div class="tc-section-title">
+
             <span>
-              <span class="tc-section-icon">◇</span>
-              Aspects
+              <span class="tc-section-icon">⚡</span>
+              Skills
             </span>
-          </div>
 
-
-          <!-- Weapon -->
-          <div class="tc-aspect-group">
-
-            <div class="tc-codex-title">
-              Weapon
-            </div>
-
-            <div class="tc-aspects">
-
-              {{ range $template.aspects }}
-
-                {{ if or (eq .type "Weapon") (eq .type "Both") }}
-
-                  <div class="tc-aspect">
-
-                    <a
-                      class="tc-aspect-name"
-                      href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {{ .name }}
-                    </a>
-
-                  </div>
-
-                {{ end }}
-
-              {{ end }}
-
-            </div>
+            <span class="tc-total">
+              {{ $template.skills_total }} total
+            </span>
 
           </div>
 
+          <ul class="tc-list">
 
-          <br>
+            {{ range $template.skills }}
 
+              <li>
 
-          <!-- Armor -->
-          <div class="tc-aspect-group">
+                <a
+                  class="tc-name tc-wiki-link"
+                  href="https://wiki.uooutlands.com/index.php?search={{ urlquery .name }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ .name }}
+                </a>
 
-            <div class="tc-codex-title">
-              Armor
-            </div>
+                <span class="tc-value">
+                  {{ .level }}
+                </span>
 
-            <div class="tc-aspects">
+              </li>
 
-              {{ range $template.aspects }}
+            {{ end }}
 
-                {{ if or (eq .type "Armor") (eq .type "Both") }}
-
-                  <div class="tc-aspect">
-
-                    <a
-                      class="tc-aspect-name"
-                      href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {{ .name }}
-                    </a>
-
-                  </div>
-
-                {{ end }}
-
-              {{ end }}
-
-            </div>
-
-          </div>
+          </ul>
 
         </div>
 
       {{ end }}
 
+
+    <!-- Aspects -->
+    {{ if $template.aspects }}
+
+      <div class="tc-divider"></div>
+
+      <div class="tc-section">
+
+        <div class="tc-section-title">
+
+          <span>
+            <span class="tc-section-icon">◇</span>
+            Aspects
+          </span>
+
+          <span class="tc-total">
+            {{ len $template.aspects }}
+          </span>
+
+        </div>
+
+
+        <!-- Weapon -->
+        <div class="tc-aspect-group">
+
+          <div class="tc-codex-title">
+            Weapon
+          </div>
+
+          <div class="tc-aspects">
+
+            {{ range $template.aspects }}
+
+              {{ if or (eq .type "Weapon") (eq .type "Both") }}
+
+                <div class="tc-aspect">
+
+                  <a
+                    class="tc-aspect-name"
+                    href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ .name }}
+                  </a>
+
+                </div>
+
+              {{ end }}
+
+            {{ end }}
+
+          </div>
+
+        </div>
+
+
+        <!-- Armor -->
+        <div class="tc-aspect-group">
+
+          <div class="tc-codex-title">
+            Armor
+          </div>
+
+          <div class="tc-aspects">
+
+            {{ range $template.aspects }}
+
+              {{ if or (eq .type "Armor") (eq .type "Both") }}
+
+                <div class="tc-aspect">
+
+                  <a
+                    class="tc-aspect-name"
+                    href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ .name }}
+                  </a>
+
+                </div>
+
+              {{ end }}
+
+            {{ end }}
+
+          </div>
+
+        </div>
+
+      </div>
+
+    {{ end }}
 
       <!-- Chain Links -->
       {{ if $template.chain_links }}
@@ -204,7 +243,7 @@
 
             <span>
               <span class="tc-section-icon">↗</span>
-              Chain
+              Chain Links
             </span>
 
             <span class="tc-total">
@@ -243,7 +282,7 @@
       {{ end }}
 
 
-      <!-- Codex -->
+      <!-- Codex Abilities -->
       {{ if $template.codex_abilities }}
 
         <div class="tc-divider"></div>
@@ -257,9 +296,14 @@
               Codex Abilities
             </span>
 
+            <span class="tc-total">
+              {{ len $template.codex_abilities }} abilities
+            </span>
+
           </div>
 
 
+          <!-- Build unique Codex list -->
           {{ $codexTypes := slice }}
 
           {{ range $template.codex_abilities }}
@@ -271,46 +315,244 @@
           {{ end }}
 
 
+          <!-- Render each Codex -->
           {{ range $codexTypes }}
 
             {{ $codex := . }}
 
             <div class="tc-codex-group">
 
-              <!-- Codex name searches the wiki -->
+              <!-- Codex Name -->
               <a
                 class="tc-codex-title tc-wiki-link"
-                href="https://wiki.uooutlands.com/index.php?search={{ urlquery (printf "%s Codex" $codex) }}"
+                href="https://wiki.uooutlands.com/index.php?search={{ urlquery $codex }}"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {{ $codex }}
               </a>
 
-              <ul class="tc-list">
 
-                {{ range $template.codex_abilities }}
+              <!-- ============================== -->
+              <!-- STANCE -->
+              <!-- ============================== -->
 
-                  {{ if eq .codex $codex }}
+              {{ $hasStance := false }}
 
-                    <li>
+              {{ range $template.codex_abilities }}
 
-                      <!-- Codex abilities are NOT links -->
-                      <span class="tc-name">
-                        {{ .ability }}
-                      </span>
+                {{ if and (eq .codex $codex) (eq .category "Stance") }}
+                  {{ $hasStance = true }}
+                {{ end }}
 
-                      <span class="tc-value">
-                        {{ .level }}
-                      </span>
+              {{ end }}
 
-                    </li>
+              {{ if $hasStance }}
+
+                <div class="tc-codex-category">
+
+                  <div class="tc-codex-category-title">
+                    Stance
+                  </div>
+
+                  <ul class="tc-list">
+
+                    {{ range $template.codex_abilities }}
+
+                      {{ if and (eq .codex $codex) (eq .category "Stance") }}
+
+                        <li>
+
+                          <span class="tc-name">
+                            {{ .ability }}
+                          </span>
+
+                          <span class="tc-value">
+                            {{ .level }}
+                          </span>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ul>
+
+                </div>
+
+              {{ end }}
+
+
+              <!-- ============================== -->
+              <!-- FINISHER -->
+              <!-- ============================== -->
+
+              {{ $hasFinisher := false }}
+
+              {{ range $template.codex_abilities }}
+
+                {{ if and (eq .codex $codex) (eq .category "Finisher") }}
+                  {{ $hasFinisher = true }}
+                {{ end }}
+
+              {{ end }}
+
+              {{ if $hasFinisher }}
+
+                <div class="tc-codex-category">
+
+                  <div class="tc-codex-category-title">
+                    Finisher
+                  </div>
+
+                  <ul class="tc-list">
+
+                    {{ range $template.codex_abilities }}
+
+                      {{ if and (eq .codex $codex) (eq .category "Finisher") }}
+
+                        <li>
+
+                          <span class="tc-name">
+                            {{ .ability }}
+                          </span>
+
+                          <span class="tc-value">
+                            {{ .level }}
+                          </span>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ul>
+
+                </div>
+
+              {{ end }}
+
+
+              <!-- ============================== -->
+              <!-- ABILITY -->
+              <!-- ============================== -->
+
+              {{ $hasAbility := false }}
+
+              {{ range $template.codex_abilities }}
+
+                {{ if and (eq .codex $codex) (eq .category "Ability") }}
+                  {{ $hasAbility = true }}
+                {{ end }}
+
+              {{ end }}
+
+              {{ if $hasAbility }}
+
+                <div class="tc-codex-category">
+
+                  <div class="tc-codex-category-title">
+                    Ability
+                  </div>
+
+                  <ul class="tc-list">
+
+                    {{ range $template.codex_abilities }}
+
+                      {{ if and (eq .codex $codex) (eq .category "Ability") }}
+
+                        <li>
+
+                          <span class="tc-name">
+                            {{ .ability }}
+                          </span>
+
+                          <span class="tc-value">
+                            {{ .level }}
+                          </span>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ul>
+
+                </div>
+
+              {{ end }}
+
+
+              <!-- ============================== -->
+              <!-- OTHER CATEGORIES -->
+              <!-- ============================== -->
+
+              {{ $otherCategories := slice }}
+
+              {{ range $template.codex_abilities }}
+
+                {{ if eq .codex $codex }}
+
+                  {{ if and
+                    (ne .category "Stance")
+                    (ne .category "Finisher")
+                    (ne .category "Ability")
+                  }}
+
+                    {{ if not (in $otherCategories .category) }}
+                      {{ $otherCategories = $otherCategories | append .category }}
+                    {{ end }}
 
                   {{ end }}
 
                 {{ end }}
 
-              </ul>
+              {{ end }}
+
+
+              {{ range $otherCategories }}
+
+                {{ $category := . }}
+
+                <div class="tc-codex-category">
+
+                  <div class="tc-codex-category-title">
+                    {{ $category }}
+                  </div>
+
+                  <ul class="tc-list">
+
+                    {{ range $template.codex_abilities }}
+
+                      {{ if and
+                        (eq .codex $codex)
+                        (eq .category $category)
+                      }}
+
+                        <li>
+
+                          <span class="tc-name">
+                            {{ .ability }}
+                          </span>
+
+                          <span class="tc-value">
+                            {{ .level }}
+                          </span>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ul>
+
+                </div>
+
+              {{ end }}
 
             </div>
 
@@ -325,4 +567,3 @@
   {{ end }}
 
 </div>
-
