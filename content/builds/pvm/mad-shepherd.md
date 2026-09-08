@@ -105,7 +105,7 @@ Pet selection will also have a significant impact on overall performance, so exp
 
 **STR:** 100, **INT:** 25, **DEX:** 100
 
-{{< template-card name="Tamer" >}}
+{{< template-card name="Mad Shepherd" >}}
 
 
 
