@@ -1535,6 +1535,11 @@ nav a:hover {
   }
 
 
+  .nav-wrap {
+    position: relative;
+  }
+
+
   nav {
     display: none;
 
@@ -1551,7 +1556,7 @@ nav a:hover {
 
     flex-direction: column;
 
-    gap: 2px;
+    gap: 13px;
 
     background:
       var(--surface);
@@ -1639,13 +1644,24 @@ nav a:hover {
   }
 
 
+  /* Open submenu when clicked */
+
+  .nav-dropdown.mobile-dropdown-open .nav-dropdown-menu {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+
+  /* Prevent desktop hover behavior on mobile */
+
   .nav-dropdown:hover .nav-dropdown-menu {
     display: none;
   }
 
 
-  .nav-dropdown:focus-within .nav-dropdown-menu {
-    display: block;
+  .nav-dropdown.mobile-dropdown-open:hover .nav-dropdown-menu {
+    display: flex;
   }
 
 
@@ -1667,11 +1683,6 @@ nav a:hover {
 
 
   /* General mobile layout */
-
-  nav {
-    gap: 13px;
-  }
-
 
   .hero {
     min-height: auto;
@@ -1735,7 +1746,6 @@ nav a:hover {
   }
 
 }
-
 
 /* -------------------------------- */
 /* Image Hero                       */

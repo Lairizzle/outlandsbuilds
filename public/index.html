@@ -17,7 +17,7 @@
   </title>
 
   
-  <link rel="stylesheet" href="/css/main.min.6e156c2b8eb3f9d8f6fc0343bb30d8682d48e9c9333452ed7df29f307323d6ed.css">
+  <link rel="stylesheet" href="/css/main.min.ab8187e1742b057735427dbfcca01123f7b09968ddc6b884fb78c848cc82ca42.css">
 
   <script>
     (() => {
@@ -476,38 +476,52 @@
 </footer>
 
 
-    <script>
-      const button = document.querySelector("[data-theme-toggle]");
+  <script>
+    const button = document.querySelector("[data-theme-toggle]");
 
-      button?.addEventListener("click", () => {
-        const next =
-          document.documentElement.dataset.theme === "dark"
-            ? "light"
-            : "dark";
+    button?.addEventListener("click", () => {
+      const next =
+        document.documentElement.dataset.theme === "dark"
+          ? "light"
+          : "dark";
 
-        document.documentElement.dataset.theme = next;
-        localStorage.setItem("theme", next);
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+    });
+
+
+    const menuToggle = document.querySelector(".mobile-menu-toggle");
+    const mobileNav = document.querySelector("#mobile-nav");
+
+    menuToggle?.addEventListener("click", () => {
+      const isOpen = mobileNav?.classList.toggle("mobile-open");
+
+      menuToggle.setAttribute(
+        "aria-expanded",
+        isOpen ? "true" : "false"
+      );
+
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close menu" : "Open menu"
+      );
+
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+
+    document.querySelectorAll(".nav-dropdown-toggle").forEach((toggle) => {
+      toggle.addEventListener("click", (event) => {
+        if (window.innerWidth <= 800) {
+          event.preventDefault();
+
+          const dropdown = toggle.closest(".nav-dropdown");
+
+          dropdown?.classList.toggle("mobile-dropdown-open");
+        }
       });
-
-      const menuToggle = document.querySelector(".mobile-menu-toggle");
-      const mobileNav = document.querySelector("#mobile-nav");
-
-      menuToggle?.addEventListener("click", () => {
-        const isOpen = mobileNav?.classList.toggle("mobile-open");
-
-        menuToggle.setAttribute(
-          "aria-expanded",
-          isOpen ? "true" : "false"
-        );
-
-        menuToggle.setAttribute(
-          "aria-label",
-          isOpen ? "Close menu" : "Open menu"
-        );
-
-        menuToggle.textContent = isOpen ? "×" : "☰";
-      });
-    </script>
+    });
+  </script>
 
 </body>
 </html>

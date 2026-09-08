@@ -41,38 +41,52 @@
 
   {{ partial "footer.html" . }}
 
-    <script>
-      const button = document.querySelector("[data-theme-toggle]");
+  <script>
+    const button = document.querySelector("[data-theme-toggle]");
 
-      button?.addEventListener("click", () => {
-        const next =
-          document.documentElement.dataset.theme === "dark"
-            ? "light"
-            : "dark";
+    button?.addEventListener("click", () => {
+      const next =
+        document.documentElement.dataset.theme === "dark"
+          ? "light"
+          : "dark";
 
-        document.documentElement.dataset.theme = next;
-        localStorage.setItem("theme", next);
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+    });
+
+
+    const menuToggle = document.querySelector(".mobile-menu-toggle");
+    const mobileNav = document.querySelector("#mobile-nav");
+
+    menuToggle?.addEventListener("click", () => {
+      const isOpen = mobileNav?.classList.toggle("mobile-open");
+
+      menuToggle.setAttribute(
+        "aria-expanded",
+        isOpen ? "true" : "false"
+      );
+
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close menu" : "Open menu"
+      );
+
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+
+    document.querySelectorAll(".nav-dropdown-toggle").forEach((toggle) => {
+      toggle.addEventListener("click", (event) => {
+        if (window.innerWidth <= 800) {
+          event.preventDefault();
+
+          const dropdown = toggle.closest(".nav-dropdown");
+
+          dropdown?.classList.toggle("mobile-dropdown-open");
+        }
       });
-
-      const menuToggle = document.querySelector(".mobile-menu-toggle");
-      const mobileNav = document.querySelector("#mobile-nav");
-
-      menuToggle?.addEventListener("click", () => {
-        const isOpen = mobileNav?.classList.toggle("mobile-open");
-
-        menuToggle.setAttribute(
-          "aria-expanded",
-          isOpen ? "true" : "false"
-        );
-
-        menuToggle.setAttribute(
-          "aria-label",
-          isOpen ? "Close menu" : "Open menu"
-        );
-
-        menuToggle.textContent = isOpen ? "×" : "☰";
-      });
-    </script>
+    });
+  </script>
 
 </body>
 </html>
