@@ -1,5 +1,5 @@
 ---
-title: "Wrestler - Anti-PK"
+title: "Windstalker Wrestler"
 description: "A flexible PvE build built around ranged damage and a reliable pet."
 date: 2026-09-07
 author: "Soren Longhorn"
@@ -21,7 +21,7 @@ gold: "High"
 playstyle: "Melee PvM/PvP"
 
 skills:
-  - Wrestling
+  - Anti-PK
   - Tracking
   - Alchemy
   - Parry
@@ -76,5 +76,5 @@ Anything else of note
 
 **STR:** 100, **INT:** 25, **DEX:** 100
 
-{{< template-card name="Wrestler Anti-PK" >}}
+{{< template-card name="Windstalker Wrestler" >}}
 

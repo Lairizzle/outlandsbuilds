@@ -1,5 +1,5 @@
 ---
-title: "Lord Blacknail's Wrestler (Disarm)"
+title: "Blacknail's Voidbreaker Wrestler"
 description: "A PvM brawler with enough Magery and utility to fight back against PKs."
 date: 2026-09-07
 author: "Blacknail"
@@ -75,5 +75,5 @@ Anything else of note
 ## Stats
 
 **STR:** 100, **INT:** 25, **DEX:** 100
-{{< template-card name="Wrestler Anti-PK/Disarm" >}}
+{{< template-card name="Voidbreaker Wrestler" >}}
 
