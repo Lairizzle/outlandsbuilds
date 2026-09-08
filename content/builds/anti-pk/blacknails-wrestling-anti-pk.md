@@ -10,7 +10,7 @@ categories:
 
 tags:
   - Dexxer
-  - Wrestling
+  - Anti-PK
   - PvM
   - PvP
   - Farming
@@ -22,9 +22,9 @@ playstyle: "Melee PvM/PvP"
 
 skills:
   - Anti-PK
-  - Wrestling
   - Alchemy
   - Parry
+  - Disarm
 
 featured: true
 ---

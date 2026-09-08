@@ -11,7 +11,7 @@ categories:
 
 tags:
   - Dexxer
-  - Wrestling
+  - Anti-PK
   - PvM
   - PvP
   - Farming

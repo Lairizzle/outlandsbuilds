@@ -1,6 +1,6 @@
 [
   {
-    "name": "Wrestler Anti-PK/Disarm",
+    "name": "Voidbreaker Wrestler",
     "skills": [
       {
         "name": "Alchemy",
@@ -190,7 +190,7 @@
     "skills_total": 720
   },
   {
-    "name": "Wrestler Anti-PK",
+    "name": "Windstalker Wrestler",
     "skills": [
       {
         "name": "Alchemy",
