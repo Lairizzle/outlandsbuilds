@@ -3,7 +3,7 @@ title: "Poison Necromancer (Noxcro)"
 description: "A glass-cannon Necromancer build combining Poisoning, Taste Identification, and powerful summoned creatures for high PvM damage."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Mage"
+build_type: "Summoner/Mage"
 
 categories:
   - PvM
