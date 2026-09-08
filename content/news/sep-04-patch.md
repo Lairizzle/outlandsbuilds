@@ -1,7 +1,7 @@
 ---
 title: "September 4th Patch TLDR"
 description: "A TLDR for the September 4th patch notes."
-date: 2026-09-01
+date: 2026-09-08
 
 categories:
   - News
