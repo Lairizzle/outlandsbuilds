@@ -3,7 +3,7 @@ title: "Spelldamage Focused Summoner"
 description: "A high-damage summoner that uses Necromancy and powerful Magery spells while summoned creatures handle the frontline."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Mage"
+build_type: "Summoner/Mage"
 
 categories:
   - PvM
