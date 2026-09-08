@@ -524,5 +524,263 @@
       }
     ],
     "skills_total": 720
+  },
+  {
+    "name": "Tamer",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Animal Lore",
+        "level": 120
+      },
+      {
+        "name": "Animal Taming",
+        "level": 120
+      },
+      {
+        "name": "Herding",
+        "level": 120
+      },
+      {
+        "name": "Mace Fighting",
+        "level": 80
+      },
+      {
+        "name": "Tactics",
+        "level": 80
+      },
+      {
+        "name": "Veterinary",
+        "level": 120
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Madness",
+        "type": "Weapon"
+      },
+      {
+        "name": "Command",
+        "type": "Armor"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Follower Accuracy/Defense",
+        "total": 2
+      },
+      {
+        "name": "Follower Attack Speed",
+        "total": 5
+      },
+      {
+        "name": "Follower Damage",
+        "total": 10
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Arcane",
+        "level": 7
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Fowling",
+        "level": 7
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Incendiary",
+        "level": 7
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Longshot",
+        "level": 7
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Maiming",
+        "level": 7
+      },
+      {
+        "codex": "Archery",
+        "category": "Finisher",
+        "ability": "Pincushion",
+        "level": 1
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Repeater",
+        "level": 1
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 7
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Blackguard",
+        "level": 7
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 7
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 7
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Fang",
+        "level": 7
+      },
+      {
+        "codex": "Fencing",
+        "category": "Finisher",
+        "ability": "Flurry",
+        "level": 1
+      },
+      {
+        "codex": "Fencing",
+        "category": "Weapon Ability",
+        "ability": "Swiftstrikes",
+        "level": 1
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 2
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Immunize",
+        "level": 1
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 2
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Specialist",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 2
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Without Borders",
+        "level": 3
+      },
+      {
+        "codex": "Macing",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 7
+      },
+      {
+        "codex": "Macing",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 7
+      },
+      {
+        "codex": "Macing",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 7
+      },
+      {
+        "codex": "Macing",
+        "category": "Finisher",
+        "ability": "Shatter",
+        "level": 1
+      },
+      {
+        "codex": "Macing",
+        "category": "Weapon Ability",
+        "ability": "Smash",
+        "level": 1
+      },
+      {
+        "codex": "Macing",
+        "category": "Stance",
+        "ability": "Sunder",
+        "level": 7
+      },
+      {
+        "codex": "Macing",
+        "category": "Stance",
+        "ability": "Wild Swing",
+        "level": 7
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Bandolier",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Elixir",
+        "level": 2
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Freedom",
+        "level": 1
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Mixed Results",
+        "level": 2
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Panacea",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Refinement",
+        "level": 2
+      }
+    ],
+    "skills_total": 720
   }
 ]
