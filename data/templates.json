@@ -358,5 +358,171 @@
       }
     ],
     "skills_total": 720
+  },
+  {
+    "name": "Madstone Monk",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Anatomy",
+        "level": 100
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Magery",
+        "level": 30
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Resisting Spells",
+        "level": 80
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 70
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Air",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage Dealt By Player",
+        "total": 10
+      },
+      {
+        "name": "Damage Resistance",
+        "total": 10
+      },
+      {
+        "name": "Melee Special Chance/Special Damage",
+        "total": 10
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 1
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 7
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Bandolier",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Mixed Results",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Panacea",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Volatile",
+        "level": 3
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Weapon Ability",
+        "ability": "Brawl",
+        "level": 1
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Finisher",
+        "ability": "Chi Thrust",
+        "level": 1
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Stance",
+        "ability": "Crab",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Stance",
+        "ability": "Crane",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Stance",
+        "ability": "Dragon",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Stance",
+        "ability": "Monkey",
+        "level": 7
+      },
+      {
+        "codex": "Wrestling",
+        "category": "Stance",
+        "ability": "Spider",
+        "level": 7
+      }
+    ],
+    "skills_total": 720
   }
 ]
