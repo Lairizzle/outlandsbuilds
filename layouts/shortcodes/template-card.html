@@ -138,99 +138,100 @@
       {{ end }}
 
 
-    <!-- Aspects -->
-    {{ if $template.aspects }}
+      <!-- Aspects -->
+      {{ if $template.aspects }}
 
-      <div class="tc-divider"></div>
+        <div class="tc-divider"></div>
 
-      <div class="tc-section">
+        <div class="tc-section">
 
-        <div class="tc-section-title">
+          <div class="tc-section-title">
 
-          <span>
-            <span class="tc-section-icon">◇</span>
-            Aspects
-          </span>
+            <span>
+              <span class="tc-section-icon">◇</span>
+              Aspects
+            </span>
 
-          <span class="tc-total">
-            {{ len $template.aspects }}
-          </span>
+            <span class="tc-total">
+              {{ len $template.aspects }}
+            </span>
 
-        </div>
-
-
-        <!-- Weapon -->
-        <div class="tc-aspect-group">
-
-          <div class="tc-codex-title">
-            Weapon
           </div>
 
-          <div class="tc-aspects">
 
-            {{ range $template.aspects }}
+          <!-- Weapon -->
+          <div class="tc-aspect-group">
 
-              {{ if or (eq .type "Weapon") (eq .type "Both") }}
+            <div class="tc-codex-title">
+              Weapon
+            </div>
 
-                <div class="tc-aspect">
+            <div class="tc-aspects">
 
-                  <a
-                    class="tc-aspect-name"
-                    href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {{ .name }}
-                  </a>
+              {{ range $template.aspects }}
 
-                </div>
+                {{ if or (eq .type "Weapon") (eq .type "Both") }}
+
+                  <div class="tc-aspect">
+
+                    <a
+                      class="tc-aspect-name"
+                      href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{ .name }}
+                    </a>
+
+                  </div>
+
+                {{ end }}
 
               {{ end }}
 
-            {{ end }}
+            </div>
 
           </div>
 
-        </div>
 
+          <!-- Armor -->
+          <div class="tc-aspect-group">
 
-        <!-- Armor -->
-        <div class="tc-aspect-group">
+            <div class="tc-codex-title">
+              Armor
+            </div>
 
-          <div class="tc-codex-title">
-            Armor
-          </div>
+            <div class="tc-aspects">
 
-          <div class="tc-aspects">
+              {{ range $template.aspects }}
 
-            {{ range $template.aspects }}
+                {{ if or (eq .type "Armor") (eq .type "Both") }}
 
-              {{ if or (eq .type "Armor") (eq .type "Both") }}
+                  <div class="tc-aspect">
 
-                <div class="tc-aspect">
+                    <a
+                      class="tc-aspect-name"
+                      href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{ .name }}
+                    </a>
 
-                  <a
-                    class="tc-aspect-name"
-                    href="https://wiki.uooutlands.com/{{ urlquery .name }}_Aspect"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {{ .name }}
-                  </a>
+                  </div>
 
-                </div>
+                {{ end }}
 
               {{ end }}
 
-            {{ end }}
+            </div>
 
           </div>
 
         </div>
 
-      </div>
+      {{ end }}
 
-    {{ end }}
 
       <!-- Chain Links -->
       {{ if $template.chain_links }}
@@ -254,7 +255,7 @@
 
           <ul class="tc-list">
 
-            {{ range $template.chain_links }}
+            {{ range sort $template.chain_links "name" }}
 
               <li>
 
@@ -315,6 +316,46 @@
           {{ end }}
 
 
+          <!-- Separate Weapon Codexes from non-Weapon Codexes -->
+          <!-- A weapon Codex is identified by having a Stance ability -->
+          {{ $weaponCodexes := slice }}
+          {{ $otherCodexes := slice }}
+
+          {{ range $codexTypes }}
+
+            {{ $codex := . }}
+            {{ $isWeapon := false }}
+
+            {{ range $template.codex_abilities }}
+
+              {{ if and (eq .codex $codex) (eq .category "Stance") }}
+                {{ $isWeapon = true }}
+              {{ end }}
+
+            {{ end }}
+
+            {{ if $isWeapon }}
+              {{ $weaponCodexes = $weaponCodexes | append $codex }}
+            {{ else }}
+              {{ $otherCodexes = $otherCodexes | append $codex }}
+            {{ end }}
+
+          {{ end }}
+
+
+          <!-- Sort both groups alphabetically -->
+          {{ $weaponCodexes = sort $weaponCodexes }}
+          {{ $otherCodexes = sort $otherCodexes }}
+
+
+          <!-- Weapon Codexes first, then all other Codexes -->
+          {{ $codexTypes := $weaponCodexes }}
+
+          {{ range $otherCodexes }}
+            {{ $codexTypes = $codexTypes | append . }}
+          {{ end }}
+
+
           <!-- Render each Codex -->
           {{ range $codexTypes }}
 
@@ -333,10 +374,7 @@
               </a>
 
 
-              <!-- ============================== -->
               <!-- STANCE -->
-              <!-- ============================== -->
-
               {{ $hasStance := false }}
 
               {{ range $template.codex_abilities }}
@@ -384,10 +422,7 @@
               {{ end }}
 
 
-              <!-- ============================== -->
               <!-- FINISHER -->
-              <!-- ============================== -->
-
               {{ $hasFinisher := false }}
 
               {{ range $template.codex_abilities }}
@@ -435,10 +470,7 @@
               {{ end }}
 
 
-              <!-- ============================== -->
               <!-- ABILITY -->
-              <!-- ============================== -->
-
               {{ $hasAbility := false }}
 
               {{ range $template.codex_abilities }}
@@ -486,10 +518,7 @@
               {{ end }}
 
 
-              <!-- ============================== -->
               <!-- OTHER CATEGORIES -->
-              <!-- ============================== -->
-
               {{ $otherCategories := slice }}
 
               {{ range $template.codex_abilities }}
@@ -513,7 +542,7 @@
               {{ end }}
 
 
-              {{ range $otherCategories }}
+              {{ range sort $otherCategories }}
 
                 {{ $category := . }}
 
