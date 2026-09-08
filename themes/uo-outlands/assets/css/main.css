@@ -534,6 +534,9 @@ nav a:hover {
   padding-block: 76px;
 }
 
+.page-header + .section {
+  padding-top: 0;
+}
 
 .section-muted {
   background:
