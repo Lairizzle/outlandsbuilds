@@ -317,55 +317,74 @@
 
 
           <!--
-            Separate Weapon Codexes from non-Weapon Codexes.
+            Determine Codex priority:
 
-            A Codex is considered a Weapon Codex if it contains
-            at least one ability with category "Weapon Ability".
+            1. Has Stance AND Weapon Ability
+            2. Has Stance
+            3. Everything else
           -->
-          {{ $weaponCodexes := slice }}
-          {{ $otherCodexes := slice }}
+
+          {{ $codexPriority1 := slice }}
+          {{ $codexPriority2 := slice }}
+          {{ $codexPriority3 := slice }}
+
 
           {{ range $codexTypes }}
 
             {{ $codex := . }}
-            {{ $isWeapon := false }}
+
+            {{ $hasStance := false }}
+            {{ $hasWeaponAbility := false }}
+
 
             {{ range $template.codex_abilities }}
 
-              {{ if and
-                (eq .codex $codex)
-                (eq .category "Weapon Ability")
-              }}
-                {{ $isWeapon = true }}
+              {{ if eq .codex $codex }}
+
+                {{ if eq .category "Stance" }}
+                  {{ $hasStance = true }}
+                {{ end }}
+
+                {{ if eq .category "Weapon Ability" }}
+                  {{ $hasWeaponAbility = true }}
+                {{ end }}
+
               {{ end }}
 
             {{ end }}
 
-            {{ if $isWeapon }}
 
-              {{ $weaponCodexes = $weaponCodexes | append $codex }}
+            {{ if and $hasStance $hasWeaponAbility }}
+
+              {{ $codexPriority1 = $codexPriority1 | append $codex }}
+
+            {{ else if $hasStance }}
+
+              {{ $codexPriority2 = $codexPriority2 | append $codex }}
 
             {{ else }}
 
-              {{ $otherCodexes = $otherCodexes | append $codex }}
+              {{ $codexPriority3 = $codexPriority3 | append $codex }}
 
             {{ end }}
 
           {{ end }}
 
 
-          <!-- Sort both groups alphabetically -->
-          {{ $weaponCodexes = sort $weaponCodexes }}
-          {{ $otherCodexes = sort $otherCodexes }}
+          <!-- Sort each priority group alphabetically -->
+          {{ $codexPriority1 = sort $codexPriority1 }}
+          {{ $codexPriority2 = sort $codexPriority2 }}
+          {{ $codexPriority3 = sort $codexPriority3 }}
 
 
-          <!--
-            Combine the two groups:
-            Weapon Codexes first, then all other Codexes.
-          -->
-          {{ $codexTypes := $weaponCodexes }}
+          <!-- Combine Codexes in priority order -->
+          {{ $codexTypes := $codexPriority1 }}
 
-          {{ range $otherCodexes }}
+          {{ range $codexPriority2 }}
+            {{ $codexTypes = $codexTypes | append . }}
+          {{ end }}
+
+          {{ range $codexPriority3 }}
             {{ $codexTypes = $codexTypes | append . }}
           {{ end }}
 
@@ -404,6 +423,7 @@
                 {{ end }}
 
               {{ end }}
+
 
               {{ if $hasStance }}
 
@@ -462,6 +482,7 @@
 
               {{ end }}
 
+
               {{ if $hasFinisher }}
 
                 <div class="tc-codex-category">
@@ -518,6 +539,7 @@
                 {{ end }}
 
               {{ end }}
+
 
               {{ if $hasAbility }}
 
