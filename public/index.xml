@@ -10,21 +10,42 @@
 		
 		
 		
-			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Blacknail&#39;s Voidbreaker Wrestler</title>
-				<link>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</link>
+				<title>September 4th Patch TLDR</title>
+				<link>//localhost:1313/news/sep-04-patch/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/news/sep-04-patch/</guid>
+				<description>&lt;h3 id=&#34;patch-summary--september-4-2026&#34;&gt;Patch Summary — September 4, 2026&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://uooutlands.com/news/patch-mouseover-tooltips-transcribers-and-many-more-qol-updates/&#34;&gt;Patch: Mouseover Tooltips, Transcribers and Many More QoL Updates&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is primarily a quality-of-life and creature-ability update, with several useful Tamer changes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;biggest-changes&#34;&gt;Biggest Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage Shelves:&lt;/strong&gt; Added named Storage Shelf Loadouts with dedicated management, dropdown selection, and quick switching.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tooltips:&lt;/strong&gt; Most in-game &lt;strong&gt;Info&lt;/strong&gt; buttons now show their information on mouseover instead of requiring a click.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aspect Item Tomes:&lt;/strong&gt; Can now store &lt;strong&gt;Chromatic Cores and Chromatic Distillations&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Codex Loadouts:&lt;/strong&gt; Deleting a loadout now automatically selects the next one instead of jumping back to the first.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Creature DoTs:&lt;/strong&gt; Bleed, Disease, and Poison from recently killed non-tamed creatures now continue ticking properly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Provocation:&lt;/strong&gt; Maximum range is now a fixed &lt;strong&gt;40 tiles&lt;/strong&gt;, replacing the old variable-distance Tether mechanic.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Crafting:&lt;/strong&gt; Reagent-based crafting now properly contributes to Scientist achievements and Artisan Aspect XP.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tamer--creature-changes&#34;&gt;Tamer / Creature Changes&lt;/h2&gt;&#xA;&lt;p&gt;A large number of creature abilities have been converted into &lt;strong&gt;passive abilities&lt;/strong&gt;, meaning they now trigger automatically from attacks or spells rather than functioning as manually activated abilities.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Standard Gatherer</title>
+				<link>//localhost:1313/builds/crafting/standard-gatherer/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/crafting/standard-gatherer/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A straightforward gathering template that combines resource gathering with a basic mage and summoner setup. It can be built around either Lumberjacking or Mining, allowing you to collect resources while still having the tools to deal with creatures you encounter in the field.&lt;/p&gt;&#xA;&lt;p&gt;The combination of Magery, Meditation, and the Wizard&amp;rsquo;s Grimoire provides reliable spellcasting, while the Summoner&amp;rsquo;s Tome gives you summoned creatures to help handle PvM threats without turning the character into a dedicated combat build.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Mad Shepherd</title>
+				<link>//localhost:1313/builds/pvm/mad-shepherd/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
+				<guid>//localhost:1313/builds/pvm/mad-shepherd/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a general-purpose Tamer build designed for PvM and farming. It combines a strong tamed creature with melee damage and utility skills to provide a flexible and relatively inexpensive farming setup.&lt;/p&gt;&#xA;&lt;p&gt;The build is intended to be easy to get started with while still providing enough room to improve as better equipment, aspects, and chain links become available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;There are several viable aspect choices depending on how you want to play the build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Madstone Monk</title>
 				<link>//localhost:1313/builds/pvm/madstone-monk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/builds/pvm/madstone-monk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Voidbreaker Wrestler</title>
+				<link>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>

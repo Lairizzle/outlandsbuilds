@@ -10,9 +10,51 @@
 		
 		
 		
-			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Farming</title>
+				<link>//localhost:1313/tags/farming/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/farming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gatherer</title>
+				<link>//localhost:1313/tags/gatherer/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/gatherer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Lumberjacking</title>
+				<link>//localhost:1313/tags/lumberjacking/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/lumberjacking/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Patch</title>
+				<link>//localhost:1313/tags/patch/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/patch/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PvM</title>
+				<link>//localhost:1313/tags/pvm/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/pvm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Summoner</title>
+				<link>//localhost:1313/tags/summoner/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/summoner/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Anti-PK</title>
 				<link>//localhost:1313/tags/anti-pk/</link>
@@ -35,24 +77,17 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Farming</title>
-				<link>//localhost:1313/tags/farming/</link>
-				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/farming/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>PvM</title>
-				<link>//localhost:1313/tags/pvm/</link>
-				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/pvm/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>PvP</title>
 				<link>//localhost:1313/tags/pvp/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/tags/pvp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tamer</title>
+				<link>//localhost:1313/tags/tamer/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/tamer/</guid>
 				<description></description>
 			</item>
 			<item>

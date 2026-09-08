@@ -10,21 +10,35 @@
 		
 		
 		
-			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="//localhost:1313/categories/pvm/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Blacknail&#39;s Voidbreaker Wrestler</title>
-				<link>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</link>
+				<title>Standard Gatherer</title>
+				<link>//localhost:1313/builds/crafting/standard-gatherer/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/crafting/standard-gatherer/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A straightforward gathering template that combines resource gathering with a basic mage and summoner setup. It can be built around either Lumberjacking or Mining, allowing you to collect resources while still having the tools to deal with creatures you encounter in the field.&lt;/p&gt;&#xA;&lt;p&gt;The combination of Magery, Meditation, and the Wizard&amp;rsquo;s Grimoire provides reliable spellcasting, while the Summoner&amp;rsquo;s Tome gives you summoned creatures to help handle PvM threats without turning the character into a dedicated combat build.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Mad Shepherd</title>
+				<link>//localhost:1313/builds/pvm/mad-shepherd/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
+				<guid>//localhost:1313/builds/pvm/mad-shepherd/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a general-purpose Tamer build designed for PvM and farming. It combines a strong tamed creature with melee damage and utility skills to provide a flexible and relatively inexpensive farming setup.&lt;/p&gt;&#xA;&lt;p&gt;The build is intended to be easy to get started with while still providing enough room to improve as better equipment, aspects, and chain links become available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;There are several viable aspect choices depending on how you want to play the build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Madstone Monk</title>
 				<link>//localhost:1313/builds/pvm/madstone-monk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/builds/pvm/madstone-monk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Voidbreaker Wrestler</title>
+				<link>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>

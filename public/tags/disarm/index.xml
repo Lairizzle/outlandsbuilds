@@ -14,7 +14,7 @@
 		
 			<atom:link href="//localhost:1313/tags/disarm/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Blacknail&#39;s Voidbreaker Wrestler</title>
+				<title>Voidbreaker Wrestler</title>
 				<link>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</guid>
