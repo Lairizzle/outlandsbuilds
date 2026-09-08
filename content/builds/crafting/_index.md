@@ -1,6 +1,6 @@
 ---
 title: "Crafting Builds"
-description: "Browse builds for PvE, PvP, farming and everything in between."
+description: "Browse builds for crafting and gathering."
 group_type: "build_type"
 weight: 4
 ---

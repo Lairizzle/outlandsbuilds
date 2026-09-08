@@ -28,11 +28,15 @@
         Last Updated:
         {{ .Date.Format "January 2, 2006" }}
       </span>
+
       <br>
+
       {{ with .Params.author }}
+
         <span class="article-author">
           Author: {{ . }}
         </span>
+
       {{ end }}
 
     </div>
@@ -44,31 +48,123 @@
 
     <div class="build-stats">
 
+      <!-- Category -->
+      {{ with .Params.categories }}
+
+      <div>
+
+        <span>
+          Category
+        </span>
+
+        <strong>
+          {{ index . 0 }}
+        </strong>
+
+      </div>
+
+      {{ end }}
+
+
+      <!-- Build Type -->
+      {{ with .Params.build_type }}
+
+      <div>
+
+        <span>
+          Build Type
+        </span>
+
+        <strong>
+          {{ . }}
+        </strong>
+
+      </div>
+
+      {{ end }}
+
+
+      <!-- Investment -->
+      {{ with .Params.investment }}
+
+      <div>
+
+        <span>
+          Investment
+        </span>
+
+        <strong>
+          {{ . }}
+        </strong>
+
+        <small class="rating">
+
+          {{ if eq $.Params.investment_rating 1 }}
+            ◆ ◇ ◇ ◇ ◇
+          {{ else if eq $.Params.investment_rating 2 }}
+            ◆ ◆ ◇ ◇ ◇
+          {{ else if eq $.Params.investment_rating 3 }}
+            ◆ ◆ ◆ ◇ ◇
+          {{ else if eq $.Params.investment_rating 4 }}
+            ◆ ◆ ◆ ◆ ◇
+          {{ else if eq $.Params.investment_rating 5 }}
+            ◆ ◆ ◆ ◆ ◆
+          {{ end }}
+
+        </small>
+
+      </div>
+
+      {{ end }}
+
+
+      <!-- Chain Links -->
+      {{ with .Params.links }}
+
+      <div>
+
+        <span>
+          Chain Links
+        </span>
+
+        <strong>
+          {{ . }}
+        </strong>
+
+        <small class="rating">
+
+          {{ if eq $.Params.links_rating 1 }}
+            ◆ ◇ ◇ ◇ ◇
+          {{ else if eq $.Params.links_rating 2 }}
+            ◆ ◆ ◇ ◇ ◇
+          {{ else if eq $.Params.links_rating 3 }}
+            ◆ ◆ ◆ ◇ ◇
+          {{ else if eq $.Params.links_rating 4 }}
+            ◆ ◆ ◆ ◆ ◇
+          {{ else if eq $.Params.links_rating 5 }}
+            ◆ ◆ ◆ ◆ ◆
+          {{ end }}
+
+        </small>
+
+      </div>
+
+      {{ end }}
+
+
+      <!-- Difficulty -->
       {{ with .Params.difficulty }}
 
       <div>
-        <span>Difficulty</span>
-        <strong>{{ . }}</strong>
-      </div>
 
-      {{ end }}
+        <span>
+          Difficulty
+        </span>
 
+        <strong>
+          {{ . }}
+        </strong>
 
-      {{ with .Params.gold }}
-
-      <div>
-        <span>Gold potential</span>
-        <strong>{{ . }}</strong>
-      </div>
-
-      {{ end }}
-
-
-      {{ with .Params.playstyle }}
-
-      <div>
-        <span>Playstyle</span>
-        <strong>{{ . }}</strong>
       </div>
 
       {{ end }}
@@ -76,6 +172,7 @@
     </div>
 
 
+    <!-- Skills -->
     {{ with .Params.skills }}
 
     <div class="skill-list">

@@ -14,10 +14,17 @@
 		
 			<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>PvE</title>
-				<link>//localhost:1313/categories/pve/</link>
+				<title>PvM</title>
+				<link>//localhost:1313/categories/pvm/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/categories/pve/</guid>
+				<guid>//localhost:1313/categories/pvm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PvM/PvP</title>
+				<link>//localhost:1313/categories/pvm/pvp/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/categories/pvm/pvp/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -25,6 +32,13 @@
 				<link>//localhost:1313/categories/news/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/categories/news/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PvE</title>
+				<link>//localhost:1313/categories/pve/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/categories/pve/</guid>
 				<description></description>
 			</item>
 	</channel>

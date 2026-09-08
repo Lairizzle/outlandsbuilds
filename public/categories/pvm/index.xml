@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>PvM Builds on Outlands Builds</title>
-		<link>//localhost:1313/builds/pvm/</link>
-		<description>Recent content in PvM Builds on Outlands Builds</description>
+		<title>PvM on Outlands Builds</title>
+		<link>//localhost:1313/categories/pvm/</link>
+		<description>Recent content in PvM on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/builds/pvm/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/categories/pvm/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Madstone Monk</title>
 				<link>//localhost:1313/builds/pvm/madstone-monk/</link>
