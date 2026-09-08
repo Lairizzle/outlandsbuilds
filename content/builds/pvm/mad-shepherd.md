@@ -81,19 +81,7 @@ Focus on links that complement your preferred farming location and playstyle.
 
 ## Equipment
 
-The build does not require extremely expensive equipment to get started. Prioritize the following stats and modifiers:
-
-- Weapon damage
-- Strength
-- Dexterity
-- Damage modifiers
-- Attack speed
-- Hit Chance
-- Defense
-- Mana/Stamina sustain
-- Taming-related bonuses where applicable
-
-As your budget increases, replace basic equipment with higher-quality pieces that provide stronger damage and survivability.
+The build does not require extremely expensive equipment to get started. 
 
 ## Farming/Gameplay
 
