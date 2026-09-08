@@ -397,8 +397,12 @@
     ],
     "aspects": [
       {
-        "name": "Air",
-        "type": "Both"
+        "name": "Earth",
+        "type": "Armor"
+      },
+      {
+        "name": "Madness",
+        "type": "Weapon"
       }
     ],
     "chain_links": [
