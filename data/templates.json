@@ -368,22 +368,14 @@
       },
       {
         "name": "Anatomy",
-        "level": 100
+        "level": 80
       },
       {
         "name": "Healing",
         "level": 80
       },
       {
-        "name": "Magery",
-        "level": 30
-      },
-      {
         "name": "Parrying",
-        "level": 80
-      },
-      {
-        "name": "Resisting Spells",
         "level": 80
       },
       {
@@ -391,11 +383,15 @@
         "level": 100
       },
       {
-        "name": "Tracking",
-        "level": 70
+        "name": "Wrestling",
+        "level": 80
       },
       {
-        "name": "Wrestling",
+        "name": "Chivalry",
+        "level": 120
+      },
+      {
+        "name": "Focus",
         "level": 100
       }
     ],
