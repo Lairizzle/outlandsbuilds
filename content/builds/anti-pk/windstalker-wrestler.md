@@ -1,6 +1,6 @@
 ---
 title: "Windstalker Wrestler"
-description: "A flexible PvE build built around ranged damage and a reliable pet."
+description: "A mobile wrestling build that combines Air Aspect, Tracking, and strong melee damage for PvM, farming, and Anti-PK."
 date: 2026-09-07
 author: "Soren Longhorn"
 build_type: "Dexxer"
