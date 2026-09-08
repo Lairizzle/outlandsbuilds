@@ -830,5 +830,6353 @@
       }
     ],
     "skills_total": 720
+  },
+  {
+    "name": "Basic Dexxer",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Arms Lore",
+        "level": 80
+      },
+      {
+        "name": "Chivalry",
+        "level": 100
+      },
+      {
+        "name": "Focus",
+        "level": 80
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Swords",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Water",
+        "type": "Both"
+      },
+      {
+        "name": "Earth",
+        "type": "Both"
+      },
+      {
+        "name": "Fire",
+        "type": "Both"
+      },
+      {
+        "name": "Discipline",
+        "type": "Both"
+      },
+      {
+        "name": "Holy",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Barrier",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Warrior",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Flaying",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Bleed Out",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Execute",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Spinslash",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Rend",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Chop",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Immunize",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Specialist",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Without Borders",
+        "level": 0
+      }
+    ],
+    "skills_total": 780
+  },
+  {
+    "name": "Advanced Pure Dexxer",
+    "skills": [
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Arms Lore",
+        "level": 80
+      },
+      {
+        "name": "Chivalry",
+        "level": 120
+      },
+      {
+        "name": "Focus",
+        "level": 100
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Swords",
+        "level": 80
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Frost",
+        "type": "Both"
+      },
+      {
+        "name": "Lightning",
+        "type": "Both"
+      },
+      {
+        "name": "Blood",
+        "type": "Both"
+      },
+      {
+        "name": "Earth",
+        "type": "Both"
+      },
+      {
+        "name": "Fire",
+        "type": "Both"
+      },
+      {
+        "name": "Discipline",
+        "type": "Both"
+      },
+      {
+        "name": "Holy",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Slayer/Dungeon Damage",
+        "total": 0
+      },
+      {
+        "name": "Melee Special Chance/Special Damage",
+        "total": 0
+      },
+      {
+        "name": "Swing Speed",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Warrior",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Flaying",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Bleed Out",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Execute",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Spinslash",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Rend",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Chop",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Barrier",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Immunize",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Specialist",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Without Borders",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Acrid",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Bandolier",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Elixir",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Freedom",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Mixed Results",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Panacea",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Refinement",
+        "level": 0
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Volatile",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Boss Axeman",
+    "skills": [
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Arms Lore",
+        "level": 80
+      },
+      {
+        "name": "Chivalry",
+        "level": 120
+      },
+      {
+        "name": "Focus",
+        "level": 100
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Item Identification",
+        "level": 80
+      },
+      {
+        "name": "Swordsmanship",
+        "level": 80
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Madness",
+        "type": "Both"
+      },
+      {
+        "name": "Discipline",
+        "type": "Both"
+      },
+      {
+        "name": "Blood",
+        "type": "Both"
+      },
+      {
+        "name": "War",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Disease",
+        "total": 0
+      },
+      {
+        "name": "Damage to Bosses",
+        "total": 0
+      },
+      {
+        "name": "Damage to Poisoned",
+        "total": 0
+      },
+      {
+        "name": "Netherzone Damage",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Warrior",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Flaying",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Bleed Out",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Execute",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Spinslash",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Rend",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Chop",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Immunize",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Specialist",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Without Borders",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Poisoner",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Arms Lore",
+        "level": 80
+      },
+      {
+        "name": "Fencing",
+        "level": 100
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Poisoning",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 80
+      },
+      {
+        "name": "Taste Identification",
+        "level": 120
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Poison",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Poisoned",
+        "total": 0
+      },
+      {
+        "name": "Slayer/Dungeon Damage",
+        "total": 0
+      },
+      {
+        "name": "Poison Damage",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Blackguard",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Stance",
+        "ability": "Fang",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Finisher",
+        "ability": "Assassinate",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Finisher",
+        "ability": "Flurry",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Weapon Ability",
+        "ability": "Gambit",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Weapon Ability",
+        "ability": "Swiftstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Fencing",
+        "category": "Weapon Ability",
+        "ability": "Bane",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Barrier",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Immunize",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Specialist",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Without Borders",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Basic Summoner",
+    "skills": [
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Focus",
+        "level": 100
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 100
+      },
+      {
+        "name": "Necromancy",
+        "level": 100
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 100
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Void",
+        "type": "Both"
+      },
+      {
+        "name": "Death",
+        "type": "Both"
+      },
+      {
+        "name": "Eldritch",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Cyclone",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Gale",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Microburst",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Tempest",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Windshear",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Whirlwind",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Impair",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Serration",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Razors",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Precision Cuts",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dancing Blades",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Bladestorm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodfuel",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Battlecaster",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Vengeance",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodthirsty",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Ancient",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Growing Fury",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Slam",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Shatter",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Bedrock",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Earthpull",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Grounded",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Purge Impurities",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gemini",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Netherstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gathering Storm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Nexus",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Voidshift",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Supercharged",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Scorched Earth",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Wildfire",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Fanning The Flames",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Glass Cannon",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Unstable Sorcery",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Burning at Both Ends",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Bond For Life",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Stampede",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Herd Mentality",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 1",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 2",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 3",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Polluted",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Stagnant",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Reflecting Pool",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spell Siren",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Deep Water",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Purification",
+        "level": 0
+      }
+    ],
+    "skills_total": 700
+  },
+  {
+    "name": "Poison Necromancer (Noxcro)",
+    "skills": [
+      {
+        "name": "Camping",
+        "level": 60
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 80
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Poisoning",
+        "level": 120
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 120
+      },
+      {
+        "name": "Taste Identification",
+        "level": 120
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Poison",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Poisoned",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Chance",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Modifier",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Cyclone",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Gale",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Microburst",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Tempest",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Windshear",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Whirlwind",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Impair",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Serration",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Razors",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Precision Cuts",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dancing Blades",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Bladestorm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodfuel",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Battlecaster",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Vengeance",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodthirsty",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Ancient",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Growing Fury",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Slam",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Shatter",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Bedrock",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Earthpull",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Grounded",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Purge Impurities",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gemini",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Netherstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gathering Storm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Nexus",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Voidshift",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Supercharged",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Scorched Earth",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Wildfire",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Fanning The Flames",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Glass Cannon",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Unstable Sorcery",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Burning at Both Ends",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Bond For Life",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Stampede",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Herd Mentality",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 1",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 2",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 3",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Polluted",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Stagnant",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Reflecting Pool",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spell Siren",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Deep Water",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Purification",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Spelldamage Focused Summoner",
+    "skills": [
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Focus",
+        "level": 100
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 100
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 100
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Void",
+        "type": "Both"
+      },
+      {
+        "name": "Eldritch",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Diseased",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Chance",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Modifier",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Cyclone",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Gale",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Microburst",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Tempest",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Windshear",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Whirlwind",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Impair",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Serration",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Razors",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Precision Cuts",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dancing Blades",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Bladestorm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodfuel",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Battlecaster",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Vengeance",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodthirsty",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Ancient",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Growing Fury",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Slam",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Shatter",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Bedrock",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Earthpull",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Grounded",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Purge Impurities",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gemini",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Netherstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gathering Storm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Nexus",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Voidshift",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Supercharged",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Scorched Earth",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Wildfire",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Fanning The Flames",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Glass Cannon",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Unstable Sorcery",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Burning at Both Ends",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Bond For Life",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Stampede",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Herd Mentality",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 1",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 2",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 3",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Polluted",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Stagnant",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Reflecting Pool",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spell Siren",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Deep Water",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Purification",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Necro Pet Herder",
+    "skills": [
+      {
+        "name": "Discordance",
+        "level": 90
+      },
+      {
+        "name": "Herding",
+        "level": 120
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 80
+      },
+      {
+        "name": "Musicianship",
+        "level": 90
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 120
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Death",
+        "type": "Both"
+      },
+      {
+        "name": "Eldritch",
+        "type": "Both"
+      },
+      {
+        "name": "Command",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Follower Damage",
+        "total": 0
+      },
+      {
+        "name": "Effective Necromancy",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Ensemble",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Refrain",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Perfect Pitch",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Reverb",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Revolution Song",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Sing Your Own Praises",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Self Taught",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Virtuoso",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Cyclone",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Gale",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Microburst",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Tempest",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Windshear",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Whirlwind",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Impair",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Serration",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Razors",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Precision Cuts",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dancing Blades",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Bladestorm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodfuel",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Battlecaster",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Vengeance",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodthirsty",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Ancient",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Growing Fury",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Slam",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Shatter",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Bedrock",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Earthpull",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Grounded",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Purge Impurities",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gemini",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Netherstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gathering Storm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Nexus",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Voidshift",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Supercharged",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Scorched Earth",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Wildfire",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Fanning The Flames",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Glass Cannon",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Unstable Sorcery",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Burning at Both Ends",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Bond For Life",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Stampede",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Herd Mentality",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 1",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 2",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 3",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Polluted",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Stagnant",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Reflecting Pool",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spell Siren",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Deep Water",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Purification",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Basic Arcane Mage",
+    "skills": [
+      {
+        "name": "Arcane",
+        "level": 80
+      },
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Focus",
+        "level": 80
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 80
+      },
+      {
+        "name": "Necromancy",
+        "level": 100
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Wrestling",
+        "level": 80
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Blood",
+        "type": "Both"
+      },
+      {
+        "name": "Eldritch",
+        "type": "Both"
+      },
+      {
+        "name": "Void",
+        "type": "Both"
+      },
+      {
+        "name": "Arcane",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Diseased",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Chance",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Modifier",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Leech",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Shield",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Scatter",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Fracture",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Surge",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Clarity",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Catalyst",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Seeking",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Leyline",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Soulfire",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Barrier",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      }
+    ],
+    "skills_total": 700
+  },
+  {
+    "name": "Advanced Arcane Parry Mage",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 20
+      },
+      {
+        "name": "Arcane",
+        "level": 100
+      },
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Focus",
+        "level": 100
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Blood",
+        "type": "Both"
+      },
+      {
+        "name": "Eldritch",
+        "type": "Both"
+      },
+      {
+        "name": "Void",
+        "type": "Both"
+      },
+      {
+        "name": "Arcane",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Diseased",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Chance",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Modifier",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Leech",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Shield",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Scatter",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Fracture",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Surge",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Clarity",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Catalyst",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Seeking",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Leyline",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Soulfire",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 0
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Barrier",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Advanced Arcane DPS Mage",
+    "skills": [
+      {
+        "name": "Arcane",
+        "level": 90
+      },
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Focus",
+        "level": 100
+      },
+      {
+        "name": "Inscription",
+        "level": 120
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Wrestling",
+        "level": 90
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Blood",
+        "type": "Both"
+      },
+      {
+        "name": "Eldritch",
+        "type": "Both"
+      },
+      {
+        "name": "Void",
+        "type": "Both"
+      },
+      {
+        "name": "Arcane",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Diseased",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Chance",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Modifier",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Leech",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Shield",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Scatter",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Fracture",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Surge",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Clarity",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Catalyst",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Seeking",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Leyline",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Soulfire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Advanced Arcane Nox Mage",
+    "skills": [
+      {
+        "name": "Arcane",
+        "level": 90
+      },
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Poisoning",
+        "level": 100
+      },
+      {
+        "name": "Taste Identification",
+        "level": 120
+      },
+      {
+        "name": "Wrestling",
+        "level": 90
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Poison",
+        "type": "Both"
+      },
+      {
+        "name": "Arcane",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Diseased",
+        "total": 0
+      },
+      {
+        "name": "Damage to Poisoned",
+        "total": 0
+      },
+      {
+        "name": "Spell Aspect Chance",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Leech",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Shield",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Scatter",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Fracture",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Stance",
+        "ability": "Surge",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Clarity",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Finisher",
+        "ability": "Catalyst",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Seeking",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Leyline",
+        "level": 0
+      },
+      {
+        "codex": "Arcane",
+        "category": "Weapon Ability",
+        "ability": "Soulfire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Basic Peaceadin",
+    "skills": [
+      {
+        "name": "Chivalry",
+        "level": 100
+      },
+      {
+        "name": "Discordance",
+        "level": 100
+      },
+      {
+        "name": "Musicianship",
+        "level": 100
+      },
+      {
+        "name": "Peacemaking",
+        "level": 100
+      },
+      {
+        "name": "Swordsmanship",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Lyric",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Ensemble",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Refrain",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Perfect Pitch",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Reverb",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Revolution Song",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Sing Your Own Praises",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Self Taught",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Virtuoso",
+        "level": 0
+      }
+    ],
+    "skills_total": 700
+  },
+  {
+    "name": "Advanced Tri-Bard (Solo)",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 20
+      },
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Archery",
+        "level": 80
+      },
+      {
+        "name": "Discordance",
+        "level": 120
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Musicianship",
+        "level": 120
+      },
+      {
+        "name": "Peacemaking",
+        "level": 120
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Fire",
+        "type": "Both"
+      },
+      {
+        "name": "Lyric",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Barded",
+        "total": 0
+      },
+      {
+        "name": "Dungeon Slayer",
+        "total": 0
+      },
+      {
+        "name": "Effective Barding",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Arcane",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Fowling",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Incendiary",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Longshot",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Maiming",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Finisher",
+        "ability": "Ricochet",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Finisher",
+        "ability": "Pincushion",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Skirmish",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Full Draw",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Repeater",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Ensemble",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Refrain",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Perfect Pitch",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Reverb",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Revolution Song",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Sing Your Own Praises",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Self Taught",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Virtuoso",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Immunize",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Specialist",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 0
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Without Borders",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Advanced Tri-Bard (Group)",
+    "skills": [
+      {
+        "name": "Archery",
+        "level": 80
+      },
+      {
+        "name": "Chivalry",
+        "level": 120
+      },
+      {
+        "name": "Discordance",
+        "level": 120
+      },
+      {
+        "name": "Focus",
+        "level": 60
+      },
+      {
+        "name": "Musicianship",
+        "level": 120
+      },
+      {
+        "name": "Provocation",
+        "level": 120
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Lyric",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Barded",
+        "total": 0
+      },
+      {
+        "name": "Dungeon Slayer",
+        "total": 0
+      },
+      {
+        "name": "Effective Barding",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Arcane",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Fowling",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Incendiary",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Longshot",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Stance",
+        "ability": "Maiming",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Finisher",
+        "ability": "Ricochet",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Finisher",
+        "ability": "Pincushion",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Skirmish",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Full Draw",
+        "level": 0
+      },
+      {
+        "codex": "Archery",
+        "category": "Weapon Ability",
+        "ability": "Repeater",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Ensemble",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Refrain",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Perfect Pitch",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Reverb",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Revolution Song",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Sing Your Own Praises",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Self Taught",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Virtuoso",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Provo Necro",
+    "skills": [
+      {
+        "name": "Discordance",
+        "level": 110
+      },
+      {
+        "name": "Evaluating Intelligence",
+        "level": 80
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Musicianship",
+        "level": 115
+      },
+      {
+        "name": "Necromancy",
+        "level": 120
+      },
+      {
+        "name": "Provocation",
+        "level": 115
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 80
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Command",
+        "type": "Both"
+      },
+      {
+        "name": "Death",
+        "type": "Both"
+      },
+      {
+        "name": "Lyric",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Effective Barding",
+        "total": 0
+      },
+      {
+        "name": "Effective Necromancy",
+        "total": 0
+      },
+      {
+        "name": "Follower Damage",
+        "total": 0
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Ensemble",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Refrain",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Perfect Pitch",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Reverb",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Revolution Song",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Sing Your Own Praises",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Self Taught",
+        "level": 0
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Virtuoso",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Hybrid Gatherer",
+    "skills": [
+      {
+        "name": "Camping",
+        "level": 100
+      },
+      {
+        "name": "Lumberjacking",
+        "level": 120
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Mining",
+        "level": 120
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 80
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      },
+      {
+        "name": "Wrestling",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Harvest",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Cyclone",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Gale",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Microburst",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Tempest",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Windshear",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Whirlwind",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Impair",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Serration",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Razors",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Precision Cuts",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dancing Blades",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Bladestorm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodfuel",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Battlecaster",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Vengeance",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodthirsty",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Ancient",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Growing Fury",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Slam",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Shatter",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Bedrock",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Earthpull",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Grounded",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Purge Impurities",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gemini",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Netherstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gathering Storm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Nexus",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Voidshift",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Supercharged",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Scorched Earth",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Wildfire",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Fanning The Flames",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Glass Cannon",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Unstable Sorcery",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Burning at Both Ends",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Bond For Life",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Stampede",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Herd Mentality",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 1",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 2",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 3",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Polluted",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Stagnant",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Reflecting Pool",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spell Siren",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Deep Water",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Purification",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Standard Gatherer",
+    "skills": [
+      {
+        "name": "Camping",
+        "level": 80
+      },
+      {
+        "name": "Evaluating Intelligence",
+        "level": 100
+      },
+      {
+        "name": "Lumberjacking",
+        "level": 120
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 100
+      },
+      {
+        "name": "Spirit Speaking",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Harvest",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Cyclone",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Gale",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Microburst",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Tempest",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Windshear",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Air Elemental - Whirlwind",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Impair",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Serration",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Razors",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Precision Cuts",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Dancing Blades",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Blade Spirits - Bladestorm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodfuel",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Battlecaster",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Vengeance",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Bloodthirsty",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Ancient",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Daemon - Growing Fury",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Slam",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Shatter",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Bedrock",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Earthpull",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Grounded",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Earth Elemental - Purge Impurities",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gemini",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Netherstrikes",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Gathering Storm",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Nexus",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Voidshift",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Energy Vortex - Supercharged",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Scorched Earth",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Wildfire",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Fanning The Flames",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Glass Cannon",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Unstable Sorcery",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Fire Elemental - Burning at Both Ends",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Bond For Life",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Stampede",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Herd Mentality",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 1",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 2",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Summon Creature - Creature Catalog 3",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Dismissive",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spirit Pact",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Polluted",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Stagnant",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Reflecting Pool",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Spell Siren",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Deep Water",
+        "level": 0
+      },
+      {
+        "codex": "Summoner's Tome",
+        "category": "Ability",
+        "ability": "Water Elemental - Purification",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Create Food",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Arrow",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Reactive Armor",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Harm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Cure / Arch Cure",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Protection / Arch Protection",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fireball",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Bless",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Greater Heal",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Curse / Mass Curse",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mana Drain / Mana Vampire",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Fire Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Mind Blast",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Magic Reflect",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Poison Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Energy Bolt",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Explosion",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Paralyze Field",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Flamestrike",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Meteor Swarm",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Chain Lightning",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Earthquake",
+        "level": 0
+      },
+      {
+        "codex": "Wizard's Grimoire",
+        "category": "Spell",
+        "ability": "Resurrection",
+        "level": 0
+      }
+    ],
+    "skills_total": 700
+  },
+  {
+    "name": "Gatherer PK Killer",
+    "skills": [
+      {
+        "name": "Anatomy",
+        "level": 100
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Lumberjacking",
+        "level": 120
+      },
+      {
+        "name": "Magery",
+        "level": 60
+      },
+      {
+        "name": "Resisting Spells",
+        "level": 80
+      },
+      {
+        "name": "Swordsmanship",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 80
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Harvest",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Warrior",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Flaying",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Bleed Out",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Execute",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Spinslash",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Rend",
+        "level": 0
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Chop",
+        "level": 0
+      }
+    ],
+    "skills_total": 720
   }
 ]
