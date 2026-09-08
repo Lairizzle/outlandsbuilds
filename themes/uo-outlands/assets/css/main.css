@@ -957,10 +957,10 @@ nav a:hover {
 
 .build-stats strong {
   display: block;
-
   margin-top: 4px;
-
-  font-size: 14px;
+  color: var(--text-faint);
+  font-size: 10px;
+  font-weight: normal;
 }
 
 

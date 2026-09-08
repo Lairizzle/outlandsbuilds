@@ -6,13 +6,12 @@
       {{ .Params.category | default "Build" }}
     </span>
 
-    {{ with .Params.difficulty }}
-
-      <span class="card-muted">
+    <span class="card-muted">
+      Investment:
+      {{ with .Params.investment }}
         {{ . }}
-      </span>
-
-    {{ end }}
+      {{ end }}
+    </span>
 
   </div>
 
