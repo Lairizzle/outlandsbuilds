@@ -21,7 +21,44 @@
 
   {{ .Content }}
 
-  {{ if eq .Section "builds" }}
+  {{ if .Params.group_by }}
+
+    {{ $groupBy := .Params.group_by }}
+    {{ $groups := slice }}
+
+    {{ range .Pages }}
+
+      {{ $value := index .Params $groupBy }}
+
+      {{ if $value }}
+
+        {{ if not (in $groups $value) }}
+          {{ $groups = $groups | append $value }}
+        {{ end }}
+
+      {{ end }}
+
+    {{ end }}
+
+    {{ range $groups }}
+
+      <h2>{{ . }}</h2>
+
+      <div class="card-grid">
+
+        {{ $group := . }}
+
+        {{ range where $.Pages.ByWeight (printf "Params.%s" $groupBy) $group }}
+
+          {{ partial "build-card.html" . }}
+
+        {{ end }}
+
+      </div>
+
+    {{ end }}
+
+  {{ else if eq .Section "builds" }}
 
     <div class="card-grid">
 
