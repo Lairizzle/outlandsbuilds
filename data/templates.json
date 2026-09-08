@@ -355,6 +355,30 @@
         "category": "Stance",
         "ability": "Spider",
         "level": 7
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 3
       }
     ],
     "skills_total": 720
@@ -521,6 +545,30 @@
         "category": "Stance",
         "ability": "Spider",
         "level": 7
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 3
       }
     ],
     "skills_total": 720

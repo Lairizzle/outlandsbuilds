@@ -316,8 +316,12 @@
           {{ end }}
 
 
-          <!-- Separate Weapon Codexes from non-Weapon Codexes -->
-          <!-- A weapon Codex is identified by having a Stance ability -->
+          <!--
+            Separate Weapon Codexes from non-Weapon Codexes.
+
+            A Codex is considered a Weapon Codex if it contains
+            at least one ability with category "Weapon Ability".
+          -->
           {{ $weaponCodexes := slice }}
           {{ $otherCodexes := slice }}
 
@@ -328,16 +332,23 @@
 
             {{ range $template.codex_abilities }}
 
-              {{ if and (eq .codex $codex) (eq .category "Stance") }}
+              {{ if and
+                (eq .codex $codex)
+                (eq .category "Weapon Ability")
+              }}
                 {{ $isWeapon = true }}
               {{ end }}
 
             {{ end }}
 
             {{ if $isWeapon }}
+
               {{ $weaponCodexes = $weaponCodexes | append $codex }}
+
             {{ else }}
+
               {{ $otherCodexes = $otherCodexes | append $codex }}
+
             {{ end }}
 
           {{ end }}
@@ -348,7 +359,10 @@
           {{ $otherCodexes = sort $otherCodexes }}
 
 
-          <!-- Weapon Codexes first, then all other Codexes -->
+          <!--
+            Combine the two groups:
+            Weapon Codexes first, then all other Codexes.
+          -->
           {{ $codexTypes := $weaponCodexes }}
 
           {{ range $otherCodexes }}
@@ -374,12 +388,18 @@
               </a>
 
 
+              <!-- ============================== -->
               <!-- STANCE -->
+              <!-- ============================== -->
+
               {{ $hasStance := false }}
 
               {{ range $template.codex_abilities }}
 
-                {{ if and (eq .codex $codex) (eq .category "Stance") }}
+                {{ if and
+                  (eq .codex $codex)
+                  (eq .category "Stance")
+                }}
                   {{ $hasStance = true }}
                 {{ end }}
 
@@ -397,7 +417,10 @@
 
                     {{ range $template.codex_abilities }}
 
-                      {{ if and (eq .codex $codex) (eq .category "Stance") }}
+                      {{ if and
+                        (eq .codex $codex)
+                        (eq .category "Stance")
+                      }}
 
                         <li>
 
@@ -422,12 +445,18 @@
               {{ end }}
 
 
+              <!-- ============================== -->
               <!-- FINISHER -->
+              <!-- ============================== -->
+
               {{ $hasFinisher := false }}
 
               {{ range $template.codex_abilities }}
 
-                {{ if and (eq .codex $codex) (eq .category "Finisher") }}
+                {{ if and
+                  (eq .codex $codex)
+                  (eq .category "Finisher")
+                }}
                   {{ $hasFinisher = true }}
                 {{ end }}
 
@@ -445,7 +474,10 @@
 
                     {{ range $template.codex_abilities }}
 
-                      {{ if and (eq .codex $codex) (eq .category "Finisher") }}
+                      {{ if and
+                        (eq .codex $codex)
+                        (eq .category "Finisher")
+                      }}
 
                         <li>
 
@@ -470,12 +502,18 @@
               {{ end }}
 
 
+              <!-- ============================== -->
               <!-- ABILITY -->
+              <!-- ============================== -->
+
               {{ $hasAbility := false }}
 
               {{ range $template.codex_abilities }}
 
-                {{ if and (eq .codex $codex) (eq .category "Ability") }}
+                {{ if and
+                  (eq .codex $codex)
+                  (eq .category "Ability")
+                }}
                   {{ $hasAbility = true }}
                 {{ end }}
 
@@ -493,7 +531,10 @@
 
                     {{ range $template.codex_abilities }}
 
-                      {{ if and (eq .codex $codex) (eq .category "Ability") }}
+                      {{ if and
+                        (eq .codex $codex)
+                        (eq .category "Ability")
+                      }}
 
                         <li>
 
@@ -518,7 +559,10 @@
               {{ end }}
 
 
+              <!-- ============================== -->
               <!-- OTHER CATEGORIES -->
+              <!-- ============================== -->
+
               {{ $otherCategories := slice }}
 
               {{ range $template.codex_abilities }}
