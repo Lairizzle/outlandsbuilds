@@ -1,5 +1,5 @@
 ---
-title: "Tamer"
+title: "Mad Shepherd"
 description: "A tamer description."
 date: 2026-09-07
 author: "Remorhaz"
