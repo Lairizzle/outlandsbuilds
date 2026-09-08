@@ -3,7 +3,7 @@ title: "Provo Necro"
 description: "A hybrid Bard and Necromancer build that combines Provocation, Discordance, Necromancy, and Magery for powerful PvM control and damage."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Mage"
+build_type: "Bard/Mage"
 
 categories:
   - PvM

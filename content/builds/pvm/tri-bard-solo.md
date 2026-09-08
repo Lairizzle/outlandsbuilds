@@ -3,7 +3,7 @@ title: "Advanced Tri-Bard (Solo)"
 description: "A versatile solo Bard build combining Peacemaking, Discordance, Provocation, and a ranged or melee weapon for flexible PvM."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Bard"
+build_type: "Bard/Dexxer"
 
 categories:
   - PvM

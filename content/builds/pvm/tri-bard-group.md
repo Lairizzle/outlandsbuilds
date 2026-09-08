@@ -3,7 +3,7 @@ title: "Advanced Tri-Bard (Group)"
 description: "A group-focused Tri-Bard build combining Discordance, Provocation, Peacemaking, Chivalry, and Archery for strong party PvM support."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Bard"
+build_type: "Bard/Dexxer"
 
 categories:
   - PvM

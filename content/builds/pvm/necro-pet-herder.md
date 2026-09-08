@@ -3,7 +3,7 @@ title: "Necro Pet Herder"
 description: "A summoner build combining Necromancy, Herding, and Bard abilities to maximize the effectiveness of summoned creatures in PvM."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Mage"
+build_type: "Bard/Mage"
 
 categories:
   - PvM
