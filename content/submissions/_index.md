@@ -9,25 +9,35 @@ date: 2026-09-07
 Include:
 
 - **Build Name** — Clear name for the build.
-- **Description** — Short summary of its purpose.
+- **Description** — Short summary of the build and its purpose.
 - **Author** — Build creator.
-- **Category** — PvE, PvP, Farming, Anti-PK, Group, etc.
+- **Build Type** — Such as Dexxer, Tank, Caster, Archer, etc.
+- **Category** — PvM, PvP, Farming, Anti-PK, Group, etc.
 - **Tags** — Relevant skills, activities, and playstyles.
-- **Difficulty** — Easy, Medium, or Hard.
-- **Gold / Investment** — Low, Medium, or High.
-- **Playstyle** — Brief description of how the build is played.
+- **Difficulty** — Low, Medium, or High.
+- **Investment** — Very Low, Low, Moderate, High, or Very High.
+- **Chain Links** — Optional, Light, Moderate, Heavy, or Link Dependent.
+- **Featured** — Set to `true` if the build should be considered for featured placement.
 
 ## Skills
 
-List the skills and intended levels.
+List the skills used by the build.
 
-Explain any important or unusual skill choices.
+Explain any important, unusual, or optional skill choices.
 
 ## Aspects
 
-List recommended Aspects and explain any preferred choices.
+List the recommended Aspects for the build.
 
-## Codexes
+Explain the preferred choices and mention any viable alternatives.
+
+## Chain Links
+
+List recommended Chain Links and identify which links are the highest priority.
+
+Mention whether the build can function effectively without maxed Chain Links.
+
+## Codex Use
 
 List the important Codex abilities and explain how they should be used.
 
@@ -35,20 +45,15 @@ Focus on:
 
 - Stances
 - Finishers
-- Abilities
-- Weapon Abilities
+- Specials
+- Weapon abilities
+- Important ability combinations
 
-Additional Codex information is shown in the build card.
-
-## Chain Links
-
-List recommended Chain Links and identify priority links.
-
-Mention if the build can function without maxed links.
+**Additional Codex information is shown in the build card.**
 
 ## Equipment
 
-Describe equipment requirements and priorities, including:
+Describe the equipment requirements and priorities, including:
 
 - Weapons
 - Armor
@@ -70,10 +75,20 @@ Include relevant information such as:
 - Strengths and weaknesses
 - Important gameplay tips
 
+## Additional Notes
+
+Include anything else that is important to understanding or using the build.
+
+## Stats
+
+Include the intended character stats.
+
+**STR:** 100, **INT:** 25, **DEX:** 100
+
 ## Build Card
 
-To generate a build card you can use <a href="https://www.outlandsbutler.com"> Outlands Butler </a> and export your build to a csv.
+To generate a build card, use <a href="https://www.outlandsbutler.com">Outlands Butler</a> and export your build to a CSV.
 
-Please include this csv with the submission to generate the build card.
+Please include the exported CSV with the submission so the build card can be generated.
 
-{{< template-card name="Wrestler Anti-PK" >}}
+{{< template-card name="Build Name" >}}
