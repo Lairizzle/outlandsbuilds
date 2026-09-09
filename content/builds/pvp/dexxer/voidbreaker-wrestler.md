@@ -51,20 +51,20 @@ This build is effective at farming in PvM content and doubling as a PK deterrant
 
 ## Aspect Options
 
-- PvM:  Air Armor & Blood Weapon
-- PvP: Void Armor & Void Weapon
+- PvM -> Air Armor & Blood Weapon
+- PvP -> Void Armor & Void Weapon
 
 ## Link Options
 
-PvMvP:
-Melee Special Chance / Special Damage
-Damage Dealt by Player
-Melee Damage / Ignore Armor Chance
+- PvMvP:
+    - Melee Special Chance / Special Damage
+    - Damage Dealt by Player
+    - Melee Damage / Ignore Armor Chance
 
-PvP
-Damage Resistance
-Physical Damage Resistance
-Effective Parrying Skill
+- PvP
+    - Damage Resistance
+    - Physical Damage Resistance
+    - Effective Parrying Skill
 
 ## Codex Use
 
@@ -82,7 +82,7 @@ Effective Parrying Skill
 
 ## Equipment
 
-Add the gear priorities and important modifiers for the build.
+Full Plate, best ore for your budget.
 
 ## Farming/Gameplay
 
