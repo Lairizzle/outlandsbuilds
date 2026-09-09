@@ -1,50 +1,36 @@
 <a class="build-card" href="{{ .RelPermalink }}">
-
   <div class="card-top">
-
     <span class="badge">
       {{ .Params.category | default "Build" }}
     </span>
 
-    <span class="card-muted">
-      Investment:
-      {{ with .Params.investment }}
+    {{ with .Params.investment }}
+      <span class="card-muted">
+        Investment:
         {{ . }}
-      {{ end }}
-    </span>
+      </span>
+    {{ end }}
 
   </div>
-
 
   <h3>
     {{ .Title }}
   </h3>
 
-
   <p>
     {{ .Description | default .Summary | plainify | truncate 130 }}
   </p>
 
-
   {{ with .Params.skills }}
-
-  <div class="card-tags">
-
-    {{ range first 4 . }}
-
-      <span class="tag">
-        {{ . }}
-      </span>
-
-    {{ end }}
-
-  </div>
-
+    <div class="card-tags">
+      {{ range first 4 . }}
+        <span class="tag">
+          {{ . }}
+        </span>
+      {{ end }}
+    </div>
   {{ end }}
 
 
-  <span class="card-arrow">
-    →
-  </span>
-
+  <span class="card-arrow">→</span>
 </a>

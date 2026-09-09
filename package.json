@@ -1,0 +1,25 @@
+{
+  "name": "outlandsbuilds",
+  "version": "1.0.0",
+  "description": "A lightweight Hugo theme for showcasing Ultima Online Outlands builds, farming guides and news.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lairizzle/outlandsbuilds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lairizzle/outlandsbuilds/issues"
+  },
+  "homepage": "https://github.com/Lairizzle/outlandsbuilds#readme",
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "prettier-plugin-go-template": "^0.0.15"
+  }
+}

@@ -1,151 +1,107 @@
 <header class="site-header">
-
   <div class="container nav-wrap">
-
     <a class="brand" href="{{ "/" | relURL }}">
-
-      <span class="brand-mark">
-        UO
-      </span>
-
+      <span class="brand-mark">UO</span>
       <span>
         OUTLANDS
-        <span class="brand-dim">
-          / BUILDS
-        </span>
+        <span class="brand-dim">/ BUILDS</span>
       </span>
-
     </a>
 
-
     <nav id="mobile-nav">
-
+      <!-- PvM -->
       <div class="nav-dropdown">
-
-        <a href="{{ "builds/" | relURL }}" class="nav-dropdown-toggle">
-          Builds
+        <a href="{{ "builds/pvm/" | relURL }}" class="nav-dropdown-toggle">
+          PvM
           <span class="nav-arrow">▾</span>
         </a>
 
         <div class="nav-dropdown-menu">
-
-          <a href="{{ "builds/anti-pk/" | relURL }}">
-            Anti-PK
-          </a>
-
-          <a href="{{ "builds/pvm/" | relURL }}">
-            PvM
-          </a>
-
-          <a href="{{ "builds/pvp/" | relURL }}">
-            PvP
-          </a>
-
-          <a href="{{ "builds/crafting/" | relURL }}">
-            Crafting
-          </a>
-
+          <a href="{{ "builds/pvm/bard/" | relURL }}">Bard</a>
+          <a href="{{ "builds/pvm/dexxer/" | relURL }}">Dexxer</a>
+          <a href="{{ "builds/pvm/mage/" | relURL }}">Mage</a>
+          <a href="{{ "builds/pvm/ocean/" | relURL }}">Ocean</a>
+          <a href="{{ "builds/pvm/stealth/" | relURL }}">Stealth</a>
+          <a href="{{ "builds/pvm/tamer/" | relURL }}">Tamer</a>
         </div>
-
       </div>
 
-
+      <!-- PvP -->
       <div class="nav-dropdown">
+        <a href="{{ "builds/pvp/" | relURL }}" class="nav-dropdown-toggle">
+          PvP
+          <span class="nav-arrow">▾</span>
+        </a>
 
+        <div class="nav-dropdown-menu">
+          <a href="{{ "builds/pvp/arena/" | relURL }}">Arena</a>
+          <a href="{{ "builds/pvp/dexxer/" | relURL }}">Dexxer</a>
+          <a href="{{ "builds/pvp/faction/" | relURL }}">Faction</a>
+          <a href="{{ "builds/pvp/mage/" | relURL }}">Mage</a>
+          <a href="{{ "builds/pvm/ocean/" | relURL }}">Ocean</a>
+          <a href="{{ "builds/pvm/stealth/" | relURL }}">Stealth</a>
+        </div>
+      </div>
+
+      <!-- Crafter/Harvester -->
+      <div class="nav-dropdown">
+        <a href="{{ "builds/crafter-harvester/" | relURL }}" class="nav-dropdown-toggle">
+          Crafter/Harvester
+          <span class="nav-arrow">▾</span>
+        </a>
+
+        <div class="nav-dropdown-menu">
+          <a href="{{ "builds/crafter-harvester/crafting/" | relURL }}">Crafting</a>
+          <a href="{{ "builds/crafter-harvester/harvesting/" | relURL }}">Harvesting</a>
+          <a href="{{ "builds/crafter-harvester/hybrid/" | relURL }}">Hybrid</a>
+        </div>
+      </div>
+
+      <!-- Resources -->
+      <div class="nav-dropdown">
         <a href="#" class="nav-dropdown-toggle">
           Resources
           <span class="nav-arrow">▾</span>
         </a>
 
         <div class="nav-dropdown-menu">
-
-          <a
-            href="https://uooutlands.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://uooutlands.com" target="_blank" rel="noopener noreferrer">
             Outlands Website
           </a>
 
-          <a
-            href="https://wiki.uooutlands.com/Main_Page"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://wiki.uooutlands.com/Main_Page" target="_blank" rel="noopener noreferrer">
             Outlands Wiki
           </a>
 
-          <a
-            href="https://exploreoutlands.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://exploreoutlands.com" target="_blank" rel="noopener noreferrer">
             Explore Outlands
           </a>
 
-          <a
-            href="https://portal.uooutlands.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://portal.uooutlands.com" target="_blank" rel="noopener noreferrer">
             Outlands Portal
           </a>
 
-          <a
-            href="https://www.outlandsbutler.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.outlandsbutler.com" target="_blank" rel="noopener noreferrer">
             Outlands Butler
           </a>
 
-          <a
-            href="https://www.outlandsdrip.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.outlandsdrip.com" target="_blank" rel="noopener noreferrer">
             Outlands Drip
           </a>
-
         </div>
-
       </div>
 
-
-      <a href="{{ "news/" | relURL }}">
-        News
-      </a>
-
-      <a href="{{ "tags/" | relURL }}">
-        Tags
-      </a>
-
-      <a href="{{ "submissions/" | relURL }}">
-        Submissions
-      </a>
-
+      <a href="{{ "news/" | relURL }}">News</a>
+      <a href="{{ "tags/" | relURL }}">Tags</a>
+      <a href="{{ "submissions/" | relURL }}">Submissions</a>
     </nav>
 
-
-    <button
-      class="mobile-menu-toggle"
-      type="button"
-      aria-label="Open menu"
-      aria-expanded="false"
-    >
+    <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
       ☰
     </button>
 
-
-    <button
-      class="theme-toggle"
-      data-theme-toggle
-      aria-label="Switch theme"
-      type="button"
-    >
+    <button class="theme-toggle" data-theme-toggle aria-label="Switch theme" type="button">
       ☾
     </button>
-
   </div>
-
 </header>

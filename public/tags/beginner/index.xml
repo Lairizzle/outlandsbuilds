@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Beginner on Outlands Builds</title>
+		<link>//localhost:1313/tags/beginner/</link>
+		<description>Recent content in Beginner on Outlands Builds</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="//localhost:1313/tags/beginner/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Basic Dexxer</title>
+				<link>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Dexxer is a simple and reliable melee template built around Chivalry, weapon damage, and strong self-sustain.&lt;/p&gt;&#xA;&lt;p&gt;It can be adapted to several different weapon styles, making it a good starting point for players who want a traditional melee character without committing to a highly specialized setup.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Earth&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fire&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discipline&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Holy&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The best choice depends on the weapon and playstyle being used.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Basic Dexxer</title>
+				<link>//localhost:1313/builds/pvp/dexxer/basic-dexxer/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/pvp/dexxer/basic-dexxer/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Dexxer is a simple and reliable melee template built around Chivalry, weapon damage, and strong self-sustain.&lt;/p&gt;&#xA;&lt;p&gt;It can be adapted to several different weapon styles, making it a good starting point for players who want a traditional melee character without committing to a highly specialized setup.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Earth&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fire&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discipline&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Holy&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The best choice depends on the weapon and playstyle being used.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Basic Summoner</title>
+				<link>//localhost:1313/builds/pvm/mage/basic-summoner/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/pvm/mage/basic-summoner/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Summoner is a straightforward mage designed around letting summoned creatures handle the frontline while you support them with Necromancy and Magery.&lt;/p&gt;&#xA;&lt;p&gt;It is an accessible starting point for players looking to build a dedicated summoner without relying on complicated mechanics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Death&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These provide different ways to improve the offensive and defensive capabilities of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Basic Summoner</title>
+				<link>//localhost:1313/builds/pvp/mage/basic-summoner/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/builds/pvp/mage/basic-summoner/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Summoner is a straightforward mage designed around letting summoned creatures handle the frontline while you support them with Necromancy and Magery.&lt;/p&gt;&#xA;&lt;p&gt;It is an accessible starting point for players looking to build a dedicated summoner without relying on complicated mechanics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Death&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These provide different ways to improve the offensive and defensive capabilities of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
