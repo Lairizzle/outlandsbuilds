@@ -43,6 +43,14 @@
       {
         "name": "Void",
         "type": "Both"
+      },
+      {
+        "name": "Air",
+        "type": "Armor"
+      },
+      {
+        "name": "Madness",
+        "type": "Weapon"
       }
     ],
     "chain_links": [

@@ -51,7 +51,7 @@ This build is effective at farming in PvM content and doubling as a PK deterrant
 
 ## Aspect Options
 
-- PvM -> Air Armor & Blood Weapon
+- PvM -> Air Armor & Madness Weapon
 - PvP -> Void Armor & Void Weapon
 
 ## Link Options
