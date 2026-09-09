@@ -1,4 +1,4 @@
 ---
 title: "Outlands Builds"
-description: "Builds, guides, farming ideas, and news for Ultima Online Outlands."
+description: "Builds, Guides, News, Events, Tips & Tricks for Ultima Online Outlands."
 ---
