@@ -14,17 +14,10 @@
 		
 			<atom:link href="//localhost:1313/categories/pvm/pvp/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Voidbreaker Wrestler</title>
-				<link>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</link>
-				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/anti-pk/voidbreaker-wrestler/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
 				<title>Windstalker Wrestler</title>
-				<link>//localhost:1313/builds/anti-pk/windstalker-wrestler/</link>
+				<link>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/anti-pk/windstalker-wrestler/</guid>
+				<guid>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

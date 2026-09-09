@@ -1,16 +1,19 @@
 ---
-title: "Madstone Monk"
-description: "A durable Wrestling build built around a Madness weapon, Earth armor, and Chivalry for sustained PvM."
+title: "Windstalker Wrestler"
+description: "A mobile wrestling build that combines Air Aspect, Tracking, and strong melee damage for PvM, farming, and Anti-PK."
 date: 2026-09-07
 author: "Soren Longhorn"
 build_type: "Dexxer"
 
+
 categories:
-  - PvM
+  - PvM/PvP
 
 tags:
   - Dexxer
+  - Anti-PK
   - PvM
+  - PvP
   - Farming
 
 # Investment rating:
@@ -19,8 +22,8 @@ tags:
 # 3 = Moderate
 # 4 = High
 # 5 = Very High
-investment: "Low"
-investment_rating: 2
+investment: "Moderate"
+investment_rating: 3
 
 # Chain Links rating:
 # 1 = Optional
@@ -28,16 +31,16 @@ investment_rating: 2
 # 3 = Moderate
 # 4 = Heavy
 # 5 = Link Dependent
-links: "Light"
-links_rating: 2
+links: "Moderate"
+links_rating: 3
 
 difficulty: "Low"
 
 skills:
+  - Anti-PK
+  - Tracking
   - Alchemy
   - Parry
-  - Chivalry
-  - Wrestling
 
 featured: true
 ---
@@ -80,7 +83,6 @@ Anything else of note.
 ## Stats
 
 **STR:** 100, **INT:** 25, **DEX:** 100
-
-{{< template-card name="Madstone Monk" >}}
+{{< template-card name="Windstalker Wrestler" >}}
 
 
