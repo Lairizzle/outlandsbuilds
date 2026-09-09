@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Melee on Outlands Builds</title>
-		<link>//localhost:1313/tags/melee/</link>
+		<link>/tags/melee/</link>
 		<description>Recent content in Melee on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/melee/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/melee/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Basic Dexxer</title>
-				<link>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</link>
+				<link>/builds/pvm/dexxer/basic-dexxer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</guid>
+				<guid>/builds/pvm/dexxer/basic-dexxer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Dexxer is a simple and reliable melee template built around Chivalry, weapon damage, and strong self-sustain.&lt;/p&gt;&#xA;&lt;p&gt;It can be adapted to several different weapon styles, making it a good starting point for players who want a traditional melee character without committing to a highly specialized setup.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Earth&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fire&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discipline&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Holy&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The best choice depends on the weapon and playstyle being used.&lt;/p&gt;</description>
 			</item>
 	</channel>

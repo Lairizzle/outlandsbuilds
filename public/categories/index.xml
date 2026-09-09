@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Outlands Builds</title>
-		<link>//localhost:1313/categories/</link>
+		<link>/categories/</link>
 		<description>Recent content in Categories on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,26 +12,26 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>News</title>
-				<link>//localhost:1313/categories/news/</link>
+				<link>/categories/news/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/categories/news/</guid>
+				<guid>/categories/news/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>PvM</title>
-				<link>//localhost:1313/categories/pvm/</link>
+				<link>/categories/pvm/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/categories/pvm/</guid>
+				<guid>/categories/pvm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>PvM/PvP</title>
-				<link>//localhost:1313/categories/pvm/pvp/</link>
+				<link>/categories/pvm/pvp/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/categories/pvm/pvp/</guid>
+				<guid>/categories/pvm/pvp/</guid>
 				<description></description>
 			</item>
 	</channel>
