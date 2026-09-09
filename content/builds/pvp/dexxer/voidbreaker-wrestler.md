@@ -56,7 +56,7 @@ This build is effective at farming in PvM content and doubling as a PK deterrant
 
 ## Link Options
 
-- PvMvP:
+- PvM:
     - Melee Special Chance / Special Damage
     - Damage Dealt by Player
     - Melee Damage / Ignore Armor Chance
