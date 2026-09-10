@@ -635,6 +635,9 @@ nav a:hover {
   display: flex;
   flex-direction: column;
 
+  width: 100%;
+  min-width: 0;
+
   min-height: 245px;
 
   padding: 22px;
@@ -780,6 +783,7 @@ nav a:hover {
   color:
     var(--accent);
 }
+
 
 /* -------------------------------- */
 /* News                             */
@@ -959,9 +963,14 @@ nav a:hover {
 
 .build-stats strong {
   display: block;
+
   margin-top: 4px;
-  color: var(--text-faint);
+
+  color:
+    var(--text-faint);
+
   font-size: 10px;
+
   font-weight: normal;
 }
 
@@ -1150,11 +1159,19 @@ nav a:hover {
   gap: 18px;
 
   margin-block: 30px;
+
+  width: 100%;
+
+  min-width: 0;
 }
 
 
 .template-card {
   position: relative;
+
+  width: 100%;
+
+  min-width: 0;
 
   padding: 22px;
 
@@ -1184,6 +1201,8 @@ nav a:hover {
   gap: 14px;
 
   margin-bottom: 24px;
+
+  min-width: 0;
 }
 
 
@@ -1236,13 +1255,17 @@ nav a:hover {
   line-height: 1.25;
 
   letter-spacing: -0.025em;
+
+  overflow-wrap: anywhere;
 }
 
 
 .tc-meta {
   display: flex;
 
-  gap: 7px;
+  flex-wrap: wrap;
+
+  gap: 5px 7px;
 
   margin-top: 5px;
 
@@ -1259,6 +1282,8 @@ nav a:hover {
 
 .tc-section {
   margin-top: 18px;
+
+  min-width: 0;
 }
 
 
@@ -1311,6 +1336,8 @@ nav a:hover {
 
   border-top:
     1px solid var(--border);
+
+  min-width: 0;
 }
 
 
@@ -1335,6 +1362,8 @@ nav a:hover {
     );
 
   font-size: 12px;
+
+  min-width: 0;
 }
 
 
@@ -1421,6 +1450,8 @@ nav a:hover {
   flex-wrap: wrap;
 
   gap: 7px;
+
+  min-width: 0;
 }
 
 
@@ -1430,6 +1461,8 @@ nav a:hover {
   align-items: center;
 
   gap: 6px;
+
+  max-width: 100%;
 
   padding: 5px 8px;
 
@@ -1453,6 +1486,8 @@ nav a:hover {
   text-decoration: none !important;
 
   cursor: pointer;
+
+  overflow-wrap: anywhere;
 }
 
 
@@ -1475,6 +1510,8 @@ nav a:hover {
 .tc-codex-title {
   display: inline-block;
 
+  max-width: 100%;
+
   margin-bottom: 6px;
 
   color:
@@ -1487,6 +1524,8 @@ nav a:hover {
   text-transform: uppercase;
 
   letter-spacing: 0.08em;
+
+  overflow-wrap: anywhere;
 }
 
 
@@ -1513,7 +1552,19 @@ nav a:hover {
 @media (max-width: 800px) {
 
   .template-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns:
+      minmax(0, 1fr);
+
+    width: 100%;
+
+    min-width: 0;
+  }
+
+
+  .template-card {
+    width: 100%;
+
+    min-width: 0;
   }
 
 
@@ -1704,7 +1755,19 @@ nav a:hover {
 
 
   .card-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns:
+      minmax(0, 1fr);
+
+    width: 100%;
+
+    min-width: 0;
+  }
+
+
+  .build-card {
+    width: 100%;
+
+    min-width: 0;
   }
 
 
@@ -1748,6 +1811,7 @@ nav a:hover {
   }
 
 }
+
 
 /* -------------------------------- */
 /* Image Hero                       */

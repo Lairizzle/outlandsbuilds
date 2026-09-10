@@ -55,16 +55,16 @@
   </div>
 
 
-  <div class="card-grid">
+  <div class="card-grid" id="featured-builds">
 
     {{ $builds := where .Site.RegularPages "Section" "builds" }}
     {{ $featured := where $builds ".Params.featured" true }}
 
-    {{/* Randomly select up to 3 featured builds */}}
+    {{ range $featured }}
 
-    {{ range first 3 (shuffle $featured) }}
-
-      {{ partial "build-card.html" . }}
+      <div class="featured-build" style="display: none;">
+        {{ partial "build-card.html" . }}
+      </div>
 
     {{ end }}
 
@@ -104,5 +104,39 @@
   </div>
 
 </section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const container = document.getElementById("featured-builds");
+
+  if (!container) {
+    return;
+  }
+
+  const builds = Array.from(
+    container.querySelectorAll(".featured-build")
+  );
+
+  // Fisher-Yates shuffle
+  for (let i = builds.length - 1; i > 0; i--) {
+
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [builds[i], builds[j]] = [builds[j], builds[i]];
+
+  }
+
+  // Display up to 3 random featured builds
+  builds.slice(0, 3).forEach(build => {
+
+    build.style.display = "";
+
+  });
+
+});
+</script>
+
 
 {{ end }}
