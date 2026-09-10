@@ -13,6 +13,7 @@ tags:
 ### Patch Summary — September 4, 2026
 
 [Patch: Mouseover Tooltips, Transcribers and Many More QoL Updates](https://uooutlands.com/news/patch-mouseover-tooltips-transcribers-and-many-more-qol-updates/)
+[Full Patch Notes](https://forums.uooutlands.com/index.php?threads/patch-notes-for-september-4-2026.6336/)
 
 This is primarily a quality-of-life and creature-ability update, with several useful Tamer changes.
 
