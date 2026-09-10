@@ -41,7 +41,7 @@ skills:
   - Magery
   - Summoning
 
-featured: true
+featured: false
 ---
 
 ## Overview

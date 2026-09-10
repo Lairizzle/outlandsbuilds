@@ -58,16 +58,13 @@
   <div class="card-grid">
 
     {{ $builds := where .Site.RegularPages "Section" "builds" }}
-
     {{ $featured := where $builds ".Params.featured" true }}
 
-    {{ range first 3 $featured }}
-      {{ partial "build-card.html" . }}
-    {{ else }}
+    {{/* Randomly select up to 3 featured builds */}}
 
-      {{ range first 3 $builds }}
-        {{ partial "build-card.html" . }}
-      {{ end }}
+    {{ range first 3 (shuffle $featured) }}
+
+      {{ partial "build-card.html" . }}
 
     {{ end }}
 

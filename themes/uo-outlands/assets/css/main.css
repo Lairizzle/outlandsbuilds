@@ -632,7 +632,8 @@ nav a:hover {
 .build-card {
   position: relative;
 
-  display: block;
+  display: flex;
+  flex-direction: column;
 
   min-height: 245px;
 
@@ -745,7 +746,9 @@ nav a:hover {
 
   flex-wrap: wrap;
 
-  margin-top: 18px;
+  margin-top: auto;
+
+  padding-top: 18px;
 
   padding-right: 20px;
 }
@@ -777,7 +780,6 @@ nav a:hover {
   color:
     var(--accent);
 }
-
 
 /* -------------------------------- */
 /* News                             */

@@ -8,9 +8,6 @@
     <loc>//localhost:1313/builds/pvm/dexxer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/harvesting/</loc>
-    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/builds/pvm/mage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,8 +21,6 @@
   </url><url>
     <loc>//localhost:1313/builds/pvp/faction/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/hybrid/</loc>
-  </url><url>
     <loc>//localhost:1313/builds/pvm/ocean/</loc>
   </url><url>
     <loc>//localhost:1313/builds/pvp/ocean/</loc>
@@ -36,8 +31,6 @@
     <loc>//localhost:1313/builds/pvm/stealth/</loc>
   </url><url>
     <loc>//localhost:1313/builds/pvp/stealth/</loc>
-  </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/crafting/</loc>
   </url><url>
     <loc>//localhost:1313/builds/pvm/bard/tri-bard-solo/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
@@ -94,6 +87,9 @@
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/gatherer/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/builds/crafter-harvester/harvesting/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/healing/</loc>
@@ -197,5 +193,9 @@
   </url><url>
     <loc>//localhost:1313/news/welcome/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/builds/crafter-harvester/crafting/</loc>
+  </url><url>
+    <loc>//localhost:1313/builds/crafter-harvester/hybrid/</loc>
   </url>
 </urlset>

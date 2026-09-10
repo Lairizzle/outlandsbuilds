@@ -40,7 +40,7 @@ skills:
   - Mace
   - Herding
 
-featured: true
+featured: false
 ---
 
 ## Overview
