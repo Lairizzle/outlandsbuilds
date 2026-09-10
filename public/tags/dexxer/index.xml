@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Dexxer on Outlands Builds</title>
-		<link>/tags/dexxer/</link>
+		<link>//localhost:1313/tags/dexxer/</link>
 		<description>Recent content in Dexxer on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,47 +12,47 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/dexxer/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/dexxer/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Basic Dexxer</title>
-				<link>/builds/pvm/dexxer/basic-dexxer/</link>
+				<link>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/dexxer/basic-dexxer/</guid>
+				<guid>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Dexxer is a simple and reliable melee template built around Chivalry, weapon damage, and strong self-sustain.&lt;/p&gt;&#xA;&lt;p&gt;It can be adapted to several different weapon styles, making it a good starting point for players who want a traditional melee character without committing to a highly specialized setup.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Earth&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fire&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discipline&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Holy&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The best choice depends on the weapon and playstyle being used.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Peaceadin</title>
-				<link>/builds/pvm/bard/bard-peaceadin/</link>
+				<link>//localhost:1313/builds/pvm/bard/bard-peaceadin/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/bard/bard-peaceadin/</guid>
+				<guid>//localhost:1313/builds/pvm/bard/bard-peaceadin/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Peaceadin is a simple and accessible Bard/Dexxer build that combines Peacemaking and Discordance with Chivalry and a traditional melee weapon.&lt;/p&gt;&#xA;&lt;p&gt;It is designed to provide strong PvM utility while still being capable of dealing consistent melee damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lyric&lt;/strong&gt; is the recommended Aspect for this build.&lt;/p&gt;&#xA;&lt;p&gt;Lyric supports the Bard-focused portion of the template and complements the build&amp;rsquo;s Peacemaking and Discordance abilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Mad Shepherd</title>
-				<link>/builds/pvm/tamer/mad-shepherd/</link>
+				<link>//localhost:1313/builds/pvm/tamer/mad-shepherd/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/tamer/mad-shepherd/</guid>
+				<guid>//localhost:1313/builds/pvm/tamer/mad-shepherd/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a general-purpose Tamer build designed for PvM and farming. It combines a strong tamed creature with melee damage and utility skills to provide a flexible and relatively inexpensive farming setup.&lt;/p&gt;&#xA;&lt;p&gt;The build is intended to be easy to get started with while still providing enough room to improve as better equipment, aspects, and chain links become available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;There are several viable aspect choices depending on how you want to play the build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Madstone Monk</title>
-				<link>/builds/pvm/dexxer/madstone-monk/</link>
+				<link>//localhost:1313/builds/pvm/dexxer/madstone-monk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/dexxer/madstone-monk/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
+				<guid>//localhost:1313/builds/pvm/dexxer/madstone-monk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is an extremely tanky wrestler that is primarily used to farm PvM. You will get quite a bit of survivability from intial PK attacks and may even be able to take down some foes. If you choose to equip Madness on your weapon you will also get to enjoy some big procs and great damage.&lt;/p&gt;&#xA;&lt;p&gt;In group content you will be able to tank a majority of boss attacks and damage with no problem by around tier 12.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Voidbreaker Wrestler</title>
-				<link>/builds/pvp/dexxer/voidbreaker-wrestler/</link>
+				<link>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/dexxer/voidbreaker-wrestler/</guid>
+				<guid>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is effective at farming in PvM content and doubling as a PK deterrant.  Protect your party while still dishing out PvM damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PvM -&amp;gt; Air Armor &amp;amp; Madness Weapon&lt;/li&gt;&#xA;&lt;li&gt;PvP -&amp;gt; Void Armor &amp;amp; Void Weapon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Melee Special Chance / Special Damage&lt;/li&gt;&#xA;&lt;li&gt;Damage Dealt by Player&lt;/li&gt;&#xA;&lt;li&gt;Melee Damage / Ignore Armor Chance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage Resistance&lt;/li&gt;&#xA;&lt;li&gt;Physical Damage Resistance&lt;/li&gt;&#xA;&lt;li&gt;Effective Parrying Skill&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Windstalker Monk</title>
-				<link>/builds/pvp/dexxer/windstalker-wrestler/</link>
+				<link>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/dexxer/windstalker-wrestler/</guid>
+				<guid>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Windstalker Monk is a versatile build that has a ton of utility. With tracking and enough magery to cast things like teleport, telekensis and walls you can stick your foes with explosive pots&#xA;and move quickly while you track your enemies down.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weapon: Madness&lt;/li&gt;&#xA;&lt;li&gt;Armor: Air&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weapon: Air&lt;/li&gt;&#xA;&lt;li&gt;Armor: Air&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Melee Special Chance / Special Damage&lt;/li&gt;&#xA;&lt;li&gt;Damage Dealt by Player&lt;/li&gt;&#xA;&lt;li&gt;Melee Damage / Ignore Armor Chance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -3,7 +3,7 @@ title: "Mad Shepherd"
 description: "A tamer description."
 date: 2026-09-07
 author: "Remorhaz"
-build_type: "Tamer/Dexxer"
+build_type: "Advanced"
 
 categories:
   - PvM

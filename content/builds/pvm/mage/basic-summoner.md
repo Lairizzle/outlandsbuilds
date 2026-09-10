@@ -3,7 +3,7 @@ title: "Basic Summoner"
 description: "A beginner-friendly summoner build that uses Necromancy and Magery to let summoned creatures tank while you deal damage from range."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Summoner/Mage"
+build_type: "Beginner"
 
 categories:
   - PvM

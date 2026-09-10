@@ -3,7 +3,7 @@ title: "Madstone Monk"
 description: "A durable Wrestling build built around a Madness weapon, Earth armor, and Chivalry for sustained PvM."
 date: 2026-09-07
 author: "Soren Longhorn"
-build_type: "Dexxer"
+build_type: "Intermediate"
 
 categories:
   - PvM

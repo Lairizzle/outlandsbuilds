@@ -3,7 +3,7 @@ title: "Voidbreaker Wrestler"
 description: "A PvM brawler with enough Magery and utility to fight back against PKs."
 date: 2026-09-07
 author: "Blacknail"
-build_type: "Dexxer"
+build_type: "Advanced"
 
 categories:
   - PvM/PvP

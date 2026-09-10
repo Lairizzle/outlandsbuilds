@@ -3,7 +3,7 @@ title: "Basic Arcane Mage"
 description: "A beginner-friendly Arcane mage combining Necromancy buffs, Magery, and defensive skills for mobile PvM spellcasting."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Mage"
+build_type: "Beginner"
 
 categories:
   - PvM

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Outlands Builds</title>
-		<link>/</link>
+		<link>//localhost:1313/</link>
 		<description>Recent content on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,103 +12,103 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Advanced Tri-Bard (Solo)</title>
-				<link>/builds/pvm/bard/tri-bard-solo/</link>
+				<link>//localhost:1313/builds/pvm/bard/tri-bard-solo/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/bard/tri-bard-solo/</guid>
+				<guid>//localhost:1313/builds/pvm/bard/tri-bard-solo/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Advanced Tri-Bard (Solo) is a flexible solo PvM Bard that combines all three major Bard disciplines with a weapon skill and additional utility skills.&lt;/p&gt;&#xA;&lt;p&gt;The build is designed to control encounters through Peacemaking and Discordance while using Provocation to manipulate enemies and a weapon skill to provide consistent damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lyric&lt;/strong&gt; is the primary Aspect for this build.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fire&lt;/strong&gt; is a strong secondary option for increasing offensive capability.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Arcane Mage</title>
-				<link>/builds/pvm/mage/basic-arcane-mage/</link>
+				<link>//localhost:1313/builds/pvm/mage/basic-arcane-mage/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/mage/basic-arcane-mage/</guid>
+				<guid>//localhost:1313/builds/pvm/mage/basic-arcane-mage/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Arcane Mage is a flexible spellcaster built around Arcane abilities and Necromancy buffs.&lt;/p&gt;&#xA;&lt;p&gt;The build uses mobility and positioning to stay alive while dealing strong spell damage. Wrestling and Parrying provide additional defensive options.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blood&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arcane&lt;/strong&gt; Staff&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Arcane equipment provides the primary offensive focus of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Chain Links include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage to Diseased&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Chance&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Modifier&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These improve the build&amp;rsquo;s spell damage and Aspect performance.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Arcane Mage</title>
-				<link>/builds/pvp/mage/basic-arcane-mage/</link>
+				<link>//localhost:1313/builds/pvp/mage/basic-arcane-mage/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/mage/basic-arcane-mage/</guid>
+				<guid>//localhost:1313/builds/pvp/mage/basic-arcane-mage/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Arcane Mage is a flexible spellcaster built around Arcane abilities and Necromancy buffs.&lt;/p&gt;&#xA;&lt;p&gt;The build uses mobility and positioning to stay alive while dealing strong spell damage. Wrestling and Parrying provide additional defensive options.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blood&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arcane&lt;/strong&gt; Staff&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Arcane equipment provides the primary offensive focus of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Chain Links include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage to Diseased&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Chance&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Modifier&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These improve the build&amp;rsquo;s spell damage and Aspect performance.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Dexxer</title>
-				<link>/builds/pvm/dexxer/basic-dexxer/</link>
+				<link>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/dexxer/basic-dexxer/</guid>
+				<guid>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Dexxer is a simple and reliable melee template built around Chivalry, weapon damage, and strong self-sustain.&lt;/p&gt;&#xA;&lt;p&gt;It can be adapted to several different weapon styles, making it a good starting point for players who want a traditional melee character without committing to a highly specialized setup.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Earth&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fire&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discipline&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Holy&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The best choice depends on the weapon and playstyle being used.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Peaceadin</title>
-				<link>/builds/pvm/bard/bard-peaceadin/</link>
+				<link>//localhost:1313/builds/pvm/bard/bard-peaceadin/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/bard/bard-peaceadin/</guid>
+				<guid>//localhost:1313/builds/pvm/bard/bard-peaceadin/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Peaceadin is a simple and accessible Bard/Dexxer build that combines Peacemaking and Discordance with Chivalry and a traditional melee weapon.&lt;/p&gt;&#xA;&lt;p&gt;It is designed to provide strong PvM utility while still being capable of dealing consistent melee damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lyric&lt;/strong&gt; is the recommended Aspect for this build.&lt;/p&gt;&#xA;&lt;p&gt;Lyric supports the Bard-focused portion of the template and complements the build&amp;rsquo;s Peacemaking and Discordance abilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Summoner</title>
-				<link>/builds/pvm/mage/basic-summoner/</link>
+				<link>//localhost:1313/builds/pvm/mage/basic-summoner/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/mage/basic-summoner/</guid>
+				<guid>//localhost:1313/builds/pvm/mage/basic-summoner/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Summoner is a straightforward mage designed around letting summoned creatures handle the frontline while you support them with Necromancy and Magery.&lt;/p&gt;&#xA;&lt;p&gt;It is an accessible starting point for players looking to build a dedicated summoner without relying on complicated mechanics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Death&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These provide different ways to improve the offensive and defensive capabilities of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Summoner</title>
-				<link>/builds/pvp/mage/basic-summoner/</link>
+				<link>//localhost:1313/builds/pvp/mage/basic-summoner/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/mage/basic-summoner/</guid>
+				<guid>//localhost:1313/builds/pvp/mage/basic-summoner/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Summoner is a straightforward mage designed around letting summoned creatures handle the frontline while you support them with Necromancy and Magery.&lt;/p&gt;&#xA;&lt;p&gt;It is an accessible starting point for players looking to build a dedicated summoner without relying on complicated mechanics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Death&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These provide different ways to improve the offensive and defensive capabilities of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>September 4th Patch TLDR</title>
-				<link>/news/sep-04-patch/</link>
+				<link>//localhost:1313/news/sep-04-patch/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/news/sep-04-patch/</guid>
-				<description>&lt;h3 id=&#34;patch-summary--september-4-2026&#34;&gt;Patch Summary — September 4, 2026&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://uooutlands.com/news/patch-mouseover-tooltips-transcribers-and-many-more-qol-updates/&#34;&gt;Patch: Mouseover Tooltips, Transcribers and Many More QoL Updates&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is primarily a quality-of-life and creature-ability update, with several useful Tamer changes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;biggest-changes&#34;&gt;Biggest Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage Shelves:&lt;/strong&gt; Added named Storage Shelf Loadouts with dedicated management, dropdown selection, and quick switching.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tooltips:&lt;/strong&gt; Most in-game &lt;strong&gt;Info&lt;/strong&gt; buttons now show their information on mouseover instead of requiring a click.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aspect Item Tomes:&lt;/strong&gt; Can now store &lt;strong&gt;Chromatic Cores and Chromatic Distillations&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Codex Loadouts:&lt;/strong&gt; Deleting a loadout now automatically selects the next one instead of jumping back to the first.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Creature DoTs:&lt;/strong&gt; Bleed, Disease, and Poison from recently killed non-tamed creatures now continue ticking properly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Provocation:&lt;/strong&gt; Maximum range is now a fixed &lt;strong&gt;40 tiles&lt;/strong&gt;, replacing the old variable-distance Tether mechanic.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Crafting:&lt;/strong&gt; Reagent-based crafting now properly contributes to Scientist achievements and Artisan Aspect XP.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tamer--creature-changes&#34;&gt;Tamer / Creature Changes&lt;/h2&gt;&#xA;&lt;p&gt;A large number of creature abilities have been converted into &lt;strong&gt;passive abilities&lt;/strong&gt;, meaning they now trigger automatically from attacks or spells rather than functioning as manually activated abilities.&lt;/p&gt;</description>
+				<guid>//localhost:1313/news/sep-04-patch/</guid>
+				<description>&lt;h3 id=&#34;patch-summary--september-4-2026&#34;&gt;Patch Summary — September 4, 2026&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://uooutlands.com/news/patch-mouseover-tooltips-transcribers-and-many-more-qol-updates/&#34;&gt;Patch: Mouseover Tooltips, Transcribers and Many More QoL Updates&lt;/a&gt;&#xA;&lt;a href=&#34;https://forums.uooutlands.com/index.php?threads/patch-notes-for-september-4-2026.6336/&#34;&gt;Full Patch Notes&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is primarily a quality-of-life and creature-ability update, with several useful Tamer changes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;biggest-changes&#34;&gt;Biggest Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage Shelves:&lt;/strong&gt; Added named Storage Shelf Loadouts with dedicated management, dropdown selection, and quick switching.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tooltips:&lt;/strong&gt; Most in-game &lt;strong&gt;Info&lt;/strong&gt; buttons now show their information on mouseover instead of requiring a click.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aspect Item Tomes:&lt;/strong&gt; Can now store &lt;strong&gt;Chromatic Cores and Chromatic Distillations&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Codex Loadouts:&lt;/strong&gt; Deleting a loadout now automatically selects the next one instead of jumping back to the first.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Creature DoTs:&lt;/strong&gt; Bleed, Disease, and Poison from recently killed non-tamed creatures now continue ticking properly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Provocation:&lt;/strong&gt; Maximum range is now a fixed &lt;strong&gt;40 tiles&lt;/strong&gt;, replacing the old variable-distance Tether mechanic.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Crafting:&lt;/strong&gt; Reagent-based crafting now properly contributes to Scientist achievements and Artisan Aspect XP.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tamer--creature-changes&#34;&gt;Tamer / Creature Changes&lt;/h2&gt;&#xA;&lt;p&gt;A large number of creature abilities have been converted into &lt;strong&gt;passive abilities&lt;/strong&gt;, meaning they now trigger automatically from attacks or spells rather than functioning as manually activated abilities.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Standard Gatherer</title>
-				<link>/builds/crafter-harvester/harvesting/standard-gatherer/</link>
+				<link>//localhost:1313/builds/crafter-harvester/harvesting/standard-gatherer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/crafter-harvester/harvesting/standard-gatherer/</guid>
+				<guid>//localhost:1313/builds/crafter-harvester/harvesting/standard-gatherer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A straightforward gathering template that combines resource gathering with a basic mage and summoner setup. It can be built around either Lumberjacking or Mining, allowing you to collect resources while still having the tools to deal with creatures you encounter in the field.&lt;/p&gt;&#xA;&lt;p&gt;The combination of Magery, Meditation, and the Wizard&amp;rsquo;s Grimoire provides reliable spellcasting, while the Summoner&amp;rsquo;s Tome gives you summoned creatures to help handle PvM threats without turning the character into a dedicated combat build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Mad Shepherd</title>
-				<link>/builds/pvm/tamer/mad-shepherd/</link>
+				<link>//localhost:1313/builds/pvm/tamer/mad-shepherd/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/tamer/mad-shepherd/</guid>
+				<guid>//localhost:1313/builds/pvm/tamer/mad-shepherd/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a general-purpose Tamer build designed for PvM and farming. It combines a strong tamed creature with melee damage and utility skills to provide a flexible and relatively inexpensive farming setup.&lt;/p&gt;&#xA;&lt;p&gt;The build is intended to be easy to get started with while still providing enough room to improve as better equipment, aspects, and chain links become available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;There are several viable aspect choices depending on how you want to play the build.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Madstone Monk</title>
-				<link>/builds/pvm/dexxer/madstone-monk/</link>
+				<link>//localhost:1313/builds/pvm/dexxer/madstone-monk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/dexxer/madstone-monk/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This can be used to farm PvM.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Different aspect options that are available&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Alternatives to consider&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Parry&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You will sit in Testudo most of the time and run Last Stand as a finisher.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Additional Codex info is in the build card&lt;/strong&gt;&lt;/p&gt;</description>
+				<guid>//localhost:1313/builds/pvm/dexxer/madstone-monk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is an extremely tanky wrestler that is primarily used to farm PvM. You will get quite a bit of survivability from intial PK attacks and may even be able to take down some foes. If you choose to equip Madness on your weapon you will also get to enjoy some big procs and great damage.&lt;/p&gt;&#xA;&lt;p&gt;In group content you will be able to tank a majority of boss attacks and damage with no problem by around tier 12.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Voidbreaker Wrestler</title>
-				<link>/builds/pvp/dexxer/voidbreaker-wrestler/</link>
+				<link>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/dexxer/voidbreaker-wrestler/</guid>
+				<guid>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is effective at farming in PvM content and doubling as a PK deterrant.  Protect your party while still dishing out PvM damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PvM -&amp;gt; Air Armor &amp;amp; Madness Weapon&lt;/li&gt;&#xA;&lt;li&gt;PvP -&amp;gt; Void Armor &amp;amp; Void Weapon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Melee Special Chance / Special Damage&lt;/li&gt;&#xA;&lt;li&gt;Damage Dealt by Player&lt;/li&gt;&#xA;&lt;li&gt;Melee Damage / Ignore Armor Chance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage Resistance&lt;/li&gt;&#xA;&lt;li&gt;Physical Damage Resistance&lt;/li&gt;&#xA;&lt;li&gt;Effective Parrying Skill&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Windstalker Monk</title>
-				<link>/builds/pvp/dexxer/windstalker-wrestler/</link>
+				<link>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/dexxer/windstalker-wrestler/</guid>
+				<guid>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Windstalker Monk is a versatile build that has a ton of utility. With tracking and enough magery to cast things like teleport, telekensis and walls you can stick your foes with explosive pots&#xA;and move quickly while you track your enemies down.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weapon: Madness&lt;/li&gt;&#xA;&lt;li&gt;Armor: Air&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weapon: Air&lt;/li&gt;&#xA;&lt;li&gt;Armor: Air&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Melee Special Chance / Special Damage&lt;/li&gt;&#xA;&lt;li&gt;Damage Dealt by Player&lt;/li&gt;&#xA;&lt;li&gt;Melee Damage / Ignore Armor Chance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Welcome to Outlands Builds</title>
-				<link>/news/welcome/</link>
+				<link>//localhost:1313/news/welcome/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/news/welcome/</guid>
+				<guid>//localhost:1313/news/welcome/</guid>
 				<description>&lt;p&gt;Welcome&lt;/p&gt;&#xA;&lt;p&gt;A place for everything Ultima Online Outlands.&lt;/p&gt;&#xA;&lt;p&gt;Find news, builds, guides, tips, tricks, and useful resources, along with content covering content creation and community events happening across Outlands.&lt;/p&gt;&#xA;&lt;p&gt;The goal is to keep useful information, ideas, and community content in one place for players and creators.&lt;/p&gt;&#xA;&lt;p&gt;More content will be added as the site grows.&lt;/p&gt;</description>
 			</item>
 	</channel>

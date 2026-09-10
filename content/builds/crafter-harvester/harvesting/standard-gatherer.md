@@ -3,7 +3,7 @@ title: "Standard Gatherer"
 description: "A versatile gathering build that combines Lumberjacking, Magery, and summoning to harvest resources while handling the creatures encountered in the field."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Gatherer"
+build_type: "Beginner"
 
 categories:
   - PvM

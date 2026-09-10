@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,9 +17,9 @@
     property="og:description"
     content="Requirements and guidelines for submitting a build."
   >
-  <meta property="og:url" content="/submissions/">
+  <meta property="og:url" content="//localhost:1313/submissions/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="/images/social-preview.jpg">
+  <meta property="og:image" content="//localhost:1313/images/social-preview.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Build Submission Requirements">
@@ -27,7 +27,7 @@
     name="twitter:description"
     content="Requirements and guidelines for submitting a build."
   >
-  <meta name="twitter:image" content="/images/social-preview.jpg">
+  <meta name="twitter:image" content="//localhost:1313/images/social-preview.jpg">
 
   <title>
     
@@ -184,30 +184,88 @@
 <section class="section container">
 
   <h2 id="build-information">Build Information</h2>
-<p>Include:</p>
+<p>Your submission should begin with the standard build information:</p>
 <ul>
-<li><strong>Build Name</strong> — Clear name for the build.</li>
-<li><strong>Description</strong> — Short summary of the build and its purpose.</li>
-<li><strong>Author</strong> — Build creator.</li>
+<li><strong>Title</strong> — The name of the build.</li>
+<li><strong>Description</strong> — A short description explaining the build&rsquo;s purpose and overall playstyle.</li>
+<li><strong>Date</strong> — The date the build was submitted.</li>
+<li><strong>Author</strong> — The creator of the build.</li>
 <li><strong>Build Type</strong> — Such as Dexxer, Tank, Caster, Archer, etc.</li>
-<li><strong>Category</strong> — PvM, PvP, Farming, Anti-PK, Group, etc.</li>
+<li><strong>Categories</strong> — One or more categories such as PvM, PvP, Farming, Anti-PK, or Group.</li>
 <li><strong>Tags</strong> — Relevant skills, activities, and playstyles.</li>
-<li><strong>Difficulty</strong> — Low, Medium, or High.</li>
-<li><strong>Investment</strong> — Very Low, Low, Moderate, High, or Very High.</li>
-<li><strong>Chain Links</strong> — Optional, Light, Moderate, Heavy, or Link Dependent.</li>
 <li><strong>Featured</strong> — Set to <code>true</code> if the build should be considered for featured placement.</li>
 </ul>
-<h2 id="skills">Skills</h2>
+<h3 id="ratings">Ratings</h3>
+<p>Include the following ratings:</p>
+<ul>
+<li><strong>Investment</strong> — Very Low, Low, Moderate, High, or Very High.</li>
+<li><strong>Chain Links</strong> — Optional, Light, Moderate, Heavy, or Link Dependent.</li>
+<li><strong>Difficulty</strong> — Low, Medium, or High.</li>
+</ul>
+<p>For Investment and Chain Links, also provide the corresponding numeric rating.</p>
+<p><strong>Investment Rating:</strong></p>
+<ul>
+<li>1 = Very Low</li>
+<li>2 = Low</li>
+<li>3 = Moderate</li>
+<li>4 = High</li>
+<li>5 = Very High</li>
+</ul>
+<p><strong>Chain Links Rating:</strong></p>
+<ul>
+<li>1 = Optional</li>
+<li>2 = Light</li>
+<li>3 = Moderate</li>
+<li>4 = Heavy</li>
+<li>5 = Link Dependent</li>
+</ul>
+<h3 id="skills">Skills</h3>
 <p>List the skills used by the build.</p>
-<p>Explain any important, unusual, or optional skill choices.</p>
-<h2 id="aspects">Aspects</h2>
+<p>Only include skills that are actually part of the build. Explain any important, unusual, or optional skill choices in the build&rsquo;s <strong>Overview</strong> or relevant gameplay sections.</p>
+<h2 id="overview">Overview</h2>
+<p>Explain what the build does and what makes it effective.</p>
+<p>Include:</p>
+<ul>
+<li>The primary purpose of the build.</li>
+<li>Its general playstyle.</li>
+<li>Its major strengths.</li>
+<li>Important weaknesses or limitations.</li>
+<li>Any key mechanics the build is designed around.</li>
+<li>How the build performs in solo or group content, where applicable.</li>
+</ul>
+<h2 id="aspect-options">Aspect Options</h2>
 <p>List the recommended Aspects for the build.</p>
-<p>Explain the preferred choices and mention any viable alternatives.</p>
-<h2 id="chain-links">Chain Links</h2>
-<p>List recommended Chain Links and identify which links are the highest priority.</p>
-<p>Mention whether the build can function effectively without maxed Chain Links.</p>
+<p>For each Aspect, explain:</p>
+<ul>
+<li>The preferred Aspect.</li>
+<li>The preferred weapon or armor combination.</li>
+<li>Any viable alternatives.</li>
+<li>When or why an alternative may be useful.</li>
+</ul>
+<p>For example:</p>
+<ul>
+<li>PvM → Earth Armor &amp; Earth Weapon</li>
+<li>PvM → Madness Weapon</li>
+</ul>
+<h2 id="link-options">Link Options</h2>
+<p>List the recommended Chain Links and explain their priority.</p>
+<p>Identify:</p>
+<ul>
+<li>The most important links.</li>
+<li>Secondary or optional links.</li>
+<li>Whether the build performs effectively without maxed Chain Links.</li>
+<li>Any links that specifically improve the build&rsquo;s core mechanics.</li>
+</ul>
+<p>Group links by use case where appropriate, such as:</p>
+<ul>
+<li>PvM</li>
+<li>PvP</li>
+<li>Farming</li>
+<li>Group</li>
+</ul>
 <h2 id="codex-use">Codex Use</h2>
 <p>List the important Codex abilities and explain how they should be used.</p>
+<p>Organize this section by skill or Codex.</p>
 <p>Focus on:</p>
 <ul>
 <li>Stances</li>
@@ -215,37 +273,54 @@
 <li>Specials</li>
 <li>Weapon abilities</li>
 <li>Important ability combinations</li>
+<li>Situational abilities</li>
 </ul>
+<p>Explain the typical abilities the player should use, as well as when they should switch to alternatives.</p>
 <p><strong>Additional Codex information is shown in the build card.</strong></p>
 <h2 id="equipment">Equipment</h2>
-<p>Describe the equipment requirements and priorities, including:</p>
+<p>Describe the equipment requirements and priorities.</p>
+<p>Include, where applicable:</p>
 <ul>
 <li>Weapons</li>
 <li>Armor</li>
-<li>Important modifiers</li>
-<li>Required or recommended stats</li>
-<li>Optional upgrades</li>
+<li>Weapon types</li>
 </ul>
 <h2 id="farming--gameplay">Farming / Gameplay</h2>
-<p>Explain how and where the build performs.</p>
+<p>Explain how the build is played and where it performs well.</p>
 <p>Include relevant information such as:</p>
 <ul>
-<li>Recommended farming locations</li>
-<li>PvM / PvP performance</li>
-<li>Anti-PK capabilities</li>
-<li>Solo / group performance</li>
-<li>Expected income</li>
-<li>Strengths and weaknesses</li>
-<li>Important gameplay tips</li>
+<li>Recommended farming locations.</li>
+<li>PvM performance.</li>
+<li>PvP performance.</li>
+<li>Anti-PK capabilities.</li>
+<li>Solo performance.</li>
+<li>Group performance.</li>
+<li>Expected income, if relevant.</li>
+<li>Strengths and weaknesses.</li>
+<li>Important gameplay tips.</li>
+<li>Any important rotation or ability usage.</li>
 </ul>
 <h2 id="additional-notes">Additional Notes</h2>
 <p>Include anything else that is important to understanding or using the build.</p>
+<p>This can include:</p>
+<ul>
+<li>Special interactions.</li>
+<li>Situational recommendations.</li>
+<li>Budget considerations.</li>
+<li>Alternative playstyles.</li>
+<li>Warnings or limitations.</li>
+<li>Anything that does not fit naturally into the other sections.</li>
+</ul>
 <h2 id="stats">Stats</h2>
 <p>Include the intended character stats.</p>
+<p>Use this format:</p>
 <p><strong>STR:</strong> 100, <strong>INT:</strong> 25, <strong>DEX:</strong> 100</p>
+<p>Adjust the values to match the submitted build.</p>
 <h2 id="build-card">Build Card</h2>
-<p>To generate a build card, use <a href="https://www.outlandsbutler.com">Outlands Butler</a> and export your build to a CSV.</p>
-<p>Please include the exported CSV with the submission so the build card can be generated.</p>
+<p>Every build submission must include an exported build card CSV.</p>
+<p>To generate the build card, use <a href="https://www.outlandsbutler.com">Outlands Butler</a> and export your completed build to a CSV.</p>
+<p>Please include the exported CSV with your submission so the build card can be generated.</p>
+<p>The completed build page will use the build card at the bottom of the page:</p>
 
 
 

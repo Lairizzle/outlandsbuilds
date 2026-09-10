@@ -3,7 +3,7 @@ title: "Basic Peaceadin"
 description: "A straightforward Bard and Chivalry build focused on Peacemaking, Discordance, and reliable melee damage for PvM."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Bard/Dexxer"
+build_type: "Beginner"
 
 categories:
   - PvM

@@ -21,6 +21,11 @@
 
   {{ .Content }}
 
+
+  {{/* ---------------------------------------------------------
+       GROUPED PAGES
+       --------------------------------------------------------- */}}
+
   {{ if .Params.group_by }}
 
     {{ $groupBy := .Params.group_by }}
@@ -40,6 +45,7 @@
 
     {{ end }}
 
+
     {{ range $groups }}
 
       <h2>{{ . }}</h2>
@@ -48,7 +54,7 @@
 
         {{ $group := . }}
 
-        {{ range where $.Pages.ByWeight (printf "Params.%s" $groupBy) $group }}
+        {{ range where $.Pages.ByTitle (printf "Params.%s" $groupBy) $group }}
 
           {{ partial "build-card.html" . }}
 
@@ -58,29 +64,138 @@
 
     {{ end }}
 
-  {{ else if eq .Section "builds" }}
-
-    <div class="card-grid">
-
-      {{ range .Pages.ByWeight }}
-
-        {{ partial "build-card.html" . }}
-
-      {{ end }}
-
-    </div>
 
   {{ else }}
 
-    <div class="news-list">
+    {{/* ---------------------------------------------------------
+         DETECT ACTUAL BUILD PAGES
 
-      {{ range .Pages.ByDate.Reverse }}
+         Actual build pages have investment_rating.
+         Higher-level pages such as PvM Builds do not.
+         --------------------------------------------------------- */}}
 
-        {{ partial "post-card.html" . }}
+    {{ $hasBuilds := false }}
 
+    {{ range .Pages }}
+
+      {{ if .Params.investment_rating }}
+        {{ $hasBuilds = true }}
       {{ end }}
 
-    </div>
+    {{ end }}
+
+
+    {{ if $hasBuilds }}
+
+      {{/* -------------------------------------------------------
+           BUILD SORTING
+
+           1. Beginner
+           2. Intermediate
+           3. Advanced
+
+           Within each:
+           investment_rating 1 → 5
+           ------------------------------------------------------- */}}
+
+      <div class="card-grid">
+
+        {{ $beginner := where .Pages "Params.build_type" "Beginner" }}
+        {{ $intermediate := where .Pages "Params.build_type" "Intermediate" }}
+        {{ $advanced := where .Pages "Params.build_type" "Advanced" }}
+
+
+        {{ range $beginner.ByParam "investment_rating" }}
+
+          {{ partial "build-card.html" . }}
+
+        {{ end }}
+
+
+        {{ range $intermediate.ByParam "investment_rating" }}
+
+          {{ partial "build-card.html" . }}
+
+        {{ end }}
+
+
+        {{ range $advanced.ByParam "investment_rating" }}
+
+          {{ partial "build-card.html" . }}
+
+        {{ end }}
+
+
+        {{/* -----------------------------------------------------
+             BUILDS WITHOUT build_type
+
+             Keep them visible at the end.
+             ----------------------------------------------------- */}}
+
+        {{ $untyped := slice }}
+
+        {{ range .Pages }}
+
+          {{ if and .Params.investment_rating (not .Params.build_type) }}
+
+            {{ $untyped = $untyped | append . }}
+
+          {{ end }}
+
+        {{ end }}
+
+
+        {{ range sort $untyped "Title" }}
+
+          {{ partial "build-card.html" . }}
+
+        {{ end }}
+
+      </div>
+
+
+    {{ else if eq .Section "builds" }}
+
+      {{/* -------------------------------------------------------
+           HIGHER-LEVEL BUILD PAGES
+
+           Example:
+           PvM Builds
+           PvP Builds
+           Dexxer Builds
+           Mage Builds
+
+           These sort alphabetically.
+           ------------------------------------------------------- */}}
+
+      <div class="card-grid">
+
+        {{ range .Pages.ByTitle }}
+
+          {{ partial "build-card.html" . }}
+
+        {{ end }}
+
+      </div>
+
+
+    {{ else }}
+
+      {{/* -------------------------------------------------------
+           NORMAL CONTENT / NEWS
+           ------------------------------------------------------- */}}
+
+      <div class="news-list">
+
+        {{ range .Pages.ByDate.Reverse }}
+
+          {{ partial "post-card.html" . }}
+
+        {{ end }}
+
+      </div>
+
+    {{ end }}
 
   {{ end }}
 

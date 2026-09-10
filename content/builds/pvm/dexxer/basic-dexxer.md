@@ -3,7 +3,7 @@ title: "Basic Dexxer"
 description: "A straightforward Chivalry-based melee build with strong sustain, flexible weapon choices, and reliable PvM performance."
 date: 2026-09-08
 author: "Soren Longhorn"
-build_type: "Dexxer"
+build_type: "Beginner"
 
 categories:
   - PvM

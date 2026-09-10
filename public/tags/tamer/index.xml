@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tamer on Outlands Builds</title>
-		<link>/tags/tamer/</link>
+		<link>//localhost:1313/tags/tamer/</link>
 		<description>Recent content in Tamer on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/tamer/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/tamer/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Mad Shepherd</title>
-				<link>/builds/pvm/tamer/mad-shepherd/</link>
+				<link>//localhost:1313/builds/pvm/tamer/mad-shepherd/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/tamer/mad-shepherd/</guid>
+				<guid>//localhost:1313/builds/pvm/tamer/mad-shepherd/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a general-purpose Tamer build designed for PvM and farming. It combines a strong tamed creature with melee damage and utility skills to provide a flexible and relatively inexpensive farming setup.&lt;/p&gt;&#xA;&lt;p&gt;The build is intended to be easy to get started with while still providing enough room to improve as better equipment, aspects, and chain links become available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;There are several viable aspect choices depending on how you want to play the build.&lt;/p&gt;</description>
 			</item>
 	</channel>

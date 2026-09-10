@@ -3,7 +3,7 @@ title: "Windstalker Monk"
 description: "A mobile wrestling build that combines Air Aspect, Tracking, and strong melee damage for PvM, farming, and Anti-PK."
 date: 2026-09-07
 author: "Soren Longhorn"
-build_type: "Dexxer"
+build_type: "Advanced"
 
 
 categories:
