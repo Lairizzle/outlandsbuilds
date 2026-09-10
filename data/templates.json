@@ -430,7 +430,7 @@
     "aspects": [
       {
         "name": "Earth",
-        "type": "Armor"
+        "type": "Both"
       },
       {
         "name": "Madness",
@@ -577,6 +577,24 @@
         "category": "Ability",
         "ability": "Triage",
         "level": 3
+      },
+      {
+        "codex": "Chivalry Codex",
+        "category": "Ability",
+        "ability": "Remove Curse",
+        "level": 1
+      },
+      {
+        "codex": "Chivalry Codex",
+        "category": "Ability",
+        "ability": "Consecrate Weapon",
+        "level": 1
+      },
+      {
+        "codex": "Chivalry Codex",
+        "category": "Ability",
+        "ability": "Divine Fury",
+        "level": 1
       }
     ],
     "skills_total": 720
