@@ -197,5 +197,9 @@
     <loc>//localhost:1313/builds/crafter-harvester/crafting/</loc>
   </url><url>
     <loc>//localhost:1313/builds/crafter-harvester/hybrid/</loc>
+  </url><url>
+    <loc>//localhost:1313/submit/</loc>
+  </url><url>
+    <loc>//localhost:1313/thank-you/</loc>
   </url>
 </urlset>

@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <header class="page-header container submit-header">
+    <h1>{{ .Title }}</h1>
+    <p>Submit your build for review — fill out the details below.</p>
+  </header>
+
+  <div class="container">
+    <form class="submit-form" action="/api/submit" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">
+          Email
+          <span class="field-optional">(optional)</span>
+        </label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="build_name">Build Name</label>
+        <input type="text" id="build_name" name="build_name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="writeup">Writeup</label>
+        <textarea id="writeup" name="writeup" rows="6" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="csv_filename">
+          CSV Filename
+          <span class="field-optional">(optional)</span>
+        </label>
+        <input type="text" id="csv_filename" name="csv_filename" placeholder="results.csv" />
+      </div>
+
+      <div class="form-group">
+        <label for="csv_content">
+          Paste CSV Contents
+          <span class="field-optional">(optional)</span>
+        </label>
+        <textarea
+          id="csv_content"
+          name="csv_content"
+          rows="8"
+          class="mono"
+          placeholder="col1,col2,col3&#10;val1,val2,val3"
+        ></textarea>
+      </div>
+
+      <button type="submit" class="button button-primary">Submit Build</button>
+    </form>
+  </div>
+{{ end }}
