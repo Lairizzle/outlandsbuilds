@@ -15,10 +15,88 @@
   </div>
 
   <script>
+    let storedPassword = "";
+
+    function renderSubmissions(submissions) {
+      const listEl = document.getElementById("submissions-list");
+
+      if (submissions.length === 0) {
+        listEl.innerHTML = "<p>No submissions yet.</p>";
+        return;
+      }
+
+      listEl.innerHTML = submissions
+        .map(
+          (s) => `
+    <div class="admin-submission" data-id="${s.id}">
+      <div class="admin-submission-header">
+        <strong>${s.build_name}</strong>
+        <span class="admin-status admin-status-${s.status}">${s.status}</span>
+      </div>
+      <p class="admin-meta">${s.name}${s.email ? " · " + s.email : ""} · ${s.created_at}</p>
+      <p>${s.writeup}</p>
+      ${s.csv_filename ? `<p class="admin-meta">CSV: ${s.csv_filename}</p>` : ""}
+      ${s.csv_content ? `<pre>${s.csv_content}</pre>` : ""}
+      <div class="admin-actions">
+        <button class="button admin-approve" data-id="${s.id}">Approve</button>
+        <button class="button admin-reject" data-id="${s.id}">Reject</button>
+        <button class="button admin-delete" data-id="${s.id}">Delete</button>
+      </div>
+    </div>
+  `,
+        )
+        .join("");
+
+      listEl
+        .querySelectorAll(".admin-approve")
+        .forEach((btn) =>
+          btn.addEventListener("click", () => updateStatus(btn.dataset.id, "approved")),
+        );
+      listEl
+        .querySelectorAll(".admin-reject")
+        .forEach((btn) =>
+          btn.addEventListener("click", () => updateStatus(btn.dataset.id, "rejected")),
+        );
+      listEl
+        .querySelectorAll(".admin-delete")
+        .forEach((btn) => btn.addEventListener("click", () => deleteSubmission(btn.dataset.id)));
+    }
+
+    async function fetchSubmissions() {
+      const formData = new FormData();
+      formData.append("password", storedPassword);
+
+      const res = await fetch("/api/list", { method: "POST", body: formData });
+      if (!res.ok) return;
+
+      const data = await res.json();
+      renderSubmissions(data.submissions);
+    }
+
+    async function updateStatus(id, status) {
+      const formData = new FormData();
+      formData.append("password", storedPassword);
+      formData.append("id", id);
+      formData.append("status", status);
+
+      await fetch("/api/update-status", { method: "POST", body: formData });
+      fetchSubmissions();
+    }
+
+    async function deleteSubmission(id) {
+      if (!confirm("Delete this submission permanently?")) return;
+
+      const formData = new FormData();
+      formData.append("password", storedPassword);
+      formData.append("id", id);
+
+      await fetch("/api/delete", { method: "POST", body: formData });
+      fetchSubmissions();
+    }
+
     document.getElementById("login-btn").addEventListener("click", async () => {
       const password = document.getElementById("admin-password").value;
       const errorEl = document.getElementById("login-error");
-      const listEl = document.getElementById("submissions-list");
 
       const formData = new FormData();
       formData.append("password", password);
@@ -31,32 +109,13 @@
       }
 
       errorEl.style.display = "none";
-      const data = await res.json();
+      storedPassword = password;
 
       document.getElementById("login-box").style.display = "none";
-      listEl.style.display = "block";
+      document.getElementById("submissions-list").style.display = "block";
 
-      if (data.submissions.length === 0) {
-        listEl.innerHTML = "<p>No submissions yet.</p>";
-        return;
-      }
-
-      listEl.innerHTML = data.submissions
-        .map(
-          (s) => `
-    <div class="admin-submission">
-      <div class="admin-submission-header">
-        <strong>${s.build_name}</strong>
-        <span class="admin-status">${s.status}</span>
-      </div>
-      <p class="admin-meta">${s.name}${s.email ? " · " + s.email : ""} · ${s.created_at}</p>
-      <p>${s.writeup}</p>
-      ${s.csv_filename ? `<p class="admin-meta">CSV: ${s.csv_filename}</p>` : ""}
-      ${s.csv_content ? `<pre>${s.csv_content}</pre>` : ""}
-    </div>
-  `,
-        )
-        .join("");
+      const data = await res.json();
+      renderSubmissions(data.submissions);
     });
   </script>
 {{ end }}

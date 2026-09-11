@@ -2096,3 +2096,27 @@ nav a:hover {
   border-radius: var(--radius);
   font-size: 12px;
 }
+
+.admin-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.admin-actions .button {
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.admin-status-approved {
+  color: var(--green);
+}
+
+.admin-status-rejected {
+  color: #e05a5a;
+}
+
+.admin-status-pending {
+  color: var(--text-faint);
+}
