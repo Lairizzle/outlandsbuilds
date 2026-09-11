@@ -2870,5 +2870,161 @@
       }
     ],
     "skills_total": 700
+  },
+  {
+    "name": "The Quartermaster",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Camping",
+        "level": 20
+      },
+      {
+        "name": "Discordance",
+        "level": 100
+      },
+      {
+        "name": "Item Identification",
+        "level": 120
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 100
+      },
+      {
+        "name": "Peacemaking",
+        "level": 100
+      },
+      {
+        "name": "Provocation",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Lyric",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Bard Reset/Break Ignore Chance",
+        "total": 10
+      },
+      {
+        "name": "Barding Effect Durations",
+        "total": 10
+      },
+      {
+        "name": "Effective Barding Skill",
+        "total": 10
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Perfect Pitch",
+        "level": 3
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Refrain",
+        "level": 3
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Self Taught",
+        "level": 3
+      },
+      {
+        "codex": "Bard Codex",
+        "category": "Ability",
+        "ability": "Virtuoso",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Bandolier",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Freedom",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Mixed Results",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Panacea",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Bless",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Create Food",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Cure / Arch Cure",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Greater Heal",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Magic Reflect",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Protection / Arch Protection",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Reactive Armor",
+        "level": 3
+      },
+      {
+        "codex": "Wizards Grimoire",
+        "category": "Ability",
+        "ability": "Resurrection",
+        "level": 3
+      }
+    ],
+    "skills_total": 720
   }
 ]
