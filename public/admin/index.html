@@ -12,17 +12,17 @@
   
   
 
-  <meta property="og:title" content="Categories">
+  <meta property="og:title" content="Admin">
   <meta
     property="og:description"
     content="Builds, Guides, News, Events, Tips &amp; Tricks for Ultima Online Outlands."
   >
-  <meta property="og:url" content="//localhost:1313/categories/">
+  <meta property="og:url" content="//localhost:1313/admin/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="//localhost:1313/images/social-preview.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Categories">
+  <meta name="twitter:title" content="Admin">
   <meta
     name="twitter:description"
     content="Builds, Guides, News, Events, Tips &amp; Tricks for Ultima Online Outlands."
@@ -31,7 +31,7 @@
 
   <title>
     
-      Categories · Outlands Builds
+      Admin · Outlands Builds
     
   </title>
 
@@ -174,153 +174,125 @@
 
   <main class="site-main">
     
+  <div class="container admin-page">
+    <h1>Admin</h1>
 
-<section class="page-header container">
-
-  <p class="eyebrow">
-    CATEGORIES
-  </p>
-
-  <h1>
-    Categories
-  </h1>
-
-  
-
-</section>
-
-
-<section class="section container">
-
-  
-
-
-  
-
-  
-
-    
-
-    
-
-    
-
-      
-
-    
-
-      
-
-    
-
-      
-
-    
-
-
-    
-
-      
-
-      <div class="news-list">
-
-        
-
-          <a class="post-card" href="/categories/pvm/">
-
-  <time>
-    Sep 08, 2026
-  </time>
-
-
-  <div>
-
-    <h3>
-      PvM
-    </h3>
-
-    <p>
-      
-    </p>
-
-  </div>
-
-
-  <span class="card-arrow">
-    →
-  </span>
-
-</a>
-
-
-        
-
-          <a class="post-card" href="/categories/news/">
-
-  <time>
-    Sep 08, 2026
-  </time>
-
-
-  <div>
-
-    <h3>
-      News
-    </h3>
-
-    <p>
-      
-    </p>
-
-  </div>
-
-
-  <span class="card-arrow">
-    →
-  </span>
-
-</a>
-
-
-        
-
-          <a class="post-card" href="/categories/pvm/pvp/">
-
-  <time>
-    Sep 07, 2026
-  </time>
-
-
-  <div>
-
-    <h3>
-      PvM/PvP
-    </h3>
-
-    <p>
-      
-    </p>
-
-  </div>
-
-
-  <span class="card-arrow">
-    →
-  </span>
-
-</a>
-
-
-        
-
+    <div id="login-box">
+      <div class="form-group">
+        <label for="admin-password">Password</label>
+        <input type="password" id="admin-password" />
       </div>
+      <button id="login-btn" class="button button-primary">View Submissions</button>
+      <p id="login-error" class="admin-error" style="display:none;">Incorrect password.</p>
+    </div>
 
-    
+    <div id="submissions-list" style="display:none;"></div>
+  </div>
 
-  
+  <script>
+    let storedPassword = "";
 
-</section>
+    function renderSubmissions(submissions) {
+      const listEl = document.getElementById("submissions-list");
 
+      if (submissions.length === 0) {
+        listEl.innerHTML = "<p>No submissions yet.</p>";
+        return;
+      }
+
+      listEl.innerHTML = submissions
+        .map(
+          (s) => `
+    <div class="admin-submission" data-id="${s.id}">
+      <div class="admin-submission-header">
+        <strong>${s.build_name}</strong>
+        <span class="admin-status admin-status-${s.status}">${s.status}</span>
+      </div>
+      <p class="admin-meta">${s.name}${s.email ? " · " + s.email : ""} · ${s.created_at}</p>
+      <p>${s.writeup}</p>
+      ${s.csv_filename ? `<p class="admin-meta">CSV: ${s.csv_filename}</p>` : ""}
+      ${s.csv_content ? `<pre>${s.csv_content}</pre>` : ""}
+      <div class="admin-actions">
+        <button class="button admin-approve" data-id="${s.id}">Approve</button>
+        <button class="button admin-reject" data-id="${s.id}">Reject</button>
+        <button class="button admin-delete" data-id="${s.id}">Delete</button>
+      </div>
+    </div>
+  `,
+        )
+        .join("");
+
+      listEl
+        .querySelectorAll(".admin-approve")
+        .forEach((btn) =>
+          btn.addEventListener("click", () => updateStatus(btn.dataset.id, "approved")),
+        );
+      listEl
+        .querySelectorAll(".admin-reject")
+        .forEach((btn) =>
+          btn.addEventListener("click", () => updateStatus(btn.dataset.id, "rejected")),
+        );
+      listEl
+        .querySelectorAll(".admin-delete")
+        .forEach((btn) => btn.addEventListener("click", () => deleteSubmission(btn.dataset.id)));
+    }
+
+    async function fetchSubmissions() {
+      const formData = new FormData();
+      formData.append("password", storedPassword);
+
+      const res = await fetch("/api/list", { method: "POST", body: formData });
+      if (!res.ok) return;
+
+      const data = await res.json();
+      renderSubmissions(data.submissions);
+    }
+
+    async function updateStatus(id, status) {
+      const formData = new FormData();
+      formData.append("password", storedPassword);
+      formData.append("id", id);
+      formData.append("status", status);
+
+      await fetch("/api/update-status", { method: "POST", body: formData });
+      fetchSubmissions();
+    }
+
+    async function deleteSubmission(id) {
+      if (!confirm("Delete this submission permanently?")) return;
+
+      const formData = new FormData();
+      formData.append("password", storedPassword);
+      formData.append("id", id);
+
+      await fetch("/api/delete", { method: "POST", body: formData });
+      fetchSubmissions();
+    }
+
+    document.getElementById("login-btn").addEventListener("click", async () => {
+      const password = document.getElementById("admin-password").value;
+      const errorEl = document.getElementById("login-error");
+
+      const formData = new FormData();
+      formData.append("password", password);
+
+      const res = await fetch("/api/list", { method: "POST", body: formData });
+
+      if (!res.ok) {
+        errorEl.style.display = "block";
+        return;
+      }
+
+      errorEl.style.display = "none";
+      storedPassword = password;
+
+      document.getElementById("login-box").style.display = "none";
+      document.getElementById("submissions-list").style.display = "block";
+
+      const data = await res.json();
+      renderSubmissions(data.submissions);
+    });
+  </script>
 
   </main>
 
