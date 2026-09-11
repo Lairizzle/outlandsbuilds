@@ -88,8 +88,7 @@ Every build submission must include an exported build card CSV.
 
 To generate the build card, use <a href="https://www.outlandsbutler.com">Outlands Butler</a> and export your completed build to a CSV.
 
-Please include the exported CSV with your submission so the build card can be generated.
+Please include the exported CSV with your submission so the build card can be generated. You can paste the contents in the submission box.
 
-The completed build page will use the build card at the bottom of the page:
+The completed build page will use the build card at the bottom of the page.
 
-{{< template-card name="Build Name" >}}

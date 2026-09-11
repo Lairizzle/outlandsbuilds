@@ -117,8 +117,17 @@
       </div>
 
       <div class="form-group">
+        <label for="csv_file">
+          Upload CSV
+          <span class="field-optional">(optional)</span>
+        </label>
+        <input type="file" id="csv_file" accept=".csv,text/csv" />
+        <p class="field-hint" id="csv_file_status"></p>
+      </div>
+
+      <div class="form-group">
         <label for="csv_content">
-          Paste CSV Contents
+          Or Paste CSV Contents
           <span class="field-optional">(optional)</span>
         </label>
         <textarea
@@ -126,7 +135,7 @@
           name="csv_content"
           rows="16"
           class="mono"
-          placeholder="You can paste the contents of your Outlands Butler exported CSV here."
+          placeholder="You can paste the contents of your Outlands Butler exported CSV here, or use the file upload above instead."
         ></textarea>
       </div>
 
@@ -135,6 +144,50 @@
       <button type="submit" class="button button-primary">Submit Build</button>
     </form>
   </div>
+
+  <script>
+    (function () {
+      const MAX_CSV_CHARS = 50000; // matches backend limit
+
+      const fileInput = document.getElementById("csv_file");
+      const contentField = document.getElementById("csv_content");
+      const statusEl = document.getElementById("csv_file_status");
+
+      fileInput.addEventListener("change", function () {
+        const file = fileInput.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+
+        reader.onload = function (event) {
+          const text = event.target.result;
+
+          if (text.length > MAX_CSV_CHARS) {
+            statusEl.textContent =
+              "That file is too large (max " +
+              MAX_CSV_CHARS.toLocaleString() +
+              " characters). Please trim it and try again.";
+            statusEl.classList.add("field-error");
+            fileInput.value = "";
+            return;
+          }
+
+          contentField.value = text;
+          statusEl.textContent =
+            "Loaded " + file.name + " (" + text.length.toLocaleString() + " characters).";
+          statusEl.classList.remove("field-error");
+        };
+
+        reader.onerror = function () {
+          statusEl.textContent =
+            "Couldn't read that file. Please try again or paste the contents instead.";
+          statusEl.classList.add("field-error");
+        };
+
+        reader.readAsText(file);
+      });
+    })();
+  </script>
 
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 {{ end }}
