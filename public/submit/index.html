@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,9 +17,9 @@
     property="og:description"
     content="Builds, Guides, News, Events, Tips &amp; Tricks for Ultima Online Outlands."
   >
-  <meta property="og:url" content="/submit/">
+  <meta property="og:url" content="//localhost:1313/submit/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="/images/social-preview.jpg">
+  <meta property="og:image" content="//localhost:1313/images/social-preview.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Submit a Build">
@@ -27,7 +27,7 @@
     name="twitter:description"
     content="Builds, Guides, News, Events, Tips &amp; Tricks for Ultima Online Outlands."
   >
-  <meta name="twitter:image" content="/images/social-preview.jpg">
+  <meta name="twitter:image" content="//localhost:1313/images/social-preview.jpg">
 
   <title>
     
@@ -272,24 +272,60 @@
       </div>
 
       <div class="form-group">
-        <label for="csv_content">
-          Paste CSV Contents
+        <label for="csv_file">
+          Upload CSV
           <span class="field-optional">(optional)</span>
         </label>
-        <textarea
-          id="csv_content"
-          name="csv_content"
-          rows="16"
-          class="mono"
-          placeholder="You can paste the contents of your Outlands Butler exported CSV here."
-        ></textarea>
+        <input type="file" id="csv_file" accept=".csv,text/csv" />
       </div>
+
+      <input type="hidden" id="csv_content" name="csv_content" />
 
       <div class="cf-turnstile" data-sitekey="0x4AAAAAAEvmrUr8O6ln_y5k"></div>
 
       <button type="submit" class="button button-primary">Submit Build</button>
     </form>
   </div>
+
+  <script>
+    (function () {
+      const MAX_CSV_CHARS = 50000; 
+
+      const fileInput = document.getElementById("csv_file");
+      const contentField = document.getElementById("csv_content");
+
+      fileInput.addEventListener("change", function () {
+        const file = fileInput.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+
+        reader.onload = function (event) {
+          const text = event.target.result;
+
+          if (text.length > MAX_CSV_CHARS) {
+            alert(
+              "That file is too large (max " +
+                MAX_CSV_CHARS.toLocaleString() +
+                " characters). Please choose a smaller file.",
+            );
+            fileInput.value = "";
+            contentField.value = "";
+            return;
+          }
+
+          contentField.value = text;
+        };
+
+        reader.onerror = function () {
+          alert("Couldn't read that file. Please try again.");
+          contentField.value = "";
+        };
+
+        reader.readAsText(file);
+      });
+    })();
+  </script>
 
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 

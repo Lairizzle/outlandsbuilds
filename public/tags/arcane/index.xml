@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Arcane on Outlands Builds</title>
-		<link>/tags/arcane/</link>
+		<link>//localhost:1313/tags/arcane/</link>
 		<description>Recent content in Arcane on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/arcane/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/arcane/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Basic Arcane Mage</title>
-				<link>/builds/pvm/mage/basic-arcane-mage/</link>
+				<link>//localhost:1313/builds/pvm/mage/basic-arcane-mage/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/mage/basic-arcane-mage/</guid>
+				<guid>//localhost:1313/builds/pvm/mage/basic-arcane-mage/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Arcane Mage is a flexible spellcaster built around Arcane abilities and Necromancy buffs.&lt;/p&gt;&#xA;&lt;p&gt;The build uses mobility and positioning to stay alive while dealing strong spell damage. Wrestling and Parrying provide additional defensive options.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blood&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arcane&lt;/strong&gt; Staff&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Arcane equipment provides the primary offensive focus of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Chain Links include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage to Diseased&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Chance&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Modifier&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These improve the build&amp;rsquo;s spell damage and Aspect performance.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Arcane Mage</title>
-				<link>/builds/pvp/mage/basic-arcane-mage/</link>
+				<link>//localhost:1313/builds/pvp/mage/basic-arcane-mage/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvp/mage/basic-arcane-mage/</guid>
+				<guid>//localhost:1313/builds/pvp/mage/basic-arcane-mage/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Arcane Mage is a flexible spellcaster built around Arcane abilities and Necromancy buffs.&lt;/p&gt;&#xA;&lt;p&gt;The build uses mobility and positioning to stay alive while dealing strong spell damage. Wrestling and Parrying provide additional defensive options.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blood&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eldritch&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Void&lt;/strong&gt; Armor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arcane&lt;/strong&gt; Staff&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Arcane equipment provides the primary offensive focus of the build.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Chain Links include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage to Diseased&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Chance&lt;/li&gt;&#xA;&lt;li&gt;Spell Aspect Modifier&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These improve the build&amp;rsquo;s spell damage and Aspect performance.&lt;/p&gt;</description>
 			</item>
 	</channel>

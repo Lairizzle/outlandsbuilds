@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Crafting &amp; Harvesting Builds on Outlands Builds</title>
-		<link>/builds/crafter-harvester/</link>
+		<link>//localhost:1313/builds/crafter-harvester/</link>
 		<description>Recent content in Crafting &amp; Harvesting Builds on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,6 +12,6 @@
 		
 			<lastBuildDate></lastBuildDate>
 		
-			<atom:link href="/builds/crafter-harvester/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/builds/crafter-harvester/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

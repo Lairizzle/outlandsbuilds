@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Support on Outlands Builds</title>
-		<link>/tags/support/</link>
+		<link>//localhost:1313/tags/support/</link>
 		<description>Recent content in Support on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,26 +12,26 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/support/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/support/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>The Quartermaster</title>
-				<link>/builds/pvm/bard/the-quartermaster/</link>
+				<link>//localhost:1313/builds/pvm/bard/the-quartermaster/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/bard/the-quartermaster/</guid>
+				<guid>//localhost:1313/builds/pvm/bard/the-quartermaster/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Quartermaster is a completely group focused support role. You cannot farm solo with this whatsoever.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PvM -&amp;gt; Lyric&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;See build card.&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bard&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Perfect Pitch&lt;/strong&gt; — Enhances your Lyric abilities and improves the effectiveness of your support.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Refrain&lt;/strong&gt; — Helps maintain your Bard support effects during extended encounters.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Self Taught / Virtuoso&lt;/strong&gt; — Improves overall Lyric support and efficiency.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Wizard&amp;rsquo;s Grimoire&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Healing&lt;/strong&gt; — Provides Cure, Arch Cure, and Greater Heal for reliable direct healing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Protection&lt;/strong&gt; — Provides Bless, Magic Reflect, Protection, Arch Protection, and Reactive Armor.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Resurrection &amp;amp; Utility&lt;/strong&gt; — Provides Resurrection and Create Food for additional group utility.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Potion&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Advanced Tri-Bard (Solo)</title>
-				<link>/builds/pvm/bard/tri-bard-solo/</link>
+				<link>//localhost:1313/builds/pvm/bard/tri-bard-solo/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/bard/tri-bard-solo/</guid>
+				<guid>//localhost:1313/builds/pvm/bard/tri-bard-solo/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Advanced Tri-Bard (Solo) is a flexible solo PvM Bard that combines all three major Bard disciplines with a weapon skill and additional utility skills.&lt;/p&gt;&#xA;&lt;p&gt;The build is designed to control encounters through Peacemaking and Discordance while using Provocation to manipulate enemies and a weapon skill to provide consistent damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lyric&lt;/strong&gt; is the primary Aspect for this build.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fire&lt;/strong&gt; is a strong secondary option for increasing offensive capability.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Peaceadin</title>
-				<link>/builds/pvm/bard/bard-peaceadin/</link>
+				<link>//localhost:1313/builds/pvm/bard/bard-peaceadin/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/builds/pvm/bard/bard-peaceadin/</guid>
+				<guid>//localhost:1313/builds/pvm/bard/bard-peaceadin/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Peaceadin is a simple and accessible Bard/Dexxer build that combines Peacemaking and Discordance with Chivalry and a traditional melee weapon.&lt;/p&gt;&#xA;&lt;p&gt;It is designed to provide strong PvM utility while still being capable of dealing consistent melee damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lyric&lt;/strong&gt; is the recommended Aspect for this build.&lt;/p&gt;&#xA;&lt;p&gt;Lyric supports the Bard-focused portion of the template and complements the build&amp;rsquo;s Peacemaking and Discordance abilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
 			</item>
 	</channel>

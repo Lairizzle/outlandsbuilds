@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Outlands Builds</title>
-		<link>/tags/</link>
+		<link>//localhost:1313/tags/</link>
 		<description>Recent content in Tags on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,229 +12,229 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Bard</title>
-				<link>/tags/bard/</link>
+				<link>//localhost:1313/tags/bard/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/bard/</guid>
+				<guid>//localhost:1313/tags/bard/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Group</title>
-				<link>/tags/group/</link>
+				<link>//localhost:1313/tags/group/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/group/</guid>
+				<guid>//localhost:1313/tags/group/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Healer</title>
-				<link>/tags/healer/</link>
+				<link>//localhost:1313/tags/healer/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/healer/</guid>
+				<guid>//localhost:1313/tags/healer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>PvM</title>
-				<link>/tags/pvm/</link>
+				<link>//localhost:1313/tags/pvm/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/pvm/</guid>
+				<guid>//localhost:1313/tags/pvm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Support</title>
-				<link>/tags/support/</link>
+				<link>//localhost:1313/tags/support/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/support/</guid>
+				<guid>//localhost:1313/tags/support/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Utility</title>
-				<link>/tags/utility/</link>
+				<link>//localhost:1313/tags/utility/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/utility/</guid>
+				<guid>//localhost:1313/tags/utility/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Arcane</title>
-				<link>/tags/arcane/</link>
+				<link>//localhost:1313/tags/arcane/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/arcane/</guid>
+				<guid>//localhost:1313/tags/arcane/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Archery</title>
-				<link>/tags/archery/</link>
+				<link>//localhost:1313/tags/archery/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/archery/</guid>
+				<guid>//localhost:1313/tags/archery/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Beginner</title>
-				<link>/tags/beginner/</link>
+				<link>//localhost:1313/tags/beginner/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/beginner/</guid>
+				<guid>//localhost:1313/tags/beginner/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Chivalry</title>
-				<link>/tags/chivalry/</link>
+				<link>//localhost:1313/tags/chivalry/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/chivalry/</guid>
+				<guid>//localhost:1313/tags/chivalry/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Dexxer</title>
-				<link>/tags/dexxer/</link>
+				<link>//localhost:1313/tags/dexxer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/dexxer/</guid>
+				<guid>//localhost:1313/tags/dexxer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Discordance</title>
-				<link>/tags/discordance/</link>
+				<link>//localhost:1313/tags/discordance/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/discordance/</guid>
+				<guid>//localhost:1313/tags/discordance/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>DPS</title>
-				<link>/tags/dps/</link>
+				<link>//localhost:1313/tags/dps/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/dps/</guid>
+				<guid>//localhost:1313/tags/dps/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Farming</title>
-				<link>/tags/farming/</link>
+				<link>//localhost:1313/tags/farming/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/farming/</guid>
+				<guid>//localhost:1313/tags/farming/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Gatherer</title>
-				<link>/tags/gatherer/</link>
+				<link>//localhost:1313/tags/gatherer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/gatherer/</guid>
+				<guid>//localhost:1313/tags/gatherer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Healing</title>
-				<link>/tags/healing/</link>
+				<link>//localhost:1313/tags/healing/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/healing/</guid>
+				<guid>//localhost:1313/tags/healing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Lumberjacking</title>
-				<link>/tags/lumberjacking/</link>
+				<link>//localhost:1313/tags/lumberjacking/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/lumberjacking/</guid>
+				<guid>//localhost:1313/tags/lumberjacking/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Mage</title>
-				<link>/tags/mage/</link>
+				<link>//localhost:1313/tags/mage/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/mage/</guid>
+				<guid>//localhost:1313/tags/mage/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Necromancer</title>
-				<link>/tags/necromancer/</link>
+				<link>//localhost:1313/tags/necromancer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/necromancer/</guid>
+				<guid>//localhost:1313/tags/necromancer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Patch</title>
-				<link>/tags/patch/</link>
+				<link>//localhost:1313/tags/patch/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/patch/</guid>
+				<guid>//localhost:1313/tags/patch/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Peacemaking</title>
-				<link>/tags/peacemaking/</link>
+				<link>//localhost:1313/tags/peacemaking/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/peacemaking/</guid>
+				<guid>//localhost:1313/tags/peacemaking/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Provocation</title>
-				<link>/tags/provocation/</link>
+				<link>//localhost:1313/tags/provocation/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/provocation/</guid>
+				<guid>//localhost:1313/tags/provocation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Solo</title>
-				<link>/tags/solo/</link>
+				<link>//localhost:1313/tags/solo/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/solo/</guid>
+				<guid>//localhost:1313/tags/solo/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Spell Damage</title>
-				<link>/tags/spell-damage/</link>
+				<link>//localhost:1313/tags/spell-damage/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/spell-damage/</guid>
+				<guid>//localhost:1313/tags/spell-damage/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Summoner</title>
-				<link>/tags/summoner/</link>
+				<link>//localhost:1313/tags/summoner/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/summoner/</guid>
+				<guid>//localhost:1313/tags/summoner/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Anti-PK</title>
-				<link>/tags/anti-pk/</link>
+				<link>//localhost:1313/tags/anti-pk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/anti-pk/</guid>
+				<guid>//localhost:1313/tags/anti-pk/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Disarm</title>
-				<link>/tags/disarm/</link>
+				<link>//localhost:1313/tags/disarm/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/disarm/</guid>
+				<guid>//localhost:1313/tags/disarm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Melee</title>
-				<link>/tags/melee/</link>
+				<link>//localhost:1313/tags/melee/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/melee/</guid>
+				<guid>//localhost:1313/tags/melee/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tamer</title>
-				<link>/tags/tamer/</link>
+				<link>//localhost:1313/tags/tamer/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/tamer/</guid>
+				<guid>//localhost:1313/tags/tamer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tank</title>
-				<link>/tags/tank/</link>
+				<link>//localhost:1313/tags/tank/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/tank/</guid>
+				<guid>//localhost:1313/tags/tank/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Wrestling</title>
-				<link>/tags/wrestling/</link>
+				<link>//localhost:1313/tags/wrestling/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/wrestling/</guid>
+				<guid>//localhost:1313/tags/wrestling/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Site</title>
-				<link>/tags/site/</link>
+				<link>//localhost:1313/tags/site/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/site/</guid>
+				<guid>//localhost:1313/tags/site/</guid>
 				<description></description>
 			</item>
 	</channel>

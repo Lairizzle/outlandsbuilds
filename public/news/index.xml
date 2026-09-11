@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>News &amp; Guides on Outlands Builds</title>
-		<link>/news/</link>
+		<link>//localhost:1313/news/</link>
 		<description>Recent content in News &amp; Guides on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>September 4th Patch TLDR</title>
-				<link>/news/sep-04-patch/</link>
+				<link>//localhost:1313/news/sep-04-patch/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/news/sep-04-patch/</guid>
+				<guid>//localhost:1313/news/sep-04-patch/</guid>
 				<description>&lt;h3 id=&#34;patch-summary--september-4-2026&#34;&gt;Patch Summary — September 4, 2026&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://uooutlands.com/news/patch-mouseover-tooltips-transcribers-and-many-more-qol-updates/&#34;&gt;Patch: Mouseover Tooltips, Transcribers and Many More QoL Updates&lt;/a&gt;&#xA;&lt;a href=&#34;https://forums.uooutlands.com/index.php?threads/patch-notes-for-september-4-2026.6336/&#34;&gt;Full Patch Notes&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is primarily a quality-of-life and creature-ability update, with several useful Tamer changes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;biggest-changes&#34;&gt;Biggest Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage Shelves:&lt;/strong&gt; Added named Storage Shelf Loadouts with dedicated management, dropdown selection, and quick switching.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tooltips:&lt;/strong&gt; Most in-game &lt;strong&gt;Info&lt;/strong&gt; buttons now show their information on mouseover instead of requiring a click.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aspect Item Tomes:&lt;/strong&gt; Can now store &lt;strong&gt;Chromatic Cores and Chromatic Distillations&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Codex Loadouts:&lt;/strong&gt; Deleting a loadout now automatically selects the next one instead of jumping back to the first.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Creature DoTs:&lt;/strong&gt; Bleed, Disease, and Poison from recently killed non-tamed creatures now continue ticking properly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Provocation:&lt;/strong&gt; Maximum range is now a fixed &lt;strong&gt;40 tiles&lt;/strong&gt;, replacing the old variable-distance Tether mechanic.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Crafting:&lt;/strong&gt; Reagent-based crafting now properly contributes to Scientist achievements and Artisan Aspect XP.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tamer--creature-changes&#34;&gt;Tamer / Creature Changes&lt;/h2&gt;&#xA;&lt;p&gt;A large number of creature abilities have been converted into &lt;strong&gt;passive abilities&lt;/strong&gt;, meaning they now trigger automatically from attacks or spells rather than functioning as manually activated abilities.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Welcome to Outlands Builds</title>
-				<link>/news/welcome/</link>
+				<link>//localhost:1313/news/welcome/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>/news/welcome/</guid>
+				<guid>//localhost:1313/news/welcome/</guid>
 				<description>&lt;p&gt;Welcome&lt;/p&gt;&#xA;&lt;p&gt;A place for everything Ultima Online Outlands.&lt;/p&gt;&#xA;&lt;p&gt;Find news, builds, guides, tips, tricks, and useful resources, along with content covering content creation and community events happening across Outlands.&lt;/p&gt;&#xA;&lt;p&gt;The goal is to keep useful information, ideas, and community content in one place for players and creators.&lt;/p&gt;&#xA;&lt;p&gt;More content will be added as the site grows.&lt;/p&gt;</description>
 			</item>
 	</channel>
