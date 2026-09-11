@@ -1,142 +1,93 @@
 {{ define "main" }}
+  <section class="hero-card container">
+    <div class="hero-card-image">
+      <div class="hero-card-content">
+        <p class="eyebrow">OUTLANDSBUILDS.com</p>
 
-<section class="hero-card container">
+        <h1>
+          Builds, Guides &amp;
+          <br />
+          <span>Outlands News.</span>
+        </h1>
 
-  <div class="hero-card-image">
+        <p class="hero-text">
+          A growing collection of builds, farming ideas, guides and useful information for
+          adventurers in Avadon.
+        </p>
 
-    <div class="hero-card-content">
+        <div class="hero-actions">
+          <a class="button button-primary" href="{{ "builds/" | relURL }}">Explore builds</a>
 
-      <p class="eyebrow">
-        ULTIMA ONLINE OUTLANDS
-      </p>
-
-      <h1>
-        Builds, Guides &amp;<br>
-        <span>Outlands News.</span>
-      </h1>
-
-      <p class="hero-text">
-        A growing collection of builds, farming ideas, guides and useful
-        information for adventurers in Avadon.
-      </p>
-
-      <div class="hero-actions">
-
-        <a class="button button-primary" href="{{ "builds/" | relURL }}">
-          Explore builds
-        </a>
-
-        <a class="button button-secondary" href="{{ "news/" | relURL }}">
-          Latest news
-        </a>
-
+          <a class="button button-secondary" href="{{ "news/" | relURL }}">Latest news</a>
+        </div>
       </div>
-
     </div>
+  </section>
 
-  </div>
-
-</section>
-
-
-<section class="section container">
-
-  <div class="section-heading">
-
-    <div>
-      <p class="eyebrow">BUILDS</p>
-      <h2>Featured builds</h2>
-    </div>
-
-    <a class="text-link" href="{{ "builds/" | relURL }}">
-      View all →
-    </a>
-
-  </div>
-
-
-  <div class="card-grid" id="featured-builds">
-
-    {{ $builds := where .Site.RegularPages "Section" "builds" }}
-    {{ $featured := where $builds ".Params.featured" true }}
-
-    {{ range $featured }}
-
-      <div class="featured-build" style="display: none;">
-        {{ partial "build-card.html" . }}
-      </div>
-
-    {{ end }}
-
-  </div>
-
-</section>
-
-
-<section class="section section-muted">
-
-  <div class="container">
-
+  <section class="section container">
     <div class="section-heading">
-
       <div>
-        <p class="eyebrow">NEWS &amp; GUIDES</p>
-        <h2>What's happening</h2>
+        <p class="eyebrow">BUILDS</p>
+        <h2>Featured builds</h2>
       </div>
 
-      <a class="text-link" href="{{ "news/" | relURL }}">
-        All news →
-      </a>
-
+      <a class="text-link" href="{{ "builds/" | relURL }}">View all →</a>
     </div>
 
+    <div class="card-grid" id="featured-builds">
+      {{ $builds := where .Site.RegularPages "Section" "builds" }}
+      {{ $featured := where $builds ".Params.featured" true }}
 
-    <div class="news-list">
-
-      {{ range first 5 (where .Site.RegularPages "Section" "news") }}
-
-        {{ partial "post-card.html" . }}
-
+      {{ range $featured }}
+        <div class="featured-build" style="display: none;">
+          {{ partial "build-card.html" . }}
+        </div>
       {{ end }}
 
     </div>
+  </section>
 
-  </div>
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">NEWS &amp; GUIDES</p>
+          <h2>What's happening</h2>
+        </div>
 
-</section>
+        <a class="text-link" href="{{ "news/" | relURL }}">All news →</a>
+      </div>
 
+      <div class="news-list">
+        {{ range first 5 (where .Site.RegularPages "Section" "news") }}
+          {{ partial "post-card.html" . }}
+        {{ end }}
 
-<script>
-document.addEventListener("DOMContentLoaded", () => {
+      </div>
+    </div>
+  </section>
 
-  const container = document.getElementById("featured-builds");
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("featured-builds");
 
-  if (!container) {
-    return;
-  }
+      if (!container) {
+        return;
+      }
 
-  const builds = Array.from(
-    container.querySelectorAll(".featured-build")
-  );
+      const builds = Array.from(container.querySelectorAll(".featured-build"));
 
-  // Fisher-Yates shuffle
-  for (let i = builds.length - 1; i > 0; i--) {
+      // Fisher-Yates shuffle
+      for (let i = builds.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
 
-    const j = Math.floor(Math.random() * (i + 1));
+        [builds[i], builds[j]] = [builds[j], builds[i]];
+      }
 
-    [builds[i], builds[j]] = [builds[j], builds[i]];
-
-  }
-
-  // Display up to 3 random featured builds
-  builds.slice(0, 3).forEach(build => {
-
-    build.style.display = "";
-
-  });
-
-});
-</script>
-
-
+      // Display up to 3 random featured builds
+      builds.slice(0, 3).forEach((build) => {
+        build.style.display = "";
+      });
+    });
+  </script>
 {{ end }}
