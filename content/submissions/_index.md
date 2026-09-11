@@ -4,164 +4,83 @@ description: "Requirements and guidelines for submitting a build."
 date: 2026-09-07
 ---
 
+# Build Submission Guide
+
+## Build Name & Description
+
+Start with the build name and a short 1–2 sentence description explaining what the build does and what it is best suited for.
+
 ## Build Information
-
-Your submission should begin with the standard build information:
-
-- **Title** — The name of the build.
-- **Description** — A short description explaining the build's purpose and overall playstyle.
-- **Date** — The date the build was submitted.
-- **Author** — The creator of the build.
-- **Build Type** — Such as Dexxer, Tank, Caster, Archer, etc.
-- **Categories** — One or more categories such as PvM, PvP, Farming, Anti-PK, or Group.
-- **Tags** — Relevant skills, activities, and playstyles.
-- **Featured** — Set to `true` if the build should be considered for featured placement.
-
-### Ratings
 
 Include the following ratings:
 
-- **Investment** — Very Low, Low, Moderate, High, or Very High.
-- **Chain Links** — Optional, Light, Moderate, Heavy, or Link Dependent.
-- **Difficulty** — Low, Medium, or High.
+- **Build Type:** Beginner / Intermediate / Advanced
+- **Investment:** Low / Moderate / High
+- **Chain Link Reliance:** Low / Moderate / High
+- **Difficulty:** Low / Moderate / High
 
-For Investment and Chain Links, also provide the corresponding numeric rating.
-
-**Investment Rating:**
-- 1 = Very Low
-- 2 = Low
-- 3 = Moderate
-- 4 = High
-- 5 = Very High
-
-**Chain Links Rating:**
-- 1 = Optional
-- 2 = Light
-- 3 = Moderate
-- 4 = Heavy
-- 5 = Link Dependent
-
-### Skills
-
-List the skills used by the build.
-
-Only include skills that are actually part of the build. Explain any important, unusual, or optional skill choices in the build's **Overview** or relevant gameplay sections.
+These ratings should reflect the build as a whole. Consider required gear, expensive upgrades, reliance on specific Chain Links, mechanical complexity, and how difficult the build is to play effectively.
 
 ## Overview
 
-Explain what the build does and what makes it effective.
-
-Include:
-
-- The primary purpose of the build.
-- Its general playstyle.
-- Its major strengths.
-- Important weaknesses or limitations.
-- Any key mechanics the build is designed around.
-- How the build performs in solo or group content, where applicable.
+Briefly explain the build's overall concept, strengths, weaknesses, and intended playstyle.
 
 ## Aspect Options
 
-List the recommended Aspects for the build.
+List recommended Weapon and Armor Aspects for relevant activities.
 
-For each Aspect, explain:
-
-- The preferred Aspect.
-- The preferred weapon or armor combination.
-- Any viable alternatives.
-- When or why an alternative may be useful.
-
-For example:
-
-- PvM → Earth Armor & Earth Weapon
-- PvM → Madness Weapon
+- **PvM**
+- **PvP**
 
 ## Link Options
 
-List the recommended Chain Links and explain their priority.
+List recommended Link choices for relevant activities.
 
-Identify:
-
-- The most important links.
-- Secondary or optional links.
-- Whether the build performs effectively without maxed Chain Links.
-- Any links that specifically improve the build's core mechanics.
-
-Group links by use case where appropriate, such as:
-
-- PvM
-- PvP
-- Farming
-- Group
+- **PvM**
+- **PvP**
 
 ## Codex Use
 
-List the important Codex abilities and explain how they should be used.
+Explain which Codex abilities are recommended and how they should be used.
 
-Organize this section by skill or Codex.
-
-Focus on:
-
-- Stances
-- Finishers
-- Specials
-- Weapon abilities
-- Important ability combinations
-- Situational abilities
-
-Explain the typical abilities the player should use, as well as when they should switch to alternatives.
-
-**Additional Codex information is shown in the build card.**
+Group recommendations by Codex where appropriate.
 
 ## Equipment
 
-Describe the equipment requirements and priorities.
-
-Include, where applicable:
-
-- Weapons
-- Armor
-- Weapon types
+Describe recommended armor, weapons, shield or other important equipment.
 
 ## Farming / Gameplay
 
-Explain how the build is played and where it performs well.
-
-Include relevant information such as:
-
-- Recommended farming locations.
-- PvM performance.
-- PvP performance.
-- Anti-PK capabilities.
-- Solo performance.
-- Group performance.
-- Expected income, if relevant.
-- Strengths and weaknesses.
-- Important gameplay tips.
-- Any important rotation or ability usage.
+Explain how the build is typically played and what content it is suited for.
 
 ## Additional Notes
 
-Include anything else that is important to understanding or using the build.
-
-This can include:
-
-- Special interactions.
-- Situational recommendations.
-- Budget considerations.
-- Alternative playstyles.
-- Warnings or limitations.
-- Anything that does not fit naturally into the other sections.
+Add useful tips, alternative choices, limitations, or important interactions.
 
 ## Stats
 
-Include the intended character stats.
+List the recommended final stats.
 
-Use this format:
+STR: 100
+INT: 25
+DEX: 100
 
-**STR:** 100, **INT:** 25, **DEX:** 100
+## Quick Submission Checklist
 
-Adjust the values to match the submitted build.
+- **Build Name**
+- **Short Description**
+- **Build Type:** Beginner / Intermediate / Advanced
+- **Investment:** Low / Moderate / High
+- **Chain Link Reliance:** Low / Moderate / High
+- **Difficulty:** Low / Moderate / High
+- **Overview**
+- **Aspect Options**
+- **Link Options**
+- **Codex Use**
+- **Equipment**
+- **Farming / Gameplay**
+- **Additional Notes**
+- **Stats**
 
 ## Build Card
 
