@@ -2040,3 +2040,59 @@ nav a:hover {
   align-self: center;
   cursor: pointer;
 }
+
+/* -------------------------------- */
+/* Admin Page                       */
+/* -------------------------------- */
+
+.admin-page {
+  max-width: 720px;
+  margin: 40px auto 90px;
+}
+
+#login-box {
+  max-width: 360px;
+}
+
+.admin-error {
+  color: #e05a5a;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.admin-submission {
+  padding: 18px;
+  margin-bottom: 16px;
+
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.admin-submission-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-status {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.admin-meta {
+  color: var(--text-faint);
+  font-size: 12px;
+  margin: 4px 0 10px;
+}
+
+.admin-submission pre {
+  overflow: auto;
+  padding: 12px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 12px;
+}

@@ -1,0 +1,62 @@
+{{ define "main" }}
+  <div class="container admin-page">
+    <h1>{{ .Title }}</h1>
+
+    <div id="login-box">
+      <div class="form-group">
+        <label for="admin-password">Password</label>
+        <input type="password" id="admin-password" />
+      </div>
+      <button id="login-btn" class="button button-primary">View Submissions</button>
+      <p id="login-error" class="admin-error" style="display:none;">Incorrect password.</p>
+    </div>
+
+    <div id="submissions-list" style="display:none;"></div>
+  </div>
+
+  <script>
+    document.getElementById("login-btn").addEventListener("click", async () => {
+      const password = document.getElementById("admin-password").value;
+      const errorEl = document.getElementById("login-error");
+      const listEl = document.getElementById("submissions-list");
+
+      const formData = new FormData();
+      formData.append("password", password);
+
+      const res = await fetch("/api/list", { method: "POST", body: formData });
+
+      if (!res.ok) {
+        errorEl.style.display = "block";
+        return;
+      }
+
+      errorEl.style.display = "none";
+      const data = await res.json();
+
+      document.getElementById("login-box").style.display = "none";
+      listEl.style.display = "block";
+
+      if (data.submissions.length === 0) {
+        listEl.innerHTML = "<p>No submissions yet.</p>";
+        return;
+      }
+
+      listEl.innerHTML = data.submissions
+        .map(
+          (s) => `
+    <div class="admin-submission">
+      <div class="admin-submission-header">
+        <strong>${s.build_name}</strong>
+        <span class="admin-status">${s.status}</span>
+      </div>
+      <p class="admin-meta">${s.name}${s.email ? " · " + s.email : ""} · ${s.created_at}</p>
+      <p>${s.writeup}</p>
+      ${s.csv_filename ? `<p class="admin-meta">CSV: ${s.csv_filename}</p>` : ""}
+      ${s.csv_content ? `<pre>${s.csv_content}</pre>` : ""}
+    </div>
+  `,
+        )
+        .join("");
+    });
+  </script>
+{{ end }}
