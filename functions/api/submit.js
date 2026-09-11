@@ -37,6 +37,34 @@ export async function onRequestPost(context) {
     return new Response("Missing required fields", { status: 400 });
   }
 
+  const MAX_LENGTHS = {
+    name: 200,
+    email: 200,
+    build_name: 200,
+    writeup: 5000,
+    csv_filename: 200,
+    csv_content: 50000,
+  };
+
+  if (name.length > MAX_LENGTHS.name) {
+    return new Response("Name too long", { status: 400 });
+  }
+  if (email && email.length > MAX_LENGTHS.email) {
+    return new Response("Email too long", { status: 400 });
+  }
+  if (build_name.length > MAX_LENGTHS.build_name) {
+    return new Response("Build name too long", { status: 400 });
+  }
+  if (writeup.length > MAX_LENGTHS.writeup) {
+    return new Response("Writeup too long (max 5000 characters)", { status: 400 });
+  }
+  if (csv_filename && csv_filename.length > MAX_LENGTHS.csv_filename) {
+    return new Response("CSV filename too long", { status: 400 });
+  }
+  if (csv_content && csv_content.length > MAX_LENGTHS.csv_content) {
+    return new Response("CSV content too long (max 50,000 characters)", { status: 400 });
+  }
+
   await env.DB.prepare(
     `INSERT INTO submissions (name, email, build_name, writeup, csv_filename, csv_content)
      VALUES (?, ?, ?, ?, ?, ?)`
