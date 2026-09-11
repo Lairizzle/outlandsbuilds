@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Healer on Outlands Builds</title>
-		<link>//localhost:1313/tags/healer/</link>
+		<link>/tags/healer/</link>
 		<description>Recent content in Healer on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/healer/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/healer/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>The Quartermaster</title>
-				<link>//localhost:1313/builds/pvm/bard/the-quartermaster/</link>
+				<link>/builds/pvm/bard/the-quartermaster/</link>
 				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/pvm/bard/the-quartermaster/</guid>
+				<guid>/builds/pvm/bard/the-quartermaster/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Quartermaster is a completely group focused support role. You cannot farm solo with this whatsoever.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PvM -&amp;gt; Lyric&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;See build card.&lt;/p&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bard&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Perfect Pitch&lt;/strong&gt; — Enhances your Lyric abilities and improves the effectiveness of your support.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Refrain&lt;/strong&gt; — Helps maintain your Bard support effects during extended encounters.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Self Taught / Virtuoso&lt;/strong&gt; — Improves overall Lyric support and efficiency.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Wizard&amp;rsquo;s Grimoire&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Healing&lt;/strong&gt; — Provides Cure, Arch Cure, and Greater Heal for reliable direct healing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Protection&lt;/strong&gt; — Provides Bless, Magic Reflect, Protection, Arch Protection, and Reactive Armor.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Resurrection &amp;amp; Utility&lt;/strong&gt; — Provides Resurrection and Create Food for additional group utility.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Potion&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

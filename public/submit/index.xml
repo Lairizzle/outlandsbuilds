@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Submit a Build on Outlands Builds</title>
-		<link>//localhost:1313/submit/</link>
+		<link>/submit/</link>
 		<description>Recent content in Submit a Build on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="//localhost:1313/submit/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/submit/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

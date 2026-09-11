@@ -2,212 +2,224 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/builds/pvm/bard/</loc>
+    <loc>/builds/pvm/bard/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/dexxer/</loc>
+    <loc>/builds/pvm/dexxer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/mage/</loc>
+    <loc>/builds/pvm/mage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/mage/</loc>
+    <loc>/builds/pvp/mage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/dexxer/</loc>
+    <loc>/builds/pvp/dexxer/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/arena/</loc>
+    <loc>/builds/pvp/arena/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/faction/</loc>
+    <loc>/builds/pvp/faction/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/ocean/</loc>
+    <loc>/builds/pvm/ocean/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/ocean/</loc>
+    <loc>/builds/pvp/ocean/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/tamer/</loc>
+    <loc>/builds/pvm/tamer/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/stealth/</loc>
+    <loc>/builds/pvm/stealth/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/stealth/</loc>
+    <loc>/builds/pvp/stealth/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/bard/</loc>
+    <loc>/tags/bard/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/</loc>
+    <loc>/builds/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/group-pvm/</loc>
+    <loc>/tags/group/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/tags/healer/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/pvm/</loc>
+    <loc>/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/</loc>
+    <loc>/categories/pvm/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/support/</loc>
+    <loc>/tags/pvm/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/builds/pvm/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/bard/the-quartermaster/</loc>
+    <loc>/tags/support/</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/bard/tri-bard-solo/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/builds/pvm/bard/the-quartermaster/</loc>
+    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/utility/</loc>
+    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/builds/pvm/bard/tri-bard-solo/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/arcane/</loc>
+    <loc>/tags/arcane/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/archery/</loc>
+    <loc>/tags/archery/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/mage/basic-arcane-mage/</loc>
+    <loc>/builds/pvm/mage/basic-arcane-mage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/mage/basic-arcane-mage/</loc>
+    <loc>/builds/pvp/mage/basic-arcane-mage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</loc>
+    <loc>/builds/pvm/dexxer/basic-dexxer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/bard/bard-peaceadin/</loc>
+    <loc>/builds/pvm/bard/bard-peaceadin/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/mage/basic-summoner/</loc>
+    <loc>/builds/pvm/mage/basic-summoner/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/mage/basic-summoner/</loc>
+    <loc>/builds/pvp/mage/basic-summoner/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/beginner/</loc>
+    <loc>/tags/beginner/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/chivalry/</loc>
+    <loc>/tags/chivalry/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/</loc>
+    <loc>/builds/crafter-harvester/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/dexxer/</loc>
+    <loc>/tags/dexxer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/discordance/</loc>
+    <loc>/tags/discordance/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/farming/</loc>
+    <loc>/tags/dps/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/gatherer/</loc>
+    <loc>/tags/farming/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/harvesting/</loc>
+    <loc>/tags/gatherer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/healing/</loc>
+    <loc>/builds/crafter-harvester/harvesting/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lumberjacking/</loc>
+    <loc>/tags/healing/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mage/</loc>
+    <loc>/tags/lumberjacking/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/melee/</loc>
+    <loc>/tags/mage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/necromancer/</loc>
+    <loc>/tags/necromancer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/news/</loc>
+    <loc>/categories/news/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/news/</loc>
+    <loc>/news/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/patch/</loc>
+    <loc>/tags/patch/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/peacemaking/</loc>
+    <loc>/tags/peacemaking/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/provocation/</loc>
+    <loc>/tags/provocation/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pvm/</loc>
+    <loc>/builds/pvp/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/</loc>
+    <loc>/news/sep-04-patch/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/news/sep-04-patch/</loc>
+    <loc>/tags/solo/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/solo/</loc>
+    <loc>/tags/spell-damage/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/spell-damage/</loc>
+    <loc>/builds/crafter-harvester/harvesting/standard-gatherer/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/harvesting/standard-gatherer/</loc>
+    <loc>/tags/summoner/</loc>
     <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/summoner/</loc>
-    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/anti-pk/</loc>
+    <loc>/tags/anti-pk/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/submissions/</loc>
+    <loc>/submissions/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/disarm/</loc>
+    <loc>/tags/disarm/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/tamer/mad-shepherd/</loc>
+    <loc>/builds/pvm/tamer/mad-shepherd/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvm/dexxer/madstone-monk/</loc>
+    <loc>/builds/pvm/dexxer/madstone-monk/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/pvm/pvp/</loc>
+    <loc>/tags/melee/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pvp/</loc>
+    <loc>/categories/pvm/pvp/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tamer/</loc>
+    <loc>/tags/tamer/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</loc>
+    <loc>/tags/tank/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/builds/pvp/dexxer/windstalker-wrestler/</loc>
+    <loc>/builds/pvp/dexxer/voidbreaker-wrestler/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/site/</loc>
+    <loc>/builds/pvp/dexxer/windstalker-wrestler/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wrestling/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/site/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/news/welcome/</loc>
+    <loc>/news/welcome/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/admin/</loc>
+    <loc>/admin/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/crafting/</loc>
+    <loc>/builds/crafter-harvester/crafting/</loc>
   </url><url>
-    <loc>//localhost:1313/builds/crafter-harvester/hybrid/</loc>
+    <loc>/builds/crafter-harvester/hybrid/</loc>
   </url><url>
-    <loc>//localhost:1313/submit/</loc>
+    <loc>/submit/</loc>
   </url><url>
-    <loc>//localhost:1313/thank-you/</loc>
+    <loc>/thank-you/</loc>
   </url>
 </urlset>

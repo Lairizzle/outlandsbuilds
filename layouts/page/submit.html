@@ -27,106 +27,78 @@
       <div class="form-group">
         <label for="writeup">Writeup</label>
         <textarea id="writeup" name="writeup" rows="24" required>
-        Description:
-        [1–2 sentences describing the build and what it is best suited for]
+    Description:
 
 
-        Build Type:
-        [Dexxer, Tank, Caster, Archer, etc.]
+    Build Type:
+    - Dexxer, Tank, Caster, Archer, etc.
 
 
-        Tags:
-        [PvM, PvP, Farming, Anti-PK, Group, etc.]
-
-        Investment Rating:
-        [1–5]
-        [1 = Very Low, 5 = Very High]
+    Categories:
+    -PvM, PvP, Farming, Anti-PK, Group
 
 
-        Chain Links Rating:
-        [1–5]
-        [1 = Optional, 5 = Link Dependent]
+    Tags:
+    Skills, Activities, Playstyles
 
 
-        Difficulty:
-        [Low, Medium, High]
+    Investment Rating:
+    - 1-5, Very Low to Very High
 
 
-        Overview:
-        - What is the primary purpose of the build?
-        - What is the general playstyle?
-        - What are its main strengths and weaknesses?
-        - What are the key mechanics?
-        - How does it perform solo vs. group?
+    Chain Links Rating:
+    - 1-5, Optional to Link Dependent
 
 
-        Aspect Options:
-        - PvM:
-          - Weapon:
-          - Armor:
-          - Alternatives:
-
-        - PvP:
-          - Weapon:
-          - Armor:
-          - Alternatives:
+    Difficulty:
+    - Low, Medium, High
 
 
-        Link Options:
-        - Priority Links:
-        - Secondary / Optional Links:
-        - How does the build perform without maxed links?
+    Overview:
+    - Primary purpose, playstyle, major strengths, weaknesses/limitations, 
+    - key mechanics, solo/group performance
 
 
-        Codex Use:
-        - Codex:
-          - Stances:
-          - Finishers:
-          - Specials:
-          - Weapon Abilities:
-          - Situational Abilities:
+    Aspect Options:
+    - Preferred Aspect + weapon/armor combo
+    - Alternatives and when to use them
 
 
-        Equipment:
-        - Weapons:
-        - Armor:
-        - Weapon Types:
+    Link Options:
+    - Priority links, 
+    - Secondary/optional links, 
+    - Performance without maxed links
 
 
-        Farming / Gameplay:
-        - Recommended Farming Locations:
-        - PvM Performance:
-        - PvP Performance:
-        - Anti-PK Performance:
-        - Solo / Group Performance:
-        - Income:
+    Codex Use:
+    - Stances, finishers, specials, weapon abilities, 
+    - Key combinations, situational abilities
+
+    Equipment:
+    - Weapons
+    - Armor 
+    - Weapon types
 
 
-        Additional Notes:
-        - Special Interactions:
-        - Budget Considerations:
-        - Alternative Options:
-        - Other Tips:
+    Farming / Gameplay:
+    - Farming locations
+    - PvM/PvP/Anti-PK performance
+    - Solo/group performance
+    - Income
+
+    Additional Notes:
+    - Special interactions
+    - Budget considerations
 
 
-        Stats:
-        STR:
-        INT:
-        DEX:
+    Stats:
+    STR, INT, DEX 
     </textarea>
       </div>
 
       <div class="form-group">
-        <label for="csv_file">
-          Upload CSV
-          <span class="field-optional">(optional)</span>
-        </label>
-        <input type="file" id="csv_file" accept=".csv,text/csv" />
-      </div>
-
-      <div class="form-group">
         <label for="csv_content">
-          Or Paste CSV Contents
+          Paste CSV Contents
           <span class="field-optional">(optional)</span>
         </label>
         <textarea
@@ -134,7 +106,7 @@
           name="csv_content"
           rows="16"
           class="mono"
-          placeholder="You can paste the contents of your Outlands Butler exported CSV here, or use the file upload above instead."
+          placeholder="You can paste the contents of your Outlands Butler exported CSV here."
         ></textarea>
       </div>
 
@@ -143,44 +115,6 @@
       <button type="submit" class="button button-primary">Submit Build</button>
     </form>
   </div>
-
-  <script>
-    (function () {
-      const MAX_CSV_CHARS = 50000; // matches backend limit
-
-      const fileInput = document.getElementById("csv_file");
-      const contentField = document.getElementById("csv_content");
-
-      fileInput.addEventListener("change", function () {
-        const file = fileInput.files[0];
-        if (!file) return;
-
-        const reader = new FileReader();
-
-        reader.onload = function (event) {
-          const text = event.target.result;
-
-          if (text.length > MAX_CSV_CHARS) {
-            alert(
-              "That file is too large (max " +
-                MAX_CSV_CHARS.toLocaleString() +
-                " characters). Please trim it and try again.",
-            );
-            fileInput.value = "";
-            return;
-          }
-
-          contentField.value = text;
-        };
-
-        reader.onerror = function () {
-          alert("Couldn't read that file. Please try again or paste the contents instead.");
-        };
-
-        reader.readAsText(file);
-      });
-    })();
-  </script>
 
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 {{ end }}

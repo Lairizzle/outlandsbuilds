@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tank on Outlands Builds</title>
-		<link>//localhost:1313/tags/tank/</link>
+		<link>/tags/tank/</link>
 		<description>Recent content in Tank on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/tank/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/tank/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Madstone Monk</title>
-				<link>//localhost:1313/builds/pvm/dexxer/madstone-monk/</link>
+				<link>/builds/pvm/dexxer/madstone-monk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/pvm/dexxer/madstone-monk/</guid>
+				<guid>/builds/pvm/dexxer/madstone-monk/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is an extremely tanky wrestler that is primarily used to farm PvM. You will get quite a bit of survivability from intial PK attacks and may even be able to take down some foes. If you choose to equip Madness on your weapon you will also get to enjoy some big procs and great damage.&lt;/p&gt;&#xA;&lt;p&gt;In group content you will be able to tank a majority of boss attacks and damage with no problem by around tier 12.&lt;/p&gt;</description>
 			</item>
 	</channel>

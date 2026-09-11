@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Gatherer on Outlands Builds</title>
-		<link>//localhost:1313/tags/gatherer/</link>
+		<link>/tags/gatherer/</link>
 		<description>Recent content in Gatherer on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/gatherer/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/gatherer/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Standard Gatherer</title>
-				<link>//localhost:1313/builds/crafter-harvester/harvesting/standard-gatherer/</link>
+				<link>/builds/crafter-harvester/harvesting/standard-gatherer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/crafter-harvester/harvesting/standard-gatherer/</guid>
+				<guid>/builds/crafter-harvester/harvesting/standard-gatherer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A straightforward gathering template that combines resource gathering with a basic mage and summoner setup. It can be built around either Lumberjacking or Mining, allowing you to collect resources while still having the tools to deal with creatures you encounter in the field.&lt;/p&gt;&#xA;&lt;p&gt;The combination of Magery, Meditation, and the Wizard&amp;rsquo;s Grimoire provides reliable spellcasting, while the Summoner&amp;rsquo;s Tome gives you summoned creatures to help handle PvM threats without turning the character into a dedicated combat build.&lt;/p&gt;</description>
 			</item>
 	</channel>

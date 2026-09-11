@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Build Submission Requirements on Outlands Builds</title>
-		<link>//localhost:1313/submissions/</link>
+		<link>/submissions/</link>
 		<description>Recent content in Build Submission Requirements on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,6 +12,6 @@
 		
 			<lastBuildDate></lastBuildDate>
 		
-			<atom:link href="//localhost:1313/submissions/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/submissions/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

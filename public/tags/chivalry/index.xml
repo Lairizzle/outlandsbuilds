@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Chivalry on Outlands Builds</title>
-		<link>//localhost:1313/tags/chivalry/</link>
+		<link>/tags/chivalry/</link>
 		<description>Recent content in Chivalry on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,20 +12,27 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/chivalry/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/chivalry/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Basic Dexxer</title>
-				<link>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</link>
+				<link>/builds/pvm/dexxer/basic-dexxer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/pvm/dexxer/basic-dexxer/</guid>
+				<guid>/builds/pvm/dexxer/basic-dexxer/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Dexxer is a simple and reliable melee template built around Chivalry, weapon damage, and strong self-sustain.&lt;/p&gt;&#xA;&lt;p&gt;It can be adapted to several different weapon styles, making it a good starting point for players who want a traditional melee character without committing to a highly specialized setup.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;Recommended Aspect options include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Earth&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fire&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discipline&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Holy&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The best choice depends on the weapon and playstyle being used.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Basic Peaceadin</title>
-				<link>//localhost:1313/builds/pvm/bard/bard-peaceadin/</link>
+				<link>/builds/pvm/bard/bard-peaceadin/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/pvm/bard/bard-peaceadin/</guid>
+				<guid>/builds/pvm/bard/bard-peaceadin/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Peaceadin is a simple and accessible Bard/Dexxer build that combines Peacemaking and Discordance with Chivalry and a traditional melee weapon.&lt;/p&gt;&#xA;&lt;p&gt;It is designed to provide strong PvM utility while still being capable of dealing consistent melee damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lyric&lt;/strong&gt; is the recommended Aspect for this build.&lt;/p&gt;&#xA;&lt;p&gt;Lyric supports the Bard-focused portion of the template and complements the build&amp;rsquo;s Peacemaking and Discordance abilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;p&gt;Chain Links are not a major requirement for this build.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Madstone Monk</title>
+				<link>/builds/pvm/dexxer/madstone-monk/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>/builds/pvm/dexxer/madstone-monk/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is an extremely tanky wrestler that is primarily used to farm PvM. You will get quite a bit of survivability from intial PK attacks and may even be able to take down some foes. If you choose to equip Madness on your weapon you will also get to enjoy some big procs and great damage.&lt;/p&gt;&#xA;&lt;p&gt;In group content you will be able to tank a majority of boss attacks and damage with no problem by around tier 12.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

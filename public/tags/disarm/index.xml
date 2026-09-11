@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Disarm on Outlands Builds</title>
-		<link>//localhost:1313/tags/disarm/</link>
+		<link>/tags/disarm/</link>
 		<description>Recent content in Disarm on Outlands Builds</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/disarm/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/tags/disarm/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Voidbreaker Wrestler</title>
-				<link>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</link>
+				<link>/builds/pvp/dexxer/voidbreaker-wrestler/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/builds/pvp/dexxer/voidbreaker-wrestler/</guid>
+				<guid>/builds/pvp/dexxer/voidbreaker-wrestler/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This build is effective at farming in PvM content and doubling as a PK deterrant.  Protect your party while still dishing out PvM damage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aspect-options&#34;&gt;Aspect Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PvM -&amp;gt; Air Armor &amp;amp; Madness Weapon&lt;/li&gt;&#xA;&lt;li&gt;PvP -&amp;gt; Void Armor &amp;amp; Void Weapon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;link-options&#34;&gt;Link Options&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvM:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Melee Special Chance / Special Damage&lt;/li&gt;&#xA;&lt;li&gt;Damage Dealt by Player&lt;/li&gt;&#xA;&lt;li&gt;Melee Damage / Ignore Armor Chance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PvP&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Damage Resistance&lt;/li&gt;&#xA;&lt;li&gt;Physical Damage Resistance&lt;/li&gt;&#xA;&lt;li&gt;Effective Parrying Skill&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;codex-use&#34;&gt;Codex Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrestling&lt;/p&gt;</description>
 			</item>
 	</channel>
