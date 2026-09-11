@@ -1,6 +1,6 @@
 const RATE_LIMIT_MAX = 3; // max submissions per IP
 const RATE_LIMIT_WINDOW_SECONDS = 60 * 60; // 1 hour
-const SITE_WIDE_CAP = 500; // stop accepting after this many total submissions
+const SITE_WIDE_CAP = 50; // stop accepting after this many total submissions
 
 export async function onRequestPost(context) {
   const { request, env } = context;
