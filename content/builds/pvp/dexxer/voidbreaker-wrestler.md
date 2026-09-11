@@ -9,12 +9,13 @@ categories:
   - PvM/PvP
 
 tags:
-  - Dexxer
-  - Anti-PK
   - PvM
-  - PvP
-  - Farming
+  - Anti-PK
+  - Solo
+  - Group
   - Disarm
+  - Dexxer
+  - Wrestling
 
 # Investment rating:
 # 1 = Very Low

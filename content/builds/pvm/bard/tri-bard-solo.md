@@ -9,15 +9,16 @@ categories:
   - PvM
 
 tags:
-  - Bard
   - PvM
   - Solo
-  - Farming
+  - Group
+  - Support
   - Archery
   - Healing
   - Provocation
   - Discordance
   - Peacemaking
+  - Bard
 
 # Investment rating:
 # 1 = Very Low
@@ -38,16 +39,6 @@ links: "Moderate"
 links_rating: 3
 
 difficulty: "High"
-
-skills:
-  - Bard
-  - Provocation
-  - Discordance
-  - Peacemaking
-  - Archery
-  - Healing
-  - Anatomy
-  - Alchemy
 
 featured: false
 ---

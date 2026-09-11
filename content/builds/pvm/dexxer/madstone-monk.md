@@ -9,9 +9,13 @@ categories:
   - PvM
 
 tags:
-  - Dexxer
   - PvM
-  - Farming
+  - Solo
+  - Group
+  - Tank
+  - Dexxer
+  - Melee
+  - Chivalry
 
 # Investment rating:
 # 1 = Very Low
@@ -32,12 +36,6 @@ links: "Light"
 links_rating: 2
 
 difficulty: "Low"
-
-skills:
-  - Alchemy
-  - Parry
-  - Chivalry
-  - Wrestling
 
 featured: true
 ---

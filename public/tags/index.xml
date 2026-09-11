@@ -10,9 +10,51 @@
 		
 		
 		
-			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bard</title>
+				<link>//localhost:1313/tags/bard/</link>
+				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/bard/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Group</title>
+				<link>//localhost:1313/tags/group/</link>
+				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/group/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Healer</title>
+				<link>//localhost:1313/tags/healer/</link>
+				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/healer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PvM</title>
+				<link>//localhost:1313/tags/pvm/</link>
+				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/pvm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Support</title>
+				<link>//localhost:1313/tags/support/</link>
+				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/support/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Utility</title>
+				<link>//localhost:1313/tags/utility/</link>
+				<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/utility/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Arcane</title>
 				<link>//localhost:1313/tags/arcane/</link>
@@ -25,13 +67,6 @@
 				<link>//localhost:1313/tags/archery/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/tags/archery/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Bard</title>
-				<link>//localhost:1313/tags/bard/</link>
-				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/bard/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -60,6 +95,13 @@
 				<link>//localhost:1313/tags/discordance/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/tags/discordance/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>DPS</title>
+				<link>//localhost:1313/tags/dps/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/dps/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -98,13 +140,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Melee</title>
-				<link>//localhost:1313/tags/melee/</link>
-				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/melee/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Necromancer</title>
 				<link>//localhost:1313/tags/necromancer/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
@@ -133,13 +168,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>PvM</title>
-				<link>//localhost:1313/tags/pvm/</link>
-				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/pvm/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Solo</title>
 				<link>//localhost:1313/tags/solo/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
@@ -161,13 +189,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Support</title>
-				<link>//localhost:1313/tags/support/</link>
-				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/support/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Anti-PK</title>
 				<link>//localhost:1313/tags/anti-pk/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
@@ -182,10 +203,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>PvP</title>
-				<link>//localhost:1313/tags/pvp/</link>
+				<title>Melee</title>
+				<link>//localhost:1313/tags/melee/</link>
 				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/pvp/</guid>
+				<guid>//localhost:1313/tags/melee/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -196,10 +217,38 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Tank</title>
+				<link>//localhost:1313/tags/tank/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/tank/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Wrestling</title>
+				<link>//localhost:1313/tags/wrestling/</link>
+				<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/wrestling/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Site</title>
 				<link>//localhost:1313/tags/site/</link>
 				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/tags/site/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Group PvM</title>
+				<link>//localhost:1313/tags/group-pvm/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/group-pvm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PvP</title>
+				<link>//localhost:1313/tags/pvp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/tags/pvp/</guid>
 				<description></description>
 			</item>
 	</channel>

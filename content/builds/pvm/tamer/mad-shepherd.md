@@ -9,10 +9,12 @@ categories:
   - PvM
 
 tags:
+  - PvM
+  - Solo
+  - Group
+  - DPS
   - Dexxer
   - Tamer
-  - PvM
-  - Farming
 
 # Investment rating:
 # 1 = Very Low
@@ -33,12 +35,6 @@ links: "Heavy"
 links_rating: 4
 
 difficulty: "Low"
-
-skills:
-  - Taming
-  - Alchemy
-  - Mace
-  - Herding
 
 featured: true
 ---

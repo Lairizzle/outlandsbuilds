@@ -9,9 +9,12 @@ categories:
   - PvM
 
 tags:
-  - Bard
-  - Group PvM
+  - PvM
+  - Group
   - Support
+  - Utility
+  - Bard
+  - Healer
 
 # Investment rating:
 # 1 = Very Low
@@ -32,13 +35,6 @@ links: "Moderate"
 links_rating: 3
 
 difficulty: "High"
-
-skills:
-  - Bard
-  - Provocation
-  - Discordance
-  - Peacemaking
-  - Alchemy
 
 featured: true
 ---

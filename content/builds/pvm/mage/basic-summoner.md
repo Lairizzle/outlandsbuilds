@@ -9,12 +9,14 @@ categories:
   - PvM
 
 tags:
+  - PvM
+  - Solo
+  - Group
+  - DPS
+  - Beginner
   - Mage
   - Summoner
   - Necromancer
-  - PvM
-  - Farming
-  - Beginner
 
 # Investment rating:
 # 1 = Very Low
@@ -35,15 +37,6 @@ links: "Light"
 links_rating: 2
 
 difficulty: "Low"
-
-skills:
-  - Magery
-  - Necromancy
-  - Meditation
-  - Evaluating Intelligence
-  - Spirit Speaking
-  - Wrestling
-  - Focus
 
 featured: false
 ---

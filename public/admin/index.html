@@ -36,7 +36,7 @@
   </title>
 
   
-  <link rel="stylesheet" href="/css/main.min.ddab2de892dc8f4354b4df64aad989dad9280a6f815978c3f18c52f2418bfa38.css">
+  <link rel="stylesheet" href="/css/main.min.b6fb5f97d83ed91d575899e1d75fceff90f246b5b73c1b453cfda3b78d94ee2d.css">
   <link rel="icon" href="/favicon.ico">
 
   <script>
@@ -186,32 +186,78 @@
       <p id="login-error" class="admin-error" style="display:none;">Incorrect password.</p>
     </div>
 
-    <div id="submissions-list" style="display:none;"></div>
+    <div id="submissions-panel" style="display:none;">
+      <div class="admin-toolbar">
+        <div class="admin-filters">
+          <button class="admin-filter-btn active" data-filter="all">All</button>
+          <button class="admin-filter-btn" data-filter="pending">Pending</button>
+          <button class="admin-filter-btn" data-filter="approved">Approved</button>
+          <button class="admin-filter-btn" data-filter="rejected">Rejected</button>
+        </div>
+        <span id="admin-count" class="admin-count"></span>
+      </div>
+      <div id="submissions-list"></div>
+    </div>
   </div>
 
   <script>
     let storedPassword = "";
+    let allSubmissions = [];
+    let currentFilter = "all";
 
-    function renderSubmissions(submissions) {
+    function escapeHtml(str) {
+      if (str == null) return "";
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function renderSubmissions() {
       const listEl = document.getElementById("submissions-list");
+      const countEl = document.getElementById("admin-count");
 
-      if (submissions.length === 0) {
-        listEl.innerHTML = "<p>No submissions yet.</p>";
+      const filtered =
+        currentFilter === "all"
+          ? allSubmissions
+          : allSubmissions.filter((s) => s.status === currentFilter);
+
+      countEl.textContent = `${filtered.length} submission${filtered.length === 1 ? "" : "s"}`;
+
+      if (filtered.length === 0) {
+        listEl.innerHTML = "<p class='admin-empty'>Nothing here.</p>";
         return;
       }
 
-      listEl.innerHTML = submissions
+      listEl.innerHTML = filtered
         .map(
           (s) => `
     <div class="admin-submission" data-id="${s.id}">
       <div class="admin-submission-header">
-        <strong>${s.build_name}</strong>
-        <span class="admin-status admin-status-${s.status}">${s.status}</span>
+        <div>
+          <strong>${escapeHtml(s.build_name)}</strong>
+          <span class="admin-status admin-status-${s.status}">${escapeHtml(s.status)}</span>
+        </div>
+        <span class="admin-meta">#${s.id} · ${escapeHtml(s.created_at)}</span>
       </div>
-      <p class="admin-meta">${s.name}${s.email ? " · " + s.email : ""} · ${s.created_at}</p>
-      <p>${s.writeup}</p>
-      ${s.csv_filename ? `<p class="admin-meta">CSV: ${s.csv_filename}</p>` : ""}
-      ${s.csv_content ? `<pre>${s.csv_content}</pre>` : ""}
+
+      <p class="admin-meta">${escapeHtml(s.name)}${s.email ? " · " + escapeHtml(s.email) : ""}</p>
+
+      <details class="admin-writeup">
+        <summary>Writeup</summary>
+        <pre class="admin-writeup-content">${escapeHtml(s.writeup)}</pre>
+      </details>
+
+      ${
+        s.csv_content
+          ? `
+        <details class="admin-writeup">
+          <summary>Build Card CSV${s.csv_filename ? " — " + escapeHtml(s.csv_filename) : ""}</summary>
+          <pre class="admin-writeup-content">${escapeHtml(s.csv_content)}</pre>
+        </details>
+      `
+          : `<p class="admin-meta admin-no-csv">No CSV submitted</p>`
+      }
+
       <div class="admin-actions">
         <button class="button admin-approve" data-id="${s.id}">Approve</button>
         <button class="button admin-reject" data-id="${s.id}">Reject</button>
@@ -245,7 +291,8 @@
       if (!res.ok) return;
 
       const data = await res.json();
-      renderSubmissions(data.submissions);
+      allSubmissions = data.submissions;
+      renderSubmissions();
     }
 
     async function updateStatus(id, status) {
@@ -269,6 +316,15 @@
       fetchSubmissions();
     }
 
+    document.querySelectorAll(".admin-filter-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".admin-filter-btn").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentFilter = btn.dataset.filter;
+        renderSubmissions();
+      });
+    });
+
     document.getElementById("login-btn").addEventListener("click", async () => {
       const password = document.getElementById("admin-password").value;
       const errorEl = document.getElementById("login-error");
@@ -287,10 +343,10 @@
       storedPassword = password;
 
       document.getElementById("login-box").style.display = "none";
-      document.getElementById("submissions-list").style.display = "block";
+      document.getElementById("submissions-panel").style.display = "block";
 
-      const data = await res.json();
-      renderSubmissions(data.submissions);
+      allSubmissions = (await res.json()).submissions;
+      renderSubmissions();
     });
   </script>
 

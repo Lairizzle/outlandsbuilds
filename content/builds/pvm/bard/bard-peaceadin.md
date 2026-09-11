@@ -9,12 +9,13 @@ categories:
   - PvM
 
 tags:
-  - Dexxer
-  - Bard
-  - Chivalry
   - PvM
-  - Farming
+  - Solo
+  - Group
   - Support
+  - Dexxer
+  - Chivalry
+  - Bard
 
 # Investment rating:
 # 1 = Very Low
@@ -35,14 +36,6 @@ links: "Light"
 links_rating: 2
 
 difficulty: "Low"
-
-skills:
-  - Bard
-  - Peacemaking
-  - Discordance
-  - Chivalry
-  - Swordsmanship
-  - Tracking
 
 featured: false
 ---

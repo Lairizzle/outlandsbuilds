@@ -27,7 +27,7 @@
     {{ .Description | default .Summary | plainify | truncate 130 }}
   </p>
 
-  {{ with .Params.skills }}
+  {{ with .Params.tags }}
     <div class="card-tags">
       {{ range first 4 . }}
         <span class="tag">

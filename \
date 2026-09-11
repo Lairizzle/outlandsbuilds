@@ -1,0 +1,41 @@
+<a class="build-card" href="{{ .RelPermalink }}">
+  <div class="card-top">
+    <span class="badge">
+      {{ .Params.category | default "Build" }}
+    </span>
+
+    {{ with .Params.build_type }}
+      <span class="card-muted">
+        Type:
+        {{ . }}
+      </span>
+    {{ end }}
+
+    {{ with .Params.investment }}
+      <span class="card-muted">
+        Investment:
+        {{ . }}
+      </span>
+    {{ end }}
+  </div>
+
+  <h3>
+    {{ .Title }}
+  </h3>
+
+  <p>
+    {{ .Description | default .Summary | plainify | truncate 130 }}
+  </p>
+
+  {{ with .Params.skills }}
+    <div class="card-tags">
+      {{ range first 4 . }}
+        <span class="tag">
+          {{ . }}
+        </span>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <span class="card-arrow">→</span>
+</a>

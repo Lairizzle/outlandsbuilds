@@ -9,12 +9,14 @@ categories:
   - PvM
 
 tags:
+  - PvM
+  - Solo
+  - Group
+  - DPS
   - Mage
   - Arcane
   - Necromancer
-  - PvM
-  - Spell Damage
-  - Farming
+  - Beginner
 
 # Investment rating:
 # 1 = Very Low
@@ -35,16 +37,6 @@ links: "Moderate"
 links_rating: 3
 
 difficulty: "Moderate"
-
-skills:
-  - Necromancy
-  - Magery
-  - Evaluating Intelligence
-  - Meditation
-  - Focus
-  - Arcane
-  - Wrestling
-  - Parrying
 
 featured: false
 ---
