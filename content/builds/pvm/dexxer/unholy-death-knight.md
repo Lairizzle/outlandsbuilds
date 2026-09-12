@@ -95,7 +95,7 @@ We only use death for the extra disease ticks.
 
 **STR:** 100, **INT:** 25, **DEX:** 100
 
-{{< template-card name="Death Knight" >}}
+{{< template-card name="Unholy Death Knight" >}}
 
 
 
