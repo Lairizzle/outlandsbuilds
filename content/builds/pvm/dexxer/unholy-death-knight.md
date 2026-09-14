@@ -76,11 +76,11 @@ Thanks to the swing speed from chivalry all of our links will just continue to i
 
 This build will run full plate. Mastercrafted gear at whatever ore your budget will allow.
 - Weapon: 
-    - Run the fastest sword you can get, more hits = more procs.
-    - (1H) Katana, Cutlass, Scimitar
+    - Run (2H) Zwiehander for more damage
+    - (1H) Katana, Cutlass, Scimitar for less damage, more defense
 - Off Hand:
     - Run a kite shield of the best ore your budget allows.
-    - This is needed to enable parry.
+    - This is needed to enable parry if running 1h sword
 
 
 ## Farming/Gameplay
