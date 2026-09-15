@@ -42,14 +42,12 @@ featured: true
 
 ## Overview
 
-This build is an extremely tanky swordsman that is primarily used to farm PvM.
-
-The goal with this build is to stack melee special chance, proc bleeds and disease as much as possible.
+This build is an extremely tanky swordsman that is primarily used to farm PvM. This build will utilize the disease procs from Death Aspect and combine them with bleeds from the Swords weapon special to provide a great amount of sustained damage. The goal with this build is to stack melee special chance to increase procs from swords which cause bleeds. Using holy weapon in a group adds a great support element as well. 
 
 ## Aspect Options
 
 - PvM -> Death Armor & Holy Weapon
-- You could sub in a different weapon for more damage and less defense
+- Alternative -> Frost Weapon
 
 ## Link Options
 
@@ -57,14 +55,15 @@ Thanks to the swing speed from chivalry all of our links will just continue to i
 
 - PvM:
     - Melee Special Chance / Special Damage
-    - Damage to Bleeding/Diseased
+    - Damage to Bleeding 
+    - Damage to Diseased
 
 ## Codex Use
 
 - Swords 
     - Run Aggressive for weapon special chance
     - Run Execute as finisher
-    - Run Spinslash for more weapon special chance
+    - Run Spinslash for more weapon special chance or Rend for bigger bleeds and bursts
 
 - Parry
     - You will sit in Testudo most of the time and run Last Stand as a finisher.
@@ -76,10 +75,10 @@ Thanks to the swing speed from chivalry all of our links will just continue to i
 
 This build will run full plate. Mastercrafted gear at whatever ore your budget will allow.
 - Weapon: 
-    - Run (2H) Zwiehander for more damage
-    - (1H) Katana, Cutlass, Scimitar for less damage, more defense
+    - Run (2H) Halberd, Bardiche, Zweihander, Great Axe for maximum damage (+25% Melee Damage) 
+    - Run (1H) Longswords, Broadsword, Viking Sword, Norse Axe for less damage but more DR. (+10% Accuracy, +10% Damage Resistance)
 - Off Hand:
-    - Run a kite shield of the best ore your budget allows.
+    - Run a kite/chaos shield of the best ore your budget allows.
     - This is needed to enable parry if running 1h sword
 
 
