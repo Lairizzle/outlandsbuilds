@@ -3220,5 +3220,47 @@
       }
     ],
     "skills_total": 720
+  },
+  {
+    "name": "Basic Mage Tamer",
+    "skills": [
+      {
+        "name": "Animal Taming",
+        "level": 100
+      },
+      {
+        "name": "Animal Lore",
+        "level": 100
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 100
+      },
+      {
+        "name": "Herding",
+        "level": 100
+      },
+      {
+        "name": "Veterinary",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Command",
+        "type": "Armor"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [],
+    "skills_total": 700
   }
 ]
