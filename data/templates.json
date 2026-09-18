@@ -3262,5 +3262,47 @@
     "chain_links": [],
     "codex_abilities": [],
     "skills_total": 700
+  },
+  {
+    "name": "Basic Backstabber",
+    "skills": [
+      {
+        "name": "Macefighting",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Hiding",
+        "level": 100
+      },
+      {
+        "name": "Stealth",
+        "level": 100
+      },
+      {
+        "name": "Stealing",
+        "level": 100
+      },
+      {
+        "name": "Snooping",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Shadow",
+        "type": "Armor"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [],
+    "skills_total": 700
   }
 ]
