@@ -53,15 +53,13 @@ With Tracking, the build is also extremely difficult for PKs to catch when playe
 
 ## Aspect Options
 
-- PvP -> Shadow Aspect
-
 Shadow Aspect is mandatory for this build and is central to its stealth-focused playstyle.
 
 ## Link Options
 
 Links are helpful but not required to get started. Focus on improving your Backstab damage and melee damage as you invest further into the character.
 
-- PvP:
+- PvM:
     - Melee Special Chance / Special Damage
     - Damage Dealt by Player
     - Melee Damage / Ignore Armor Chance
