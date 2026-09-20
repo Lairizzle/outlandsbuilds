@@ -3028,7 +3028,309 @@
     "skills_total": 720
   },
   {
-    "name": "Unholy Death Knight",
+    "name": "Basic Mage Tamer",
+    "skills": [
+      {
+        "name": "Animal Taming",
+        "level": 100
+      },
+      {
+        "name": "Animal Lore",
+        "level": 100
+      },
+      {
+        "name": "Magery",
+        "level": 100
+      },
+      {
+        "name": "Meditation",
+        "level": 100
+      },
+      {
+        "name": "Herding",
+        "level": 100
+      },
+      {
+        "name": "Veterinary",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Command",
+        "type": "Armor"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [],
+    "skills_total": 700
+  },
+  {
+    "name": "Basic Backstabber",
+    "skills": [
+      {
+        "name": "Macefighting",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Hiding",
+        "level": 100
+      },
+      {
+        "name": "Stealth",
+        "level": 100
+      },
+      {
+        "name": "Stealing",
+        "level": 100
+      },
+      {
+        "name": "Snooping",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Shadow",
+        "type": "Armor"
+      }
+    ],
+    "chain_links": [],
+    "codex_abilities": [],
+    "skills_total": 700
+  },
+  {
+    "name": "Arms Lore Death Knight",
+    "skills": [
+      {
+        "name": "Alchemy",
+        "level": 80
+      },
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Arms Lore",
+        "level": 80
+      },
+      {
+        "name": "Chivalry",
+        "level": 120
+      },
+      {
+        "name": "Focus",
+        "level": 20
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Swordsmanship",
+        "level": 80
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Holy",
+        "type": "Weapon"
+      },
+      {
+        "name": "Death",
+        "type": "Armor"
+      },
+      {
+        "name": "Madness",
+        "type": "Weapon"
+      },
+      {
+        "name": "Frost",
+        "type": "Weapon"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage to Bleeding Creatures",
+        "total": 10
+      },
+      {
+        "name": "Damage to Diseased Creatures",
+        "total": 10
+      },
+      {
+        "name": "Melee Special Chance/Special Damage",
+        "total": 5
+      },
+      {
+        "name": "Melee Swing Speed",
+        "total": 5
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Pressure Points",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 3
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Finisher",
+        "ability": "Last Stand",
+        "level": 1
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 7
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Bandolier",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Mixed Results",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Panacea",
+        "level": 3
+      },
+      {
+        "codex": "Potion Codex",
+        "category": "Ability",
+        "ability": "Volatile",
+        "level": 3
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Finisher",
+        "ability": "Execute",
+        "level": 1
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Flaying",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Weapon Ability",
+        "ability": "Spinslash",
+        "level": 1
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Warrior",
+        "level": 7
+      },
+      {
+        "codex": "Chivalry Codex",
+        "category": "Ability",
+        "ability": "Consecrate Weapon",
+        "level": 1
+      },
+      {
+        "codex": "Chivalry Codex",
+        "category": "Ability",
+        "ability": "Divine Fury",
+        "level": 1
+      }
+    ],
+    "skills_total": 720
+  },
+  {
+    "name": "Death Knight",
     "skills": [
       {
         "name": "Alchemy",
@@ -3064,6 +3366,10 @@
       }
     ],
     "aspects": [
+      {
+        "name": "Madness",
+        "type": "Weapon"
+      },
       {
         "name": "Death",
         "type": "Armor"
@@ -3217,288 +3523,18 @@
         "category": "Stance",
         "ability": "Warrior",
         "level": 7
-      }
-    ],
-    "skills_total": 720
-  },
-  {
-    "name": "Basic Mage Tamer",
-    "skills": [
-      {
-        "name": "Animal Taming",
-        "level": 100
       },
       {
-        "name": "Animal Lore",
-        "level": 100
-      },
-      {
-        "name": "Magery",
-        "level": 100
-      },
-      {
-        "name": "Meditation",
-        "level": 100
-      },
-      {
-        "name": "Herding",
-        "level": 100
-      },
-      {
-        "name": "Veterinary",
-        "level": 100
-      },
-      {
-        "name": "Tracking",
-        "level": 100
-      }
-    ],
-    "aspects": [
-      {
-        "name": "Command",
-        "type": "Armor"
-      }
-    ],
-    "chain_links": [],
-    "codex_abilities": [],
-    "skills_total": 700
-  },
-  {
-    "name": "Basic Backstabber",
-    "skills": [
-      {
-        "name": "Macefighting",
-        "level": 100
-      },
-      {
-        "name": "Tactics",
-        "level": 100
-      },
-      {
-        "name": "Hiding",
-        "level": 100
-      },
-      {
-        "name": "Stealth",
-        "level": 100
-      },
-      {
-        "name": "Stealing",
-        "level": 100
-      },
-      {
-        "name": "Snooping",
-        "level": 100
-      },
-      {
-        "name": "Tracking",
-        "level": 100
-      }
-    ],
-    "aspects": [
-      {
-        "name": "Shadow",
-        "type": "Armor"
-      }
-    ],
-    "chain_links": [],
-    "codex_abilities": [],
-    "skills_total": 700
-  },
-  {
-    "name": "Death Knight Arms",
-    "skills": [
-      {
-        "name": "Alchemy",
-        "level": 80
-      },
-      {
-        "name": "Anatomy",
-        "level": 80
-      },
-      {
-        "name": "Arms Lore",
-        "level": 80
-      },
-      {
-        "name": "Chivalry",
-        "level": 120
-      },
-      {
-        "name": "Focus",
-        "level": 20
-      },
-      {
-        "name": "Healing",
-        "level": 80
-      },
-      {
-        "name": "Parrying",
-        "level": 80
-      },
-      {
-        "name": "Swordsmanship",
-        "level": 80
-      },
-      {
-        "name": "Tactics",
-        "level": 100
-      }
-    ],
-    "aspects": [
-      {
-        "name": "Holy",
-        "type": "Weapon"
-      },
-      {
-        "name": "Death",
-        "type": "Armor"
-      }
-    ],
-    "chain_links": [
-      {
-        "name": "Damage to Bleeding Creatures",
-        "total": 10
-      },
-      {
-        "name": "Damage to Diseased Creatures",
-        "total": 10
-      },
-      {
-        "name": "Melee Special Chance/Special Damage",
-        "total": 5
-      },
-      {
-        "name": "Melee Swing Speed",
-        "total": 5
-      }
-    ],
-    "codex_abilities": [
-      {
-        "codex": "Healer's Codex",
+        "codex": "Chivalry Codex",
         "category": "Ability",
-        "ability": "Combat Medic",
-        "level": 3
-      },
-      {
-        "codex": "Healer's Codex",
-        "category": "Ability",
-        "ability": "Pressure Points",
-        "level": 3
-      },
-      {
-        "codex": "Healer's Codex",
-        "category": "Ability",
-        "ability": "Self Treatment",
-        "level": 3
-      },
-      {
-        "codex": "Healer's Codex",
-        "category": "Ability",
-        "ability": "Triage",
-        "level": 3
-      },
-      {
-        "codex": "Parrying",
-        "category": "Stance",
-        "ability": "Bulwark",
-        "level": 7
-      },
-      {
-        "codex": "Parrying",
-        "category": "Finisher",
-        "ability": "Last Stand",
+        "ability": "Consecrate Weapon",
         "level": 1
       },
       {
-        "codex": "Parrying",
-        "category": "Stance",
-        "ability": "Mirror",
-        "level": 7
-      },
-      {
-        "codex": "Parrying",
-        "category": "Stance",
-        "ability": "Shield Bash",
-        "level": 7
-      },
-      {
-        "codex": "Parrying",
-        "category": "Stance",
-        "ability": "Testudo",
-        "level": 7
-      },
-      {
-        "codex": "Parrying",
-        "category": "Stance",
-        "ability": "Warding",
-        "level": 7
-      },
-      {
-        "codex": "Potion Codex",
+        "codex": "Chivalry Codex",
         "category": "Ability",
-        "ability": "Bandolier",
-        "level": 3
-      },
-      {
-        "codex": "Potion Codex",
-        "category": "Ability",
-        "ability": "Mixed Results",
-        "level": 3
-      },
-      {
-        "codex": "Potion Codex",
-        "category": "Ability",
-        "ability": "Panacea",
-        "level": 3
-      },
-      {
-        "codex": "Potion Codex",
-        "category": "Ability",
-        "ability": "Volatile",
-        "level": 3
-      },
-      {
-        "codex": "Swords",
-        "category": "Stance",
-        "ability": "Aggressive",
-        "level": 7
-      },
-      {
-        "codex": "Swords",
-        "category": "Stance",
-        "ability": "Cleave",
-        "level": 7
-      },
-      {
-        "codex": "Swords",
-        "category": "Stance",
-        "ability": "Defensive",
-        "level": 7
-      },
-      {
-        "codex": "Swords",
-        "category": "Finisher",
-        "ability": "Execute",
+        "ability": "Divine Fury",
         "level": 1
-      },
-      {
-        "codex": "Swords",
-        "category": "Stance",
-        "ability": "Flaying",
-        "level": 7
-      },
-      {
-        "codex": "Swords",
-        "category": "Weapon Ability",
-        "ability": "Spinslash",
-        "level": 1
-      },
-      {
-        "codex": "Swords",
-        "category": "Stance",
-        "ability": "Warrior",
-        "level": 7
       }
     ],
     "skills_total": 720
