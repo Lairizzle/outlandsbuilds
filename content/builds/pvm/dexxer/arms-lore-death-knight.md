@@ -45,7 +45,7 @@ featured: true
 
 This build is an extremely tanky swordsman that is primarily used to farm PvM. This build will utilize the disease procs from Death Aspect and combine them with bleeds from the Swords weapon special to provide a great amount of sustained damage. The goal with this build is to stack melee special chance to increase procs from swords which cause bleeds. Using holy weapon in a group adds a great support element as well.
 
-This version uses **Arms Lore instead of Focus**, allowing the build to push its swing speed further and achieve a higher overall damage output. The increased swing speed also causes weapon abilities to proc more frequently, resulting in more bleeds and other weapon ability effects.
+This version uses **Arms Lore instead of Focus**, allowing the build to push its damage further. Arms lore will allow weapon abilities to proc more frequently which will provide more damage output overall.
 
 The tradeoff is that this version is less beginner friendly and more reliant on swing speed links to get close to the swing speed cap.
 
