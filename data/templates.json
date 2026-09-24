@@ -3538,5 +3538,149 @@
       }
     ],
     "skills_total": 720
+  },
+  {
+    "name": "Stealth Hunter",
+    "skills": [
+      {
+        "name": "Anatomy",
+        "level": 80
+      },
+      {
+        "name": "Detecting Hidden",
+        "level": 100
+      },
+      {
+        "name": "Healing",
+        "level": 80
+      },
+      {
+        "name": "Parrying",
+        "level": 80
+      },
+      {
+        "name": "Resisting Spells",
+        "level": 80
+      },
+      {
+        "name": "Swordsmanship",
+        "level": 100
+      },
+      {
+        "name": "Tactics",
+        "level": 100
+      },
+      {
+        "name": "Tracking",
+        "level": 100
+      }
+    ],
+    "aspects": [
+      {
+        "name": "Discipline",
+        "type": "Both"
+      }
+    ],
+    "chain_links": [
+      {
+        "name": "Damage Resistance",
+        "total": 10
+      },
+      {
+        "name": "Melee Defense",
+        "total": 10
+      },
+      {
+        "name": "Physical Damage Resistance",
+        "total": 10
+      }
+    ],
+    "codex_abilities": [
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Combat Medic",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Overheal",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Self Treatment",
+        "level": 3
+      },
+      {
+        "codex": "Healer's Codex",
+        "category": "Ability",
+        "ability": "Triage",
+        "level": 3
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Bulwark",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Mirror",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Shield Bash",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Testudo",
+        "level": 7
+      },
+      {
+        "codex": "Parrying",
+        "category": "Stance",
+        "ability": "Warding",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Aggressive",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Cleave",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Defensive",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Flaying",
+        "level": 7
+      },
+      {
+        "codex": "Swords",
+        "category": "Stance",
+        "ability": "Warrior",
+        "level": 7
+      }
+    ],
+    "skills_total": 720
   }
 ]
