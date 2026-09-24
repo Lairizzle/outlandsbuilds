@@ -3,7 +3,7 @@ title: "Stealth Hunter"
 description: "A dungeon PvP build focused on detecting and countering Stealth PKs, with strong defensive utility for group play."
 date: 2026-09-23
 author: "Oak"
-build_type: "Dexxer"
+build_type: "Intermediate"
 
 categories:
   - PvP
